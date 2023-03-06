@@ -9,7 +9,8 @@ setup(
     entry_points={
         'cldfbench.dataset': [
             'koeblergothic=cldfbench_koeblergothic:Dataset',
-        ]
+        ],
+        'cldfbench.commands': ['koeblergothic=koeblergothiccommands']
     },
     install_requires=[
         'cldfbench',
