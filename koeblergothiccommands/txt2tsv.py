@@ -10,7 +10,7 @@ def run(args):
     """
     #ds = Dataset.from_metadata("./cldf/cldf-metadata.json")
     lines = "Gothic\tMeaning"
-    with open("raw/koebler.txt", "r") as f:
+    with open("raw/gothic.txt", "r") as f:
         for row in f.read().split("\n"):
             try:  # grab form and clean
                 form = search("^[^0-9,]*", row).group(0)
@@ -28,5 +28,5 @@ def run(args):
                 pass
 
     # write csv
-    with open("raw/koebler.tsv", "w+") as file:
+    with open("raw/gothic.tsv", "w+") as file:
         file.write(lines)
