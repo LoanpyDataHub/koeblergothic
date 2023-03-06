@@ -1,0 +1,17 @@
+{
+    "title": "CLDF word list from Gerhard K\u00f6bler's \"Gotisches W\u00f6rterbuch\" (2014)",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>K\u00f6bler, Gerhard, ed. Gotisches W\u00f6rterbuch. Brill, 1989</p>\n</blockquote>"
+}
