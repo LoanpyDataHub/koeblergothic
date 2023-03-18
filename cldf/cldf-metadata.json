@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/koeblergothic",
             "rdf:type": "prov:Entity",
-            "dc:created": "38112da",
+            "dc:created": "571057b",
             "dc:title": "Repository"
         },
         {
@@ -52,10 +52,12 @@
     ],
     "rdf:ID": "koeblergothic",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
+    "dialect": {
+        "commentPrefix": null
+    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
             "dc:extent": 4834,
             "tableSchema": {
                 "columns": [
@@ -125,6 +127,10 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ProsodicStructure"
                     }
                 ],
                 "foreignKeys": [

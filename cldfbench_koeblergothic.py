@@ -1,11 +1,17 @@
+import attr
 import pathlib
-from pylexibank import Dataset as BaseDataset
+from pylexibank import Dataset as BaseDataset, Lexeme
 from clldutils.misc import slug
+from lingpy import prosodic_string
 
+@attr.s
+class CustomLexeme(Lexeme):
+    ProsodicStructure = attr.ib(default=None)
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "koeblergothic"
+    lexeme_class = CustomLexeme
 
     def cmd_makecldf(self, args):
         """
@@ -55,10 +61,11 @@ class Dataset(BaseDataset):
 
                 cogid = cognates[concept]
                 #print(cogid, type(cogid))
-                args.writer.add_forms_from_value(
+                for lex in args.writer.add_forms_from_value(
                         Language_ID=language,
                         Parameter_ID=concepts[concept],
                         Value=cog,
                         Source="Kobler1989",
                         Cognacy=cogid,
-                        )
+                        ):
+                    lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')

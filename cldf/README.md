@@ -13,22 +13,13 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.koeblergerhard.de/got/got.html
 [dc:license](http://purl.org/dc/terms/license) | CC-BY
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/martino-vic/koeblergothic
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/koeblergothic/tree/38112da">martino-vic/koeblergothic 38112da</a></li><li><a href="https://github.com/glottolog/glottolog/tree/33d1cbbfa7">Glottolog v4.7-4-g33d1cbbfa7</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/db61a3a0">Concepticon v3.0.0-43-gdb61a3a0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/koeblergothic/tree/571057b">martino-vic/koeblergothic 571057b</a></li><li><a href="https://github.com/glottolog/glottolog/tree/33d1cbbfa7">Glottolog v4.7-4-g33d1cbbfa7</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/db61a3a0">Concepticon v3.0.0-43-gdb61a3a0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | koeblergothic
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
-
-
-Raw lexical data item as it can be pulled out of the original datasets.
-
-This is the basis for creating rows in CLDF representations of the data by
-- splitting the lexical item into forms
-- cleaning the forms
-- potentially tokenizing the form
-
 
 property | value
  --- | ---
@@ -53,6 +44,7 @@ Name/Property | Datatype | Description
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
 `Profile` | `string` | 
+`ProsodicStructure` | `string` | 
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
