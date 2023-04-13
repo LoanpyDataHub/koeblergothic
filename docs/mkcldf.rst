@@ -120,7 +120,11 @@ Next, the file ``etc/concepts.tsv`` has to be created with the help of the
 `pysem <https://pypi.org/project/pysem/>`_ library. ``etc/concepts.tsv``
 serves as basis to create ``cldf/parameters.csv`` during the conversion,
 a table that contains references to entries in `Concepticon
-<https://concepticon.clld.org/>`_.
+<https://concepticon.clld.org/>`_. Create it by running:
+
+.. code-block:: sh
+
+   cldfbench koeblergothic.map2concepts
 
 .. automodule:: gerstnerhungariancommands.map2concepts
    :members:
@@ -131,7 +135,11 @@ Lastly, we are creating orthographic profiles with the help of the
 <https://lingpy.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.ipa2tokens>`_
 function. The resulting file, ``etc/orthography.tsv`` will be the basis for
 creating the column ``Segment`` in ``cldf/forms.csv``, which contains
-tokenised IPA transcriptions of words.
+tokenised IPA transcriptions of words. Create by running:
+
+.. code-block:: sh
+
+   cldfbench koeblergothic.makeortho
 
 .. automodule:: gerstnerhungariancommands.makeortho
    :members:
