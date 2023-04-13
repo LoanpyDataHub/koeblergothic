@@ -1,4 +1,4 @@
-ID,Description,Entry_ID,Spacy,Form_ID
+ID,Description,Entry_ID,Spacy,Parameter_ID
 0_ehemann-1,Ehemann,0,Ehemann,0_ehemanngatte
 0_gatte-2,Gatte,0,Gatte,0_ehemanngatte
 1_vater-1,Vater,0,Vater,1_vater

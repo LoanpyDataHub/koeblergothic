@@ -5,7 +5,7 @@ bs4==0.0.1
 catalogue==2.0.8
 certifi==2022.12.7
 cldfbench==1.13.0
--e git+https://github.com/martino-vic/koeblergothic.git@f20f9e11ed40241318d50d96857e11b353a0df6e#egg=cldfbench_koeblergothic
+-e git+https://github.com/martino-vic/koeblergothic.git@708798c302accee7db26ff640a1cc9af3c12d619#egg=cldfbench_koeblergothic
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 click==8.1.3

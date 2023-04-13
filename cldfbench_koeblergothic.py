@@ -1,12 +1,12 @@
+import csv
 from functools import lru_cache
+import pathlib
 
 import attr
-import csv
-from loanpy.scapplier import Adrc
-import pathlib
-from pylexibank import Dataset as BaseDataset, Lexeme
 from clldutils.misc import slug
+from loanpy.scapplier import Adrc
 from lingpy import prosodic_string
+from pylexibank import Dataset as BaseDataset, Lexeme
 import spacy
 
 # install first with $ python -m spacy download de_core_news_lg
@@ -38,7 +38,7 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_component(
             "SenseTable",
             {"name": "Spacy", "datatype": "string"},
-            {"name": "Form_ID", "datatype": "string"}
+            {"name": "Parameter_ID", "datatype": "string"}
         )
 
         # add bib
@@ -63,7 +63,7 @@ class Dataset(BaseDataset):
                     "Entry_ID": 0,
                     "Description": sense_desc.strip(),
                     "Spacy": vector,
-                    "Form_ID": idx
+                    "Parameter_ID": idx
                     })
                 print(f"{i+1}/{len(self.concepts)} meanings checked for word vectors", end="\r")
 
@@ -71,7 +71,7 @@ class Dataset(BaseDataset):
 
         # add language
         languages = args.writer.add_languages()
-        args.log.info("added languages")
+        args.log.info("added language")
 
         # add forms
         data = self.raw_dir.read_csv(
@@ -80,33 +80,20 @@ class Dataset(BaseDataset):
         header = data[0]
         cognates = {}
         cogidx = 1
+        adidx = 1
 
         with open("cldf/adapt.csv", "w+") as f:
             writer = csv.writer(f)
             writer.writerow(["ID", "Form_ID", "ad100"])
             for i in range(1, len(data)):
-                cognates = dict(zip(header, data[i]))
-                #print(cognates)
-                concept = data[i][1]  # col "Sense"
-                for language in languages:
-                    #print(language)
-                    cog = cognates.get(language, "").strip()
-                    #print(cog)
-                    if concept not in cognates:
-                        cognates[concept] = cogidx
-                        cogidx += 1
+                for lex in args.writer.add_forms_from_value(
+                        Language_ID="Gothic",
+                        Parameter_ID=concepts[data[i][1]], # col "Meaning" ID
+                        Value=data[i][0],  # col "Gothic",
+                        Source="Kobler1989",
+                        ):
+                    lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
 
-                    cogid = cognates[concept]
-                    #print(cogid, type(cogid))
-                    for lex in args.writer.add_forms_from_value(
-                            Language_ID=language,
-                            Parameter_ID=concepts[concept],
-                            Value=cog,
-                            Source="Kobler1989",
-                            Cognacy=cogid,
-                            ):
-                        lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
-
-                        for j, pred in enumerate(ad.adapt(lex["Segments"], 100).split(", ")):
-                            primarykey = str(j) + "_" + lex["Form"] + "-" + str(i)
-                            writer.writerow([primarykey, lex["ID"], pred])
+                    for pred in ad.adapt(lex["Segments"], 100).split(", "):
+                        writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
+                        adidx += 1

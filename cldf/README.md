@@ -13,7 +13,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.koeblergerhard.de/got/got.html
 [dc:license](http://purl.org/dc/terms/license) | CC-BY
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/martino-vic/koeblergothic
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/koeblergothic/tree/f20f9e1">martino-vic/koeblergothic f20f9e1</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.7">Glottolog v4.7</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.1.0">Concepticon v3.1.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/koeblergothic/tree/708798c">martino-vic/koeblergothic 708798c</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.7">Glottolog v4.7</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.1.0">Concepticon v3.1.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | koeblergothic
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -101,5 +101,5 @@ Name/Property | Datatype | Description
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
 [Entry_ID](http://cldf.clld.org/v1.0/terms.rdf#entryReference) | `string` | 
 `Spacy` | `string` | 
-`Form_ID` | `string` | 
+`Parameter_ID` | `string` | 
 

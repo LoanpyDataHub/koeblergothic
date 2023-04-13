@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/koeblergothic",
             "rdf:type": "prov:Entity",
-            "dc:created": "f20f9e1",
+            "dc:created": "708798c",
             "dc:title": "Repository"
         },
         {
@@ -290,7 +290,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Form_ID"
+                        "name": "Parameter_ID"
                     }
                 ],
                 "primaryKey": [

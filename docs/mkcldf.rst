@@ -4,22 +4,23 @@ Part 1: Create CLDF
 The following five steps will guide you through the process of
 converting raw language data to CLDF. Each step can be found in the
 `continuous integration workflow
-<https://app.circleci.com/pipelines/github/martino-vic/gerstnerhungarian>`_
+<https://app.circleci.com/pipelines/github/martino-vic/koeblergothic>`_
 as well. The data we are converting comes from
-the `New Hungarian Etymological Dictionary
-<https://uesz.nytud.hu/index.html>`_ (Gerstner 2022),
-which contains modern Hungarian words as headwords, together with their
-etymological source language and year of first appearance in a written source.
-The oldest layer is inherited from Proto-Uralic, followed chronologically by
-Proto-Finno-Ugric and
-Proto-Ugric. The next oldest layer is borrowed from a Turkic language called
-West Old Turkic, or `Proto-Bolgar
-<https://glottolog.org/resource/languoid/id/bolg1249>`_. The raw data in this
-repository contains
+the `Gothic Dictionary
+<https://www.koeblergerhard.de/got/got.html>`_ (Köbler 2014),
+which contains Gothic words as headwords, together with their
+meaning and a list of sources that have dealt with analysing them.
+`Gothic <>`_ belongs to the Eastern branch of Germanic, which belong to the
+Proto-Indo-European language family. The main data source for Gothic is a
+1600 year old bible translation that was rediscovered 354 years ago and has
+lead to extensive analyses and the creation of multiple dictionaries ever
+since (for example the one by `Wilhelm Streitberg (1910), available
+as CLDF <https://github.com/martino-vic/streitberggothic>`_).
+The raw data in this repository contains
 only a small fraction of the contents of the dictionary.
-If you are passionate about Hungarian etymologies and want to contribute
-to this repository, check out the `guidelines
-<https://github.com/martino-vic/gerstnerhungarian/blob/main/CONTRIBUTING.md>`_
+If you are passionate about Gothic and have ideas how to improve this data
+set, check out our `contribution guidelines
+<https://github.com/martino-vic/koeblergothic/blob/main/CONTRIBUTING.md>`_
 and let's get in touch!
 
 Step 1: Activate virtual environment and clone the repository
@@ -28,7 +29,7 @@ Step 1: Activate virtual environment and clone the repository
 .. code-block:: sh
 
    python3 -m venv venv && source venv/bin/activate
-   git clone https://github.com/martino-vic/gerstnerhungarian.git
+   git clone https://github.com/martino-vic/koeblergothic.git
 
 For a slightly more detailed explanation of virtual environments see the
 documentation of the `ronataswestoldturkic
@@ -43,12 +44,6 @@ Originally, the skeleton of the repository was created using this command:
 
 and answering the follow-up questions. More on this can be read in the
 `cldfbench tutorial <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>`_.
-Next, open the file ``metadata.json`` and manually add the line
-``"conceptlist": "Dellert-2018-1016"`` to it. This will give access to the
-concept list used by the `NorthEuraLex <http://www.northeuralex.org/>`_
-project. There, this concept list was used for comparison of Uralic languages,
-Hungarian among others, and was therefore deemed adequate
-to filter the raw input data according to it.
 
 Step 2: Clone reference catalogues and loanpy
 ---------------------------------------------
@@ -80,14 +75,14 @@ immediately.
 
 .. code-block:: sh
 
-   pip install -e gerstnerhungarian
+   pip install -e koeblergothic
    pip install -e loanpy
 
 Installing these two packages will also install all their dependencies,
 which are specified in their respective ``setup.py`` files. One of the
-dependencies that has been installed together with *gerstnerhungarian* is
+dependencies that has been installed together with *koeblergothic* is
 `Spacy <https://pypi.org/project/spacy/>`_. Spacy offers pre-trained
-wordvector models. Since this is a rapidly changing field, it is adviced,
+wordvector models. Since this is a rapidly changing field, it is adviced
 to download always the most up-to-date vectors from the most up-to-date
 packages. The architecture allows you to replace this step with more suitable
 libraries. At the current moment (April 2023), the best available option
@@ -98,17 +93,17 @@ downloaded by running:
 
    python3 -m spacy download de_core_news_lg
 
-After downloading the word-vectors to your system, let's create the
-orthographic profiles: The process of creating an orthographic profile for
-Hungarian was described in step 4 of the documentation of the
-`ronataswestoldturkic
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
-repository. Since the current repository only covers one language, there is no
-need for a folder ``orthography`` with multiple profiles. A single file named
-``orthography.tsv`` is enough. The file itself was taken from
-``ronataswestoldturkic/etc/orthography/H.tsv``.
+The orthographic profiles are contained in the folder ``etc``. They were
+created based on data in the ``cldf`` folder, which is why we will first
+run the lexibank script.
 
-Step 4: Run lexibank script
+Step 4: Some preparations
+-------------------------
+
+The raw file comes directly from
+
+
+Step 5: Run lexibank script
 ---------------------------
 
 This script combines files from the raw and etc folders and creates and
@@ -116,8 +111,8 @@ populates the folder `cldf`.
 
 .. code-block:: sh
 
-   cldfbench lexibank.makecldf lexibank_ronataswestoldturkic.py  --concepticon-version=v3.0.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
-   cldfbench gerstnerhungarian.update_readme
+   cldfbench lexibank.makecldf cldfbench_koeblergothic.py  --concepticon-version=v3.1.0 --glottolog-version=v4.7 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
+   cldfbench koeblergothic.update_readme
 
 The first line of this shell script invokes `cldfbench
 <https://pure.mpg.de/rest/items/item_3259068/component/file_3261838/content>`_,
@@ -140,62 +135,41 @@ similarities.
 
 .. code-block:: python
 
-   from collections import defaultdict
+   import csv
    from functools import lru_cache
    import pathlib
-   import re
 
-First, we import four inbuilt Python-libraries.
+   import attr
+   from clldutils.misc import slug
+   from loanpy.scapplier import Adrc
+   from lingpy import prosodic_string
+   from pylexibank import Dataset as BaseDataset, Lexeme
+   import spacy
 
-- `defaultdict <https://docs.python.org/3/library/collections.html#collections.defaultdict>`_
-  defines a data type to which missing dictionary keys automatically default.
+First, we import three inbuilt Python-libraries.
+
 - The `lru_cache <https://docs.python.org/3/library/functools.html#functools.lru_cache>`_
   will help to speed up looking up word-vectors, since the same words are being
   looked up often.
 - The `pathlib <https://docs.python.org/3/library/pathlib.html>`_ library
   will be used to define the parent directory of the dataset, relative to
   which all other files will be read and written.
-- The regular expression library `re
-  <https://docs.python.org/3/library/re.html>`_
-  will be used for data cleaning with the `re.sub
-  <https://docs.python.org/3/library/re.html#re.sub>`_ function and for
-  splitting strings with `re.split
-  <https://docs.python.org/3/library/re.html#re.Pattern.split>`_.
+- The `csv <https://docs.python.org/3/library/csv.html>`_
+  package will be used to read and write csv-files.
 
-.. code-block:: python
-
-   import attr
-   from clldutils.misc import slug
-   from epitran import Epitran
-   from lingpy.sequence.sound_classes import ipa2tokens
-   from loanpy.utils import IPA
-   from loanpy.scapplier import Adrc
-   from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
-   import pylexibank
-   from cldfbench import CLDFSpec
-   import spacy
-
-Then, we import functionalities from various third-party libraries.
-These were installed when running ``pip install -e gerstnerhungarian``
+Then, we import functionalities from six third-party libraries.
+These were installed when running ``pip install -e koeblergothic``
 eariler.
 
 - The attr library from the PyLexibank ecosystem will create the custom
   language class with custom columns in the output file ``cldf/forms.csv``.
 - The `slug <https://clldutils.readthedocs.io/en/latest/misc.html#clldutils.misc.slug>`_
   function from the clldutils library will be used to format some IDs.
-- The `epitran <https://pypi.org/project/epitran/>`_ library will be used to
-  transcribe words from Hungarian orthography to IPA.
-- The `ipa2tokens
-  <https://lingpy.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.ipa2tokens>`_
-  function from the lingpy library will be used to tokenise ipa-strings.
-- The IPA-class from loanpy's utils module will be used to call its
-  `get_clusters
-  <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.utils.IPA>`_
-  method to cluster consonants and vowels from a segmented IPA-string.
 - The `Adrc
   <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc>`_
-  class from loanpy will be used to predict historical
-  reconstructions based on sound changes that were extracted from etymological
+  class from loanpy will be used to predict horizontal transfers with
+  similarity-based heuristics combined with
+  sound and phonotactic correspondences that were extracted from etymological
   data, such as the `ronataswestoldturkic
   <https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
   repository.
@@ -208,281 +182,229 @@ eariler.
 
 .. code-block:: python
 
-   REP = [(x, "") for x in "†×∆-¹²³⁴’"]
-   # install first with $ python -m spacy download de_core_news_lg
    nlp = spacy.load('de_core_news_lg')
-   tokens2clusters = IPA().get_clusters
-   rc = Adrc("etc/H2EAHsc.json")
-   orth2ipa = Epitran("hun-Latn").transliterate
+   ad = Adrc("etc/WOT2EAHsc.json")
 
 In this block we are defining some global variables that we will need later.
-The variable REP stands for 'replacements' and will be used to create
-the column "forms" from the column "values", where replacements are hard-coded.
-There is only one simple replacement rule, which is expressed as a list
-comprehension, namely that characters "†×∆-¹²³⁴’" have to be deleted in each
-word. They convey some additional information in the original source, that
-is redundant in our own use case.
-
-Next, we are loading the word-vectors that we have downloaded in step 3.
-``tokens2clusters`` is how we rename the IPA method that clusters a segmented
-IPA string into consonant and vowel clusters. ``rc`` is an instance of
-loanpy's Adrc class and "etc/H2EAHsc.json" is the sound correspondence file
+We are loading the word-vectors that we have downloaded in step 3. ``ad`` is
+an instance of
+loanpy's Adrc class and "etc/WOT2EAHsc.json" is the sound correspondence file
 we have generated in `part two, step three of the ronataswestoldturkic
 repository
 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_.
 The file itself has been directly copied from
-``ronataswestoldturkic/loanpy/H2EAHsc.json``. This is the information based
-on which we will reconstruct hypothetical Early Ancient Hungarian forms.
-Lastly, ``orth2ipa`` is a function that transcribes strings in Hungarian
-orthography to IPA with the help of the `epitran
-<https://pypi.org/project/epitran/>`_ package.
+``ronataswestoldturkic/loanpy/WOT2EAHsc.json``. This is the information based
+on which we will predict hypothetical loanword adaptations into
+Early Ancient Hungarian.
+
+.. code-block:: python
+
+   @lru_cache(maxsize=None)
+   def filter_vectors(meaning):
+       """
+       filter out stopwords, add only if vector available.
+       """
+       return meaning if nlp(meaning).has_vector else None
+
+This function will be used when populating the column ``Spacy`` in
+``cldf/senses.csv``. It takes a string as input, which can be a word
+or a phrase. It then checks whether spacy's word-vector model contains a
+vector for it. If yes, it returns the the word or phrase, if not
+it returns a blank line.
 
 .. code-block:: python
 
    @attr.s
    class CustomLexeme(Lexeme):
-       Meaning = attr.ib(default=None)
-       Sense_ID = attr.ib(default=None)
-       Entry_ID = attr.ib(default=None)
+       ProsodicStructure = attr.ib(default=None)
 
-Here we are defining three custom columns that are not included by default,
-using the attr library and the Lexeme class that we have imported earlier.
-The column ``Meaning`` comes directly from the raw file and contains a ", "
-separated list of translations into English that we will call "senses".
-Sense_ID is a foreign key that point to one of the senses in the
-``senses.csv`` table and ``Entry_ID`` is a foreign key that points to the
-corresponding row in ``entries.csv``.
+Here we are defining a custom column called ``ProsodicStructure`` in
+``cldf/forms.csv``. It will contain the phonotactic structures of
+headwords, like "CVCV", for example.
 
 .. code-block:: python
 
    class Dataset(BaseDataset):
        dir = pathlib.Path(__file__).parent
-       id = "gerstnerhungarian"
-
-       form_spec = FormSpec(separators=",", first_form_only=True,
-                            replacements=REP)
+       id = "koeblergothic"
        lexeme_class = CustomLexeme
-
 
 Here we define a class and inherit the default format ``BaseDataset`` that we
 have imported in the beginning. ``dir`` is the working directory and is
 defined with the help of ``pathlib`` that we have imported in the beginning.
 ``id`` is the name of the repository. In ``lexeme_class`` we are plugging in
-the custom columns that we have created earlier. In ``form_spec`` we are
-plugging in the data-cleaning rules that were read into the ``REP`` variable
-earlier, using the ``FormSpec`` class we have imported in the beginning.
+the custom columns that we have created earlier.
 
 .. code-block:: python
 
 	def cmd_makecldf(self, args):
 
-This function is being run when summoning the lexibank script from the command
-line. It converts the data from raw and etc to standardised CLDF data.
+This function is being run when summoning the cldfbench script from the command
+line. It converts the data from folders ``raw`` and ``etc`` to standardised
+CLDF data.
 
 .. code-block:: python
 
-   senses = defaultdict(list)
-   idxs = {}
-   form2idx = {}
-   # assemble senses
-   for idx, row in enumerate(self.raw_dir.read_csv(
-       "Gerstner-2016-10176.tsv", delimiter="\t", dicts=True)):
-       if row["sense"].strip():
-           fidx = str(idx+1)+"-"+slug(row["form"])
-           idxs[fidx] = row
-           for sense in re.split("[,;]", row["sense"]):
-               if row["form"].strip() and sense.strip():
-                   senses[slug(sense, lowercase=False)] += [(fidx, sense)]
-                   form2idx[row["form"], sense.strip()] = fidx
+   args.writer.cldf.add_component(
+       "SenseTable",
+       {"name": "Spacy", "datatype": "string"},
+       {"name": "Form_ID", "datatype": "string"}
+   )
 
-Here we are populating three dictionaries for later use: ``senses``
-``idxs`` and ``form2idx``. The first will be used to create the table
-``senses.csv``, the second to create ``entries.csv`` and the third to create
-the foreign keys in column ``Entry_ID`` in ``forms.csv``.
+Here we are creating a new table that will be called ``cldf/senses.csv`` (see
+`SenseTable <https://github.com/cldf/cldf/tree/master/components/senses>`_
+and the `list of available table types
+<https://github.com/cldf/cldf/tree/master/components>`_).
+The column ``Meaning`` in ``raw/gothic.tsv`` contains multiple
+English translations separated by ``, ``. This is an array-like data-structure,
+which in relational databases should be avoided. With the sense-table,
+we are therefore giving each translation in the list of meanings an own row
+and a foreign key that points to the corresponding row in ``cldf/forms.csv``.
+
+
+
+.. code-block:: python
+   # add bib
+   args.writer.add_sources()
+   args.log.info("added sources")
+
+Here we are adding the sources from the
+`BibTex <https://de.wikipedia.org/wiki/BibTeX>`_ file ``raw/sources.bib`` to
+the ``cldf`` folder and print a message to the console after this step
+was successful.
 
 .. code-block:: python
 
-   with self.cldf_writer(args) as writer:
-       writer.add_sources()
-       ## add concept
-       concepts = {}
-       for concept in self.conceptlists[0].concepts.values():
-           idx = "{0}-{1}".format(concept.number, slug(concept.gloss))
-           writer.add_concept(
-                   ID=idx,
-                   Name=concept.gloss,
-                   Concepticon_ID=concept.concepticon_id,
-                   Concepticon_Gloss=concept.concepticon_gloss,
-                   )
-           concepts[concept.concepticon_id] = idx
-       args.log.info("added concepts")
-
-Here we are writing the table ``parameters.csv``, which contains additional
-information about meanings and links them to reference catalogues. It is
-based on a concept list that we have specified in the metadata.json file,
-when setting up the repository earlier.
-
-.. code-block:: python
-
-   ## add languages
-   for language in self.languages:
-       writer.add_language(
-               ID="Hungarian",
-               Name="Hungarian",
-               Glottocode="hung1274"
+   # add concept
+   concepts = {}
+   for i, concept in enumerate(self.concepts):
+       idx = str(i)+"_"+slug(concept["Sense"])
+       concepts[concept["Sense"]] = idx
+       args.writer.add_concept(
+               ID=idx,
+               Name=concept["Sense"],
+               Concepticon_ID=concept["Concepticon_ID"],
+               Concepticon_Gloss=concept["Concepticon_Gloss"],
                )
+
+Here we are creating the file ``cldf/parameters.csv``, which will hold
+references to concepts in `Concepticon <https://concepticon.clld.org/>`_.
+The ``self.concepts`` part reads the file ``etc/concepts.tsv``, which
+was created with the `pysem <https://pypi.org/project/pysem/>`_ library
+during the previous step.
+
+.. code-block:: python
+
+   for j, sense_desc in enumerate(concept["Sense"].split(", ")):
+       vector = filter_vectors(sense_desc)
+       args.writer.objects["SenseTable"].append({
+           "ID": str(i) + "_" + slug(sense_desc) + "-" + str(j + 1),
+           "Entry_ID": 0,
+           "Description": sense_desc.strip(),
+           "Spacy": vector,
+           "Parameter_ID": idx
+           })
+       print(f"{i+1}/{len(self.concepts)} meanings checked for word vectors", end="\r")
+
+   args.log.info("added concepts and senses")
+
+Within the previous loop, that goes through the rows of ``etc/concepts.tsv``
+one by one, we start a second loop. It goes through the different
+translations that originate from the column ``Meaning`` in
+``raw/gothic.tsv``. It puts each translation into an own row of
+``cldf/senses.tsv`` and provides a foreign key in column ``Parameter_ID``.
+This foreign key points to the primary key in ``parameters.csv`` and to the
+foreign keys in ``Parameter_ID`` in ``cldf/forms.csv``. The column
+``Entry_ID`` is a default column and must be populated even if it is not
+pointing anywhere. Therefore, it contains only zeroes.
+
+Since this loop takes a bit longer to execute (about one minute on my
+own machine), there is a print statement that shows its progress.
+After this step is done, the logger prints a message to the console
+that the step was executed successfully.
+
+.. code-block:: python
+
+   # add language
+   languages = args.writer.add_languages()
    args.log.info("added languages")
 
-In this section, we are creating the file ``cldf/language.csv`` by adding
-language
-IDs. Since this repository consists of only one language, it can be hard-coded
-as "Hungarian", together with its code in the `Glottolog
-<https://glottolog.org/>`_ reference catalogue.
+   # add forms
+   data = self.raw_dir.read_csv(
+       "gothic.tsv", delimiter="\t",
+   )
+   header = data[0]
+   cognates = {}
+   cogidx = 1
+
+Here, we are reading the file ``etc/languages.tsv``, writing it to
+``cldf/languages.tsv`` without modification, and print a message to
+the console upon success. Then, we read ``raw/gothic.tsv``, define the
+header and instantiate some variables that we will need later during this
+script.
 
 .. code-block:: python
 
-   language_table = writer.cldf["LanguageTable"]
+   with open("cldf/adapt.csv", "w+") as f:
+       writer = csv.writer(f)
+       writer.writerow(["ID", "Form_ID", "ad100"])
 
-      for row in self.raw_dir.read_csv(
-          "wordlist.tsv", delimiter="\t", dicts=True):
-          try:
-              writer.add_forms_from_value(
-                  Local_ID=row["ID"],
-                  Language_ID="Hungarian",
-                  Parameter_ID=concepts[row["CONCEPTICON_ID"]],
-                  Value=row["FORM"],
-                  Meaning=row["MEANING"],
-                  Entry_ID=form2idx[row["FORM"], row["SENSE"].strip()],
-                  Sense_ID=row["SENSE_ID"],
-                  Source="uesz"
-                  )
-          except KeyError:
-              pass
-
-Here we are creating the file ``cldf/forms.csv``, which is created by looping
-through the rows of ``raw/wordlist.tsv``. This file in turn is a filtered
-version of ``raw/Gerstner-2016-10176.tsv``. The filtering process will be
-explained in the next step. The columns ``Local_ID`` ``Value`` ``Meaning``
-and ``Sense_ID`` are directly filled from the raw file, while the columns
-``Parameter_ID`` (foreign keys to ``cldf/parameters.csv``) and ``Entry_ID``
-(foreign keys to ``cldf/entries.csv``) are filled by accessing the information
-stored in the dictionaries ``concepts`` and ``form2idx`` that we have created
-a little earlier. The columns ``Language_ID`` and ``Source`` are always the
-same and can therefore be hard-coded.
+Since the CLDF architecture doesn't allow for custom-tables, we have to
+open one without the cldf-writer. This means that the file that we are
+creating will not be included in ``cldf/metadata.json`` and hence will
+be excluded when creating a database from metadata alone. The file we are
+writing will contain predicted loanword adaptations of Gothic words into
+Early Ancient Hungarian. Since we have multiple predictions that are
+outputted as an array and since arrays should not be used as data-structures
+in relational databases, we are creating this new table ``adapt.py``. We
+are also writing the names of its three columns to the file. ``ID`` is the
+primary key, ``Form_ID`` points to the corresponding row in
+``cldf/forms.csv`` and ``ad100`` contains the top 100 most likely predictions
+for loanword adaptation of each Gothic word.
 
 .. code-block:: python
 
-    with self.cldf_writer(args, cldf_spec="dictionary",
-            clean=False) as writer:
+   for i in range(1, len(data)):
+       for lex in args.writer.add_forms_from_value(
+               Language_ID="Gothic",
+               Parameter_ID=concepts[data[i][1]], # col "Meaning" ID
+               Value=data[i][0],  # col "Gothic",
+               Source="Kobler1989",
+               ):
+           lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
 
-        # we use the same language table for the data
-        writer.cldf.add_component(language_table)
-
-        writer.cldf.add_columns(
-            "EntryTable",
-            {"name": "Segments", "datatype": "string"},
-            {"name": "Year", "datatype": "integer"},
-            {"name": "Etymology", "datatype": "string"},
-            {"name": "Loan", "datatype": "string"},
-            {"name": "rc100", "datatype": "string"}
-        )
-
-        writer.cldf.add_columns(
-            "SenseTable",
-            {"name": "Spacy", "datatype": "string"}
-        )
-
-Here we are summoning two types of tables: `EntryTable
-<https://github.com/cldf/cldf/tree/master/components/entries>`_ and
-`SenseTable <https://github.com/cldf/cldf/tree/master/components/senses>`_.
-A list
-of possible table types to choose from is listed in `CLDF's GitHub reposiotry
-<https://github.com/cldf/cldf/tree/master/components>`_. We are adding
-some extra columns to the default settings, which are needed for our specific
-use-case. Namely columns ``Segments``, ``Year``, ``Etymology``, ``Loan``, and
-``rc100`` to ``EntryTable`` and ``Spacy`` to ``SenseTable``. The purpose of
-these columns will be clarified in the next paragraphs.
+Here we are creating the file ``cldf/forms.csv`` by looping
+through the rows of ``raw/gothic.tsv``. The columns ``Language_ID`` and
+``Source`` are hard-coded since the repository is based on one single source
+and only contains one single language. The column ``Parameter_ID`` contains
+the foreign keys to ``cldf/parameters.csv``. The column ``Value`` is the
+same as the column ``Gothic`` in ``raw/gothic.tsv``. The column
+``ProsodicStructure`` has to be inserted through a loop, after the table
+``cldf/forms.csv`` has already been created, since it is taking contents
+from one of its columns, namely ``Segments`` as input. Its output are
+phonotactic profiles such as "CVCV". These are created with lingpy's
+`prosodic_string
+  <https://lingpyxrotwang.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.prosodic_string>`_
+function.
 
 .. code-block:: python
 
-   senses_items = senses.items()
-   for j, (sense, values) in enumerate(senses_items):
-       for i, (fidx, sense_desc) in enumerate(values):
-           vector = filter_vectors(sense_desc)
-           writer.objects["SenseTable"].append({
-               "ID": sense + "-" + str(i + 1),
-               "Entry_ID": fidx,
-               "Description": sense_desc.strip(),
-               "Spacy": vector
-               })
-           print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
+   for pred in ad.adapt(lex["Segments"], 100).split(", "):
+       writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
+       adidx += 1
 
-Here we are creating the file ``cldf/senses.csv`` by looping through the
-``senses`` object that we have created earlier. Each row of the column
-``sense`` in the file ``raw/Gerstner-2016-10176.tsv`` contains multiple
-translations to English, separated by ", ". Since it is best practice to
-avoid complex data structures like lists in databases, each translation
-will get its own row and a foreign key in the file ``cldf/senses.csv``.
-Since the raw file contains roughly 10,000 rows and there are ca. 4
-translations per entry, we end up with a ``cldf/senses.csv`` table of ca.
-40,000 rows.
-Apart from the default columns ``ID`` (the primary key), ``Entry_ID``
-(foreign keys pointing to ``cldf/entries.csv``) and ``Discription``
-(containing the single translations), there is one custom column that we
-have added, namely ``Spacy``. Here we are removing unwanted characters and
-checking whether the translation has a word-vector representation in the
-`Spacy <https://pypi.org/project/spacy/>`_ vector model that we have
-downloaded in step 3 and loaded in the beginning of this script. This is
-being done with the ``filter_vectors`` function that we have described
-earlier in this step.
-
-.. code-block:: python
-
-   for fidx, row in idxs.items():
-       seg_ipa = tokens2clusters(ipa2tokens(orth2ipa(clean1(row["form"]))))
-       writer.objects["EntryTable"].append({
-           "ID": fidx,
-           "Language_ID": "Hungarian",
-           "Headword": row["form"],
-           "Segments": seg_ipa,
-           "Year": row["year"],
-           "Etymology": row["origin"],
-           "Loan": row["Loan"],
-           "rc100": rc.reconstruct(seg_ipa, 100)
-           })
-
-In this final step we are creating the table ``cldf/entries.csv``, which
-will serve as input for the loanword searching algorithm loanpy later on. This
-table contains the same amount of rows as ``raw/Gerstner-2016-10176.tsv``, so
-it is unfiltered. The columns ``Headword`` ``Year`` ``Etymology`` and ``Loan``
-are directly taken from the raw file. The primary key ``ID`` was already
-defined in the beginning of the ``cmd_makecldf`` method and stored in the
-``idxs`` object, through which we are looping at the moment. ``Language_ID``
-is the only foreign key, pointing to the one language in
-``cldf/languages.csv``. There are two columns that will contain processed
-information. One is ``Segments``: These are IPA transcriptions from cleaned
-data, tokenised and segmented into clusters of consonants and vowels. This
-step has to be done using the `epitran <https://pypi.org/project/epitran/>`_
-library, since pylexibank's automatic orthographic transcription can only be
-used in ``cldf/forms.csv``, which in our case contains only filtered data.
-The second, and most important column for further analysis is ``rc100``.
-``rc`` stands for "reconstruct" and "100" for the number of guesses or false
-positives per attempted reconstruction. The reconstruction itself if a regular
-expression, created by the `*reconstruct* method of loanpy.scapplier's
-Adrc class
-<https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc.reconstruct>`_.
+Here we are predicting loanword adaptation with loanpy, based on heuristics
+and data extracted from the etymological dictionary `"West Old Turkic"
+<https://ronataswestoldturkic.readthedocs.io/en/latest/?badge=latest>`_. We
+are making 100 predictions per word, write the references to
+``cldf/adapt.csv`` and add a primary key and a foreign key to reference
+rows in ``cldf/forms.csv``
 
 This is how your console should approximately look like after the conversion:
 
 .. image:: consoleoutput.png
 
-Step 5: Update the readme
--------------------------
+Congratulations, the CLDF-conversion was successful.
 
-.. automodule:: gerstnerhungariancommands.update_readme
-   :members:
-
-Congratulations, the CLDF conversion was successful
----------------------------------------------------
-
-Click on ``Next`` to continue the data processing journey.
+Step 6: Post-processing
+-----------------------
