@@ -29,7 +29,7 @@ jobs:
             pip install -e loanpy
             python3 -m spacy download de_core_news_lg
       - run:
-          name: Preprocess: create etc/gothic.tsv and etc/concepts.tsv
+          name: Preprocess - create etc/gothic.tsv and etc/concepts.tsv
           command: |
             cd koeblergothic
             cldfbench koeblergothic.txt2tsv
@@ -57,7 +57,7 @@ jobs:
             cd koeblergothic &&
             cldfbench koeblergothic.update_readme
       - run:
-          name: Postprocess: create orthographic profile, add stats to readme
+          name: Postprocess - create orthographic profile, add stats to readme
           command: |
             cd koeblergothic
             cldfbench koeblergothic.makeortho
