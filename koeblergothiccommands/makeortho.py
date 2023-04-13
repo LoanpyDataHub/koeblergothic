@@ -3,13 +3,13 @@ IPA-transcribe Spanish words
 """
 
 from cldfbench_koeblergothic import Dataset as GTH
-from ipatok import tokenise
+from lingpy.sequence.sound_classes import ipa2tokens
 import epitran
 
 epi = epitran.Epitran("got-Latn").transliterate
 
 def segipa(w):
-    return ' '.join(tokenise(epi(w)))
+    return ' '.join(ipa2tokens(epi(w)))
 
 def run(args):
     """
@@ -28,4 +28,3 @@ def run(args):
     # write csv
     with open("etc/orthography.tsv", "w+") as file:
         file.write(lines)
-
