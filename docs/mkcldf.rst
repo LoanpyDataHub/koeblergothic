@@ -10,8 +10,9 @@ the `Gothic Dictionary
 <https://www.koeblergerhard.de/got/got.html>`_ (Köbler 2014),
 which contains Gothic words as headwords, together with their
 meaning and a list of sources that have dealt with analysing them.
-`Gothic <>`_ belongs to the Eastern branch of Germanic, which belong to the
-Proto-Indo-European language family. The main data source for Gothic is a
+`Gothic <https://glottolog.org/resource/languoid/id/goth1244>`_ belongs to the
+Eastern branch of Germanic, which belong to the
+Indo-European language family. The main data source for Gothic is a
 1600 year old bible translation that was rediscovered 354 years ago and has
 lead to extensive analyses and the creation of multiple dictionaries ever
 since (for example the one by `Wilhelm Streitberg (1910), available
@@ -384,7 +385,7 @@ same as the column ``Gothic`` in ``raw/gothic.tsv``. The column
 from one of its columns, namely ``Segments`` as input. Its output are
 phonotactic profiles such as "CVCV". These are created with lingpy's
 `prosodic_string
-  <https://lingpyxrotwang.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.prosodic_string>`_
+<https://lingpyxrotwang.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.prosodic_string>`_
 function.
 
 .. code-block:: python
