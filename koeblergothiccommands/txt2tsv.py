@@ -29,7 +29,7 @@ def run(args):
         for row in data:
             try:  # grab form and clean
                 form = search("^[^0-9,]*", row).group(0)
-                form = sub("[?* (-]", "", form)
+                form = sub("[?* )(-]", "", form)
                 # grab German meaning
                 meaning = search("nhd. [^;]*", row).group(0)[5:]
                 # rm brackets + content

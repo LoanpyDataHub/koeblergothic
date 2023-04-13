@@ -1,7 +1,7 @@
 Part 1: Create CLDF
 ===================
 
-The following five steps will guide you through the process of
+The following six steps will guide you through the process of
 converting raw language data to CLDF. Each step can be found in the
 `continuous integration workflow
 <https://app.circleci.com/pipelines/github/martino-vic/koeblergothic>`_
@@ -101,7 +101,29 @@ run the lexibank script.
 Step 4: Some preparations
 -------------------------
 
-The raw file comes directly from
+The `Gothic Dictionary
+<https://www.koeblergerhard.de/got/got.html>`_ (Köbler 2014) is a text file
+that has to be parsed and turned into tabular data first. This is done
+by following script:
+
+.. code-block:: sh
+
+   cldfbench koeblergothic.txt2tsv
+
+The output is ``raw/gothic.tsv``, which will serve as the main input file
+for the conversion.
+
+.. automodule:: gerstnerhungariancommands.txt2tsv
+   :members:
+
+Next, the file ``etc/concepts.tsv`` has to be created with the help of the
+`pysem <https://pypi.org/project/pysem/>`_ library. ``etc/concepts.tsv``
+serves as basis to create ``cldf/parameters.csv`` during the conversion,
+a table that contains references to entries in `Concepticon
+<https://concepticon.clld.org/>`_.
+
+.. automodule:: gerstnerhungariancommands.map2concepts
+   :members:
 
 
 Step 5: Run lexibank script

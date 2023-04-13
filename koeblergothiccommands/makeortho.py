@@ -1,30 +1,29 @@
 """
 IPA-transcribe Spanish words
 """
+import csv
 
-from cldfbench_koeblergothic import Dataset as GTH
 from lingpy.sequence.sound_classes import ipa2tokens
 import epitran
 
 epi = epitran.Epitran("got-Latn").transliterate
 
-def segipa(w):
-    return ' '.join(ipa2tokens(epi(w)))
-
 def run(args):
     """
-    Read values from forms.csv and IPA-transcribe the Spanish ones
+    Read values from ``raw/gothic.tsv`` and IPA-transcribe + segment them
     """
-    gth = GTH()
     #ds = Dataset.from_metadata("./cldf/cldf-metadata.json")
-    lines = "Grapheme\tIPA"
     wrdlst = []
-    for row in gth.cldf_dir.read_csv("forms.csv")[1:]:
-        for wrd in row[4].split(" "):
-            if wrd not in wrdlst:  # to avoid doublets
-                lines += f"\n{wrd}\t{segipa(wrd)}"
-                wrdlst.append(wrd)
+    with open("raw/gothic.tsv", "r") as f:
+        data = list(csv.reader(f, delimiter="\t"))
 
-    # write csv
-    with open("etc/orthography.tsv", "w+") as file:
-        file.write(lines)
+    with open("etc/orthography.tsv", "w+") as f:
+        writer = csv.writer(f, delimiter="\t")
+        writer.writerow(["Grapheme", "IPA"])
+        for row in data[1:]:
+            if row[0] not in wrdlst:  # to avoid doublets
+                ipa = epi(row[0])
+                ipa = ipa2tokens(ipa, merge_vowels=False, merge_geminates=False)
+                ipa = " ".join(ipa)
+                writer.writerow([row[0], ipa])
+                wrdlst.append(row[0])
