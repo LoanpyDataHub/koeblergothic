@@ -265,6 +265,7 @@ and a foreign key that points to the corresponding row in ``cldf/forms.csv``.
 
 
 .. code-block:: python
+
    # add bib
    args.writer.add_sources()
    args.log.info("added sources")
