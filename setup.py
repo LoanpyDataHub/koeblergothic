@@ -13,7 +13,8 @@ setup(
         'cldfbench.commands': ['koeblergothic=koeblergothiccommands']
     },
     install_requires=[
-        'cldfbench',
+        'cldfbench>=1.13.0', 'pylexibank>=3.4.0', 'epitran>=1.24',
+        'pysem>=0.6.0', 'spacy>=3.5.1'
     ],
     extras_require={
         'test': [

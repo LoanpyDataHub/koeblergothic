@@ -28,3 +28,4 @@ def run(args):
     # write csv
     with open("etc/orthography.tsv", "w+") as file:
         file.write(lines)
+

@@ -1,5 +1,4 @@
 Sense	Concepticon_ID	Concepticon_Gloss
-a, Abkürzung für 1		
 Ehemann, Gatte	1200	HUSBAND
 Vater	1217	FATHER
 sehr	1311	VERY
@@ -9,7 +8,7 @@ Ei	744	EGG
 Ei	744	EGG
 schnell, rasch	1631	FAST
 Stein	857	STONE
-von, von weg, von her, seit, ab, zu, aus	693	FROM
+von, von weg, von her, seit, ab, zu, aus	2754	TOWARDS
 ängstigen, sich ängstigen, abschrecken		
 leugnen, fluchen, verleugnen	755	DENY
 irre machen, abweichen		
@@ -51,7 +50,7 @@ beladen
 etwas Verunreinigendes tilgen, reinigen	2235	CLEAN (SOMETHING)
 abschütteln		
 bezaubern		
-ersticken, auslöschen	129	CHOKE
+ersticken, auslöschen	127	EXTINGUISH
 ersticken, erlöschen	129	CHOKE
 verschlingen, fressen		
 Ablegung, Erlass, Vergebung		
@@ -106,7 +105,7 @@ Engel, Bote
 Enge, Einschränkung		
 Enge, Bedrängnis		
 bedrängen, beengen, engen		
-eng	3053	TIGHT
+eng	1267	NARROW
 Schärfe, Ecke, Spitze, Schneide, Schwert	192	CORNER
 Furcht, Schrecken		
 ängstigen, sich fürchten	1419	FEAR (BE AFRAID)
@@ -125,7 +124,7 @@ schwer, schwerlich	1210	HEAVY
 schwierig	584	DIFFICULT
 scharf, spitz	1396	SHARP
 furchtsam, ängstlich		
-Sinn, Verstand	2950	MEANING
+Sinn, Verstand	1562	MIND
 zahme weiße Taube, Taube	1853	DOVE
 Spreu		
 meinen		
@@ -274,7 +273,7 @@ tapfer, tätig	3	BRAVE
 amen		
 Schulter	1482	SHOULDER
 denn, nun		
-darauf, außerdem, an, auf, in, über	57	ATOP
+darauf, außerdem, an, auf, in, über	1460	IN
 Ahne, Vorfahre		
 hinzufügen zu, fortfahren		
 entbieten, befehlen, anordnen	1998	COMMAND
@@ -305,7 +304,7 @@ im geheimen, heimlich, verborgen
 verborgen		
 auf gleiche Weise, gleichermaßen		
 ähnlich, gleich	1558	SIMILAR
-vergewaltigen, rauben, kränken, quälen, erpressen, misshandeln, beleidigen, schmähen, Gewalt antun, Unrecht antun	3204	INSULT
+vergewaltigen, rauben, kränken, quälen, erpressen, misshandeln, beleidigen, schmähen, Gewalt antun, Unrecht antun	1952	TORTURE
 Übermacht, Misshandlung		
 aufschreiben, sich in die Steuerlisten eintragen lassen		
 versteckte Meinung, Vermutung		
@@ -369,14 +368,14 @@ Amt, Dienst	2430	OFFICE
 leisten, dienen, besorgen, darreichen	3648	SERVE (SOMEONE)
 Diener		
 schelten, bedrohen, in Verlegenheit geraten, tadeln, anfahren	1192	THREATEN
-entbinden, lösen, auflösen, erklären, losbinden	352	UNTIE
+entbinden, lösen, auflösen, erklären, losbinden	1626	EXPLAIN
 entbunden werden, gelöst werden		
 Ende	742	END (OF SPACE)
 erwidern, antworten, entgegnen	1275	ANSWER
-bekennen, preisen, erklären	2022	ADMIT
+bekennen, preisen, erklären	1626	EXPLAIN
 entkleiden, ausziehen	1755	UNDRESS
 gehorchen, erhören, erhört werden	1635	OBEY
-nachforschen, prüfen, untersuchen	2010	INVESTIGATE
+nachforschen, prüfen, untersuchen	2571	TRY (TEST)
 Enthüllung, Offenbarung		
 enthüllt, unverhüllt		
 enthüllen, abdecken, entblößen, offenbaren		
@@ -423,7 +422,7 @@ andere, zweite	197	OTHER
 Verschiedenheit		
 anders	2504	DIFFERENT
 verschieden	2504	DIFFERENT
-Spitze, Ende	743	END (OF TIME)
+Spitze, Ende	2992	TIP (OF OBJECT)
 Geist, Seele	811	SOUL
 Apostolat		
 Apostel, Bote, Abgesandter		
@@ -577,7 +576,6 @@ Leichtigkeit, Vergnügen, Lust, Annehmlichkeit, zRune	2960	LONGING (WISH)
 leicht, erträglich	1052	LIGHT (WEIGHT)
 Asche	646	ASH
 ungesäuertes Brot		
-b, Abkürzung für 2		
 wenn		
 Bett	1663	BED
 Kampf		
@@ -636,7 +634,7 @@ Riese
 Gerste		
 von Gerste bereitet, gersten, Gersten...		
 Busen, Schoß, Brust	1592	CHEST
-Kind	2099	CHILD
+Kind	1304	CHILD (YOUNG HUMAN)
 bekindet		
 Kindlein, Kindchen, Knäblein		
 kindliches Wesen, Kinderei		
@@ -765,7 +763,7 @@ abwischen, abtrocknen	1454	WIPE
 beschwören		
 umherführen, umherziehen, durchziehen, mitführen, durchwandern		
 bedenken, überlegen		
-nachher, später, während, als, sobald als, nachdem, da	1685	AFTER
+nachher, später, während, als, sobald als, nachdem, da	1937	THERE
 herbeilaufen, vorauslaufen, hinzulaufen		
 abwaschen, waschen	1453	WASH
 bieten, entbieten		
@@ -793,7 +791,7 @@ Fackel, Feuer	221	FIRE
 versengen, ätzen		
 blasen, schnauben	176	BLOW (WITH MOUTH)
 Blasen, Schnauben	176	BLOW (WITH MOUTH)
-schlagen	2133	STRIKE OR BEAT
+schlagen	3308	STRIKE (SOMEONE)
 blenden		
 erblinden, blind werden		
 blind	1653	BLIND
@@ -844,7 +842,7 @@ Bruder	1262	BROTHER
 Brüder		
 brüderlich		
 Bruderliebe		
-schwingen, bewegen	765	MOVE
+schwingen, bewegen	2871	SWING (MOVEMENT)
 Brocken		
 Brocken		
 gebrauchen, brauchen, anwenden	2339	NEED (SOMETHING)
@@ -878,7 +876,6 @@ Soldat	1941	SOLDIER
 vergleichen	3429	COMPARE
 Vergleich		
 weinen	1839	CRY
-d, Abkürzung für 4		
 sich ereignen, passen		
 säugen	2472	SUCKLE (BREASTFEED, NURSE)
 tags		
@@ -932,13 +929,13 @@ Tat
 Teufel		
 Verleumderin		
 Diakon, Pfleger		
-kneten, aus Ton bilden, bilden, formen	289	MOLD
+kneten, aus Ton bilden, bilden, formen	274	KNEAD
 Fülle		
 voll, zusammengeknetet, dicht	1429	FULL
 zer..., auseinander..., ver...		
 verteilen, zerteilen, teilen	1119	DIVIDE
 befallen		
-ergreifen, behalten, festhalten	855	SEIZE
+ergreifen, behalten, festhalten	1477	KEEP
 zerreißen	1735	TEAR (SHRED)
 zerreißen, zerrissen werden	1735	TEAR (SHRED)
 verhüllen, bedecken	761	COVER
@@ -950,7 +947,7 @@ zerteilen
 zerreißen	1735	TEAR (SHRED)
 zerreißen	1735	TEAR (SHRED)
 Zerstreuung		
-zerstreuen, vergeuden, verschwenden	79	WASTE
+zerstreuen, vergeuden, verschwenden	3705	SCATTER
 zerreißen, auseinanderzerren, verderben	1735	TEAR (SHRED)
 zerreißen	1735	TEAR (SHRED)
 auflösen		
@@ -974,7 +971,7 @@ hauen	3309	STRIKE (SOMETHING)
 tragen, aufladen, ziehen	1455	PULL
 Trank	731	BEVERAGE
 tränken, tränken mit		
-treiben, plagen, antreiben	2868	DRIVE (CATTLE)
+treiben, plagen, antreiben	2881	URGE (SOMEONE)
 Drachme		
 Brocken, Brosamen, Bissen		
 Feldzug, Kriegsdienst		
@@ -1012,7 +1009,7 @@ Schuld	134	FAULT
 ein Fest feiern		
 Fest, Osterfest	131	FESTIVAL
 verstummen		
-stumm	1666	MUTE
+stumm	1492	DUMB
 hinzulaufen, hinzurennen		
 anfangen, anheben	1806	BEGIN
 deshalb, deswegen, weil, damit, dazu, darum dass	1157	BECAUSE
@@ -1024,7 +1021,6 @@ rasen
 Verzückung, Betäubung		
 töricht		
 säumen, betäuben		
-e, Abkürzung für 5		
 da, so, in dem Fall, bei dem Umstand, dass, damit, ob, und	1577	AND
 ig		
 Eis, iRune	617	ICE
@@ -1044,7 +1040,7 @@ essend
 Pferd, eRune	615	HORSE
 leicht, zRune	1052	LIGHT (WEIGHT)
 Vater	1217	FATHER
-Abkunft, Geschlecht, Stamm, Eltern, Großeltern, Vorfahren	505	PARENTS
+Abkunft, Geschlecht, Stamm, Eltern, Großeltern, Vorfahren	344	TREE TRUNK
 Geschlecht		
 väterlich		
 sich freuen	1495	HAPPY
@@ -1075,7 +1071,7 @@ ergreifen, greifen	855	SEIZE
 Berg, Gebirge	639	MOUNTAIN
 verheißen, Dank wissen		
 Welt	965	WORLD
-Schuld, Vorwurf, Grund, Ursache, Anklagegrund, Beschuldigung	134	FAULT
+Schuld, Vorwurf, Grund, Ursache, Anklagegrund, Beschuldigung	2968	REASON
 tadelig, unrecht		
 tadelig		
 tadeln, beschuldigen		
@@ -1298,13 +1294,13 @@ nehmen, in Besitz nehmen, in Empfang nehmen, gewinnen	1749	TAKE
 verzehren, ausgeben, vertun, verwenden	2072	USE (VERB)
 Verderb, Vergeudung, Verschwendung		
 verderben, umbringen	92	SPOIL (SOMEBODY OR SOMETHING)
-umkommen, zugrunde gehen, verderben	92	SPOIL (SOMEBODY OR SOMETHING)
+umkommen, zugrunde gehen, verderben	2865	DIE (FROM ACCIDENT)
 für ungültig erklären, aufheben, verfluchen, verwünschen	371	PICK UP
 sich verlaufen zu, geraten unter		
 verschlingen, verschlucken		
 Kindschaft		
-Kind	2099	CHILD
-Verstand, Sinn, Gesinnung	2950	MEANING
+Kind	1304	CHILD (YOUNG HUMAN)
+Verstand, Sinn, Gesinnung	1562	MIND
 Verstandestäuschung		
 denken, erkennen, verstehen, merken, verständig sein	1536	UNDERSTAND
 verständig		
@@ -1313,11 +1309,11 @@ gesinnt
 Herr	3153	LORD
 Herrschaft		
 herrschen, Herr sein		
-Herrscher, Herr	3153	LORD
+Herrscher, Herr	3377	EMPEROR
 Herr	3153	LORD
 froh	1495	HAPPY
 treten, trampeln	1135	KICK
-verwerfen, zerstreuen, wegwerfen	3696	THROW AWAY
+verwerfen, zerstreuen, wegwerfen	3705	SCATTER
 verderben, zugrunde gehen	92	SPOIL (SOMEBODY OR SOMETHING)
 Verderben	92	SPOIL (SOMEBODY OR SOMETHING)
 verderben, entstellen	92	SPOIL (SOMEBODY OR SOMETHING)
@@ -1327,7 +1323,7 @@ sündigen, versündigen, eine Sünde begehen
 Strafe, Rache		
 rächen, Recht verschaffen, strafen	3649	PUNISH
 fortreißen, gewaltsam ergreifen		
-verbrauchen, vergeuden, verschwenden	2787	CONSUME (DRINK OR EAT)
+verbrauchen, vergeuden, verschwenden	79	WASTE
 verfolgen, rächen	1047	PURSUE
 verklagen, verdächtigen, verleumden, anzeigen	1841	SUSPECT
 Schonung, Erhaltung		
@@ -1392,8 +1388,6 @@ Feld	212	FIELD
 feurig		
 bereit, eilig, tapfer	3	BRAVE
 phönikisch		
-590		
-g, Abkürzung für 3		
 ge..., mit...		
 Einschränkung		
 Beengung, Einschränkung		
@@ -1440,7 +1434,7 @@ abschaffen, triumphieren
 Erbarmen		
 sich erbarmen, barmherzig sein		
 verblenden, blenden		
-verbessern, herstellen	2872	IMPROVE (SOMETHING)
+verbessern, herstellen	2886	PRODUCE
 verbrennen	141	BURN (SOMETHING)
 zerbrechen	2558	BREAK (CLEAVE)
 Brocken		
@@ -1614,7 +1608,7 @@ Miteinverleibter, eines Leibes
 gefallen		
 Ähnlichkeit, Abbild		
 ähnlich, gleich	1558	SIMILAR
-vergleichen, gleichen, nachahmen	117	IMITATE
+vergleichen, gleichen, nachahmen	3429	COMPARE
 ähnlich, gleich	1558	SIMILAR
 kommen, gehen, fahren	1446	COME
 herstellen, heilen	2886	PRODUCE
@@ -1771,7 +1765,7 @@ erklären, auslegen, übersetzen	2906	TRANSLATE
 Sandalen, Schuhe, Schuhwerk		
 beschuht		
 schweigen, verstummen	48	BE SILENT
-beschädigen, schädigen, schaden	1116	DAMAGE
+beschädigen, schädigen, schaden	2947	DAMAGE (INJURY)
 schlafen, entschlafen, einschlafen	1585	SLEEP
 aufstreichen, beschmieren		
 schmieden, bewirken, durch Schmieden bewirken	288	FORGE
@@ -1790,7 +1784,7 @@ hineinsteigen, herabsteigen
 anstoßen		
 Gastfreundschaft		
 gastfrei, gastfreundlich		
-ein Urteil abgeben über, beurteilen, verurteilen, urteilen, beschließen, richten	484	CONDEMN
+ein Urteil abgeben über, beurteilen, verurteilen, urteilen, beschließen, richten	1818	ADJUDICATE
 aufrecht erhalten		
 fest	3003	SOLID
 bestreuen, belegen, überdecken, überbreiten		
@@ -1805,14 +1799,14 @@ stärken
 erstarken, stark werden		
 erseufzen, seufzen		
 ein Zeichen geben, belehren, zeigen	1039	SHOW
-zerreißen, zerstören, aufheben, auflösen	681	DESTROY
+zerreißen, zerstören, aufheben, auflösen	1735	TEAR (SHRED)
 belehren, erziehen		
 bezähmen, bezwingen, zähmen, bändigen		
 brandmarken, mit einem Brandmal versehen		
 kennzeichnen, sich merken, auszeichnen		
 berauben		
 geordnet, geregelt		
-vollbringen, bewirken, machen, tun, wirken, bringen	692	BRING
+vollbringen, bewirken, machen, tun, wirken, bringen	734	MAKE
 Riss		
 vergehen, aufhören, zerreißen	1735	TEAR (SHRED)
 Zerstörung		
@@ -1885,14 +1879,14 @@ Erwählung, Wahl
 erwählen, auserwählen, auswählen		
 gemein, unrein, befleckt		
 Bekehrung		
-wenden, zurückwenden, hinlenken, bekehren, zurückgeben, hinwenden, umkehren, zurückkehren	1445	TURN (SOMETHING)
+wenden, zurückwenden, hinlenken, bekehren, zurückgeben, hinwenden, umkehren, zurückkehren	85	GIVE BACK
 Verurteilung, Verdammung, Verdammnis		
 einen verurteilen zu, ächten, verdammen		
 Bekleidung, Kleidung	1895	CLOTHES
 bekleiden, kleiden, sich bekleiden, sich kleiden	814	DRESS UP
 Gespräch, Rede	1115	SPEECH
 Geschäft, Erwerb, Gewinn	2931	BUSINESS
-bewirken, erwirken, bereiten, machen, bringen, erhandeln, ausstellen	692	BRING
+bewirken, erwirken, bereiten, machen, bringen, erhandeln, ausstellen	734	MAKE
 Mitarbeiter		
 eingewurzelt		
 weihen, heiligen		
@@ -2005,7 +1999,7 @@ Gold	1369	GOLD
 golden		
 Mann	1554	MAN
 männlich		
-Männchen	3924	MALE ANIMAL
+Männchen		
 männlich		
 Krebsgeschwür, Geschwür	1189	ULCER
 Kampf		
@@ -2017,10 +2011,9 @@ gegossen werden
 Gotin		
 Gotenvolk		
 Angerufener, Gott, Götze	3231	DEITY
-h, Abkürzung für 8		
 haben, besitzen, inne haben, meinen, halten, werden, sich befinden, können, wollen	1784	WANT
 habend		
-heben, aufheben	371	PICK UP
+heben, aufheben	501	LIFT
 sich heben		
  heften, anhängen, anheften		
 angeheftet werden		
@@ -2086,7 +2079,7 @@ Hülle
 Hahn	1511	ROOSTER
 Hand	1277	HAND
 Weisheit, Klugheit, Geschicklichkeit		
-weise, klug, geschickt	1310	CLEVER
+weise, klug, geschickt	1824	DEXTEROUS
 Hand	1277	HAND
 handgemacht, mit der Hand gemacht		
 Huhn, Henne	1318	CHICKEN
@@ -2192,7 +2185,7 @@ Hütte, Zelt	1316	TENT
 rauschen	2877	RUSTLE (OF LEAVES)
 Gehör, Ohren	2518	HEARING (AURAL SENSE)
 losen		
-Gehör, Schweigen, Stille, Aufmerksamkeit	3458	SILENCE
+Gehör, Schweigen, Stille, Aufmerksamkeit	48	BE SILENT
 lachen machen		
 Lauterkeit, Reinheit, Aufrichtigkeit		
 Lauterkeit, Reinheit, Aufrichtigkeit		
@@ -2235,7 +2228,7 @@ Ring, Kreis	1374	RING
 schütteln	1909	SHAKE
 Ruhm		
 rufen	1084	CALL
-rufen, schreien	1084	CALL
+rufen, schreien	715	SHOUT
 Ruf, Geschrei	2944	CALL (APPEAL)
 Dach, Haus	1252	HOUSE
 Ruhm, Sieg	783	VICTORY
@@ -2248,7 +2241,7 @@ forschen
 Gesinnung		
 hungern	1533	BE HUNGRY
 denken, meinen, glauben	1890	BELIEVE
-Verstand, Sinn	2950	MEANING
+Verstand, Sinn	1562	MIND
 Landgut, Feld	212	FIELD
 häufen, sammeln	7	GATHER
 Hunger, Hungersnot	1864	HUNGER
@@ -2294,7 +2287,7 @@ wo	1237	WHERE
 wandeln, gehen, umhergehen	1443	WALK
 welcher, wer	1235	WHO
 jeder		
-wer, was, irgendeiner, jemand, etwas	1235	WHO
+wer, was, irgendeiner, jemand, etwas	1236	WHAT
 jemand	2422	SOMEONE
 scharf, streng	1396	SHARP
 Strenge, Schärfe		
@@ -2307,7 +2300,7 @@ schäumen
 Schaum	1768	FOAM
 woher, von woher		
 jeder		
-wem, mit wem, womit, um was, irgendwie, etwa	1236	WHAT
+wem, mit wem, womit, um was, irgendwie, etwa	1235	WHO
 jedenfalls, nur	1580	ONLY
 Weile, Zeit, Stunde	892	TIME
 nur eine Zeitlang dauernd, vergänglich, unbeständig		
@@ -2322,19 +2315,11 @@ wölben
 wie beschaffen, was für ein, welcher		
 Wölbung		
 Totenkiste, Sarg		
-760		
-725		
-740		
-743		
 Ruhm, Rühmen		
 sich rühmen		
 Drohung		
 drohen	1192	THREATEN
 Ysop		
-707		
-i, Abkürzung für 10		
-11	1706	ELEVEN
-12	1707	TWELVE
 ob, etwa, wohl, ob denn, doch wohl, doch nicht, dass nicht etwa		
 Berglehne, Abhang	3076	SLOPE
 gleich	2276	IDENTICAL
@@ -2347,7 +2332,6 @@ ebnen
 eben, flach, gleich	1633	FLAT
 Eber	3154	WILD BOAR
 rückwärts gewandt, zurück	2910	BACK (DIRECTION)
-14	2451	FOURTEEN
 ging		
 Buße		
 bereuen, Buße tun		
@@ -2355,12 +2339,9 @@ reuig
 Schmach, Schimpf		
 rügen, zurechtweisen		
 schmähen		
-15		
 folgende		
-13	1708	THIRTEEN
 Igel	1797	HEDGEHOG
 euch beiden gehörig, euer beider		
-18		
 Eis, iRune	617	ICE
 ich	1209	I
 der ich, ich welcher	1209	I
@@ -2408,7 +2389,7 @@ Erzählung, Aussage, Zeugnis	2060	STORY
 einsäen, hineinsäen		
 hinsehen, ansehen, auf etwas sehen, nach etwas sehen, aufblicken, sich umsehen	1650	WATCH
 anseilen, herablassen		
-vorstellen, anraten, eintreten für, bezeichnen, vortragen, anzeigen	180	CALL BY NAME
+vorstellen, anraten, eintreten für, bezeichnen, vortragen, anzeigen	1115	SPEECH
 entsenden, hinsenden, zusenden, senden		
 bevorstehen, eintreten für		
 stärken		
@@ -2426,14 +2407,12 @@ gewunden, ungerecht, verkehrt, verdorben	1728	ROTTEN
 bevorstehen		
 innerhalb des Gesetzes stehend, gesetzlich		
 ein Gott	3231	DEITY
-16		
 er	1211	HE
 isch		
 Israel		
 Israelit		
 essen	1336	EAT
 aber, und, wenn, nun, also, denn	1577	AND
-19		
 Judäa		
 Jude		
 auf jüdische Weise		
@@ -2449,10 +2428,8 @@ Erholung, Besserung
 bessern, erleichtern		
 besser, vorzüglicher		
 Nachkomme		
-17		
 der, welcher		
 euer	2274	YOUR (PLURAL)
-j, Abkürzung für 60		
 ja	1268	YES
 ob, wenn, wenn nur		
 und, und zwar, auch, aber, denn	1577	AND
@@ -2472,7 +2449,6 @@ kämpfen, ringen, obsiegen	1423	FIGHT
 Julfest		
 Julmonat, Dezember	2855	DECEMBER
 Jota, Pünktchen		
-66		
 schon, doch, nun, jetzt	1376	NOW
 jüdisch		
 Jüngling	76	YOUNG MAN
@@ -2484,14 +2460,12 @@ ihr	1213	YOU
 ihr beide		
 schon	2576	ALREADY
 ihr welche, die ihr	1213	YOU
-k, Abkürzung für 20		
-21	1734	TWENTY ONE
 und so weiter		
 Kaiser		
 Kaisergeld, Zensus, Steuer, Kaisersteuer		
 Kalb	1989	CALF
 junge Kuh, weibliches Kalb, Kalbe		
-Quelle, Brunnen	849	SPRING (OF WATER)
+Quelle, Brunnen	954	WELL
 kalt	1287	COLD
 Hurerei, Unzucht		
 Unzucht treiben, huren		
@@ -2523,20 +2497,15 @@ Korn	605	GRAIN
 schwer, lästig	1210	HEAVY
 kosten, kennen lernen, prüfen	1975	CHECK
 Sicherheit, Bürgschaft, Verschreibung		
-22	3166	TWENTY TWO
-24	1736	TWENTY FOUR
-25	1738	TWENTY FIVE
 keimen		
 Turm, Speisesaal im Obergeschoß, Söller		
-23	3165	TWENTY THREE
-28	3478	TWENTY EIGHT
 schlucken, schlingen	897	SWALLOW
 trinke den Becher aus		
-Kind	2099	CHILD
+Kind	1304	CHILD (YOUNG HUMAN)
 Mutterleib		
-Kind	2099	CHILD
+Kind	1304	CHILD (YOUNG HUMAN)
 Statthalter, Landpfleger		
-Kind, Geschlecht, Art	2099	CHILD
+Kind, Geschlecht, Art	1304	CHILD (YOUNG HUMAN)
 Wange	1730	CHEEK
 Heller		
 prüfen, wählen	1750	CHOOSE
@@ -2552,7 +2521,6 @@ knien	66	KNEEL
 Kuchen		
 kühn		
 Becher	476	CUP
-26	3476	TWENTY SIX
 drücken	1913	PRESS
 Klammer, Haken	1071	HOOK
 Haken	1071	HOOK
@@ -2569,7 +2537,6 @@ runde Masse
 Kleie		
 Kleie		
 Knirschen		
-29	3479	TWENTY NINE
 Liegen am Tisch, Tischgesellschaft, Gruppe, Tischgenossenschaft		
 küssen	578	KISS
 steh auf		
@@ -2589,8 +2556,6 @@ Kehle, kRune, Geschwür	1346	THROAT
 Probe		
 Prüfung, Beweis		
 kyrenisch, Einwohner von Kyrene		
-27	3477	TWENTY SEVEN
-1, Abkürzung für dreißig	1493	ONE
 Langmut		
 langmütig		
 Länge	2537	LENGTH
@@ -2636,7 +2601,7 @@ einladen	1611	INVITE
 Einladung, Berufung, Trost, Erlösung		
 Glanz		
 Laubhütte		
-erlauben	1003	PERMIT
+erlauben	3237	ALLOW OR PERMIT
 Laube, Vorhalle, Dach	769	ROOF
 Gestalt		
 Laub, Blatt	628	LEAF
@@ -2696,7 +2661,7 @@ Lager, Bett, Beilager	1663	BED
 warum	1270	WHY
 lind, mild		
 Linde, Lindenschild		
-leise, sanft	1856	SOFT
+leise, sanft	1954	GENTLE
 sammeln, lesen	724	READ
 Schnitte		
 zu wenig		
@@ -2760,7 +2725,6 @@ Lösung
 Lust, Begierde, Verlangen	2960	LONGING (WISH)
 ersehnt		
 täuschen, betrügen, Verführer	3230	DECEIVE
-m, Abkürzung für 40		
 können, vermögen	972	BE ABLE
 Jungfräulichkeit		
 Jungfrau, Magd		
@@ -2805,7 +2769,7 @@ gezähmt
 Menschensaat, Welt, Menschheit	965	WORLD
 Gestalt		
 Bild	3303	PICTURE (PAINTING)
-Mensch, Mann, mRune	1554	MAN
+Mensch, Mann, mRune	683	PERSON
 Manna		
 jemand	2422	SOMEONE
 Menschlichkeit		
@@ -2832,7 +2796,7 @@ Hochzeit	1259	WEDDING
 Mast	184	MAST
 Ranzen, Speisesack, Speisetasche		
 essen, fressen	1336	EAT
-Speise, Proviant, Mahl	256	FOOD
+Speise, Proviant, Mahl	481	DISH
 Wurm, Made	1219	WORM
 gut	1035	GOOD
 Versammlungsort, Marktplatz, Markt	633	MARKET
@@ -2852,7 +2816,6 @@ Mörder	3871	MURDERER
 morden		
 Mädchen, Jungfrau	1646	GIRL
 Mädchen, Jungfrau	1646	GIRL
-45		
 Eidam, Schwiegersohn	1056	SON-IN-LAW
 mein	2090	MY
 Schwert		
@@ -2991,7 +2954,6 @@ Gedanke, Meinung, Vorsatz, Ratschluss, Bereitwilligkeit, guter Wille, Beschluss,
 Mund	674	MOUTH
 Maus	1491	MOUSE
 Fledermaus	1793	BAT
-n, Abkürzung für 50		
 Natter		
 nageln		
 Nagel	502	NAIL (TOOL)
@@ -3034,8 +2996,7 @@ tot	1625	DEAD
 Grab, Totenlager	1773	GRAVE
 begraben	1719	BURY
 totschwören		
-52		
-nein, nicht	1240	NOT
+nein, nicht	1269	NO
 Natter, Schlange	730	SNAKE
 nahe	1942	NEAR
 nahe	1942	NEAR
@@ -3096,7 +3057,6 @@ hosianna, hilf doch
 Ostgoten		
 Stammgut, Erbsitz, oRune		
 Stammgut, Erbsitz, Heimat	2406	HOME
-890		
 Leibrock, Unterkleid, Rock	1600	SKIRT
 bekleiden		
 Donnerstag	1693	THURSDAY
@@ -3130,7 +3090,6 @@ weissagen, prophezeien
 Psalm		
 Geldbeutel, Beutel	2951	POUCH
 Pfund		
-q, Abkürzung für 6		
 weinen, trauern, beweinen, betrauern	1839	CRY
 Mühle	636	MILL
 Sanftmut		
@@ -3146,7 +3105,7 @@ Rede	1115	SPEECH
 zur Ruhe kommen		
 kommen	1446	COME
 weiblichen Geschlechts		
-Frauenzimmer, Weibchen	3923	FEMALE ANIMAL
+Frauenzimmer, Weibchen		
 weiblichen Geschlechts		
 Weib, Frau	962	WOMAN
 Rede	1115	SPEECH
@@ -3166,7 +3125,6 @@ Feuchtigkeit
 feucht	2998	DAMP
 Ankunft, Wiederkunft		
 Kommen	1446	COME
-r, Abkürzung für 100		
 Rabboni		
 Rabbi		
 Rat, Beschluss		
@@ -3235,7 +3193,6 @@ zittern	52	SHIVER
 Zittern, Erdbeben, Beben	52	SHIVER
 erheben		
 Rat		
-112		
 Rippe, Riff	801	RIB
 Kleid	474	DRESS
 Strick		
@@ -3246,7 +3203,6 @@ Ruhe	3458	SILENCE
 rennen, laufen	1519	RUN
 Gießbach		
 Berg	639	MOUNTAIN
-116		
 Finsternis		
 finster		
 finster werden, dunkel werden		
@@ -3258,14 +3214,7 @@ Röte
 Vernichtung, Vergänglichkeit		
 vergänglich, sterblich		
 verderben	92	SPOIL (SOMEBODY OR SOMETHING)
-120	3504	ONE HUNDRED AND TWENTY
-122		
-123		
-128		
-133		
-148		
-156		
-Reden	2708	TALK
+Reden	1623	SPEAK
 sprechen, reden	1623	SPEAK
 Hof, Vorhof	4	COURTYARD
 Rugier		
@@ -3352,13 +3301,13 @@ wahr, wahrhaftig	1657	TRUE
 Waffen, Rüstung		
 Setzung		
 Gesetzter		
-setzen, stellen, bestimmen, pflanzen	653	PLANT (VEGETATION)
+setzen, stellen, bestimmen, pflanzen	3833	PUT (IN A STANDING POSITION)
 satt	106	SATIATED
 Krankheit, Sucht	1986	DISEASE
 Sonne	1343	SUN
 Beschmutzung		
 schmutzig machen		
-Sumpf, Schmutz	25	DIRT
+Sumpf, Schmutz	1145	SWAMP
 schmutzig werden		
 Säule		
 Syrer		
@@ -3482,7 +3431,6 @@ anmutig
 Schaufel	1901	SHOVEL
 Skorpion	1538	SCORPION
 Zipfel, Schoß	3263	LAP
-222		
 Leuchte		
 scheinen, leuchten, glänzen, aufblitzen	1521	SEEM
 Auslegung, Erklärung		
@@ -3491,7 +3439,6 @@ auslegen, erklären	1626	EXPLAIN
 klar, deutlich, hell	679	BRIGHT
 scheißen		
 wandern		
-223		
 Schild	1064	SHIELD
 Fleischer, Metzger	2569	BUTCHER
 Schelle, Glocke	2246	BELL
@@ -3517,7 +3464,6 @@ Schaum	1768	FOAM
 Schopf		
 Schauer		
 Skythe		
-230		
 Raufbold		
 schlagen, hauen, ohrfeigen	3308	STRIKE (SOMEONE)
 Schlag, Plage, Ohrfeige		
@@ -3529,7 +3475,7 @@ streifen
 schweigen	48	BE SILENT
 Schlaffheit		
 schlüpfen	3116	HATCH (OUT)
-schleifen, schlüpfen	3116	HATCH (OUT)
+schleifen, schlüpfen	251	SHARPEN (SOMETHING)
 Schaden	2947	DAMAGE (INJURY)
 Gefahr	1810	DANGER
 schädigen		
@@ -3555,12 +3501,10 @@ bewirken
 Schmied	1001	BLACKSMITH
 schmiegen		
 Myrrhe		
-247		
 Gewand, Mantel, Oberkleid	603	COAT
 zusammenziehen, sich biegen, krümmen		
 Schnee	784	SNOW
 zusammenziehen machen		
-254		
 schneiden, ernten	1432	CUT
 schneien	1255	SNOWING
 schnell	1631	FAST
@@ -3652,7 +3596,7 @@ Sturm	858	STORM
 starr sein		
 stoßen	1452	PUSH
 zwanzig	1710	TWENTY
-steigen	1102	CLIMB
+steigen	705	GO UP (ASCEND)
 Stimme	1363	VOICE
 Steige		
 Stengel		
@@ -3674,7 +3618,7 @@ Geduld, geduldiges Ertragen
 Stehen	1442	STAND
 richten, beurteilen	1818	ADJUDICATE
 Stuhl, Thron	1476	CHAIR
-Wesen, Gegenstand, Zuversicht, Erwartung, Grundlage, Stoff	1616	CLOTH
+Wesen, Gegenstand, Zuversicht, Erwartung, Grundlage, Stoff	2981	ITEM
 aufrechterhalten		
 stet		
 straffen		
@@ -3778,7 +3722,7 @@ Reinheit, Keuschheit, Unschuld
 Reinigung		
 Reinigung, Reinheit, Keuschheit		
 reinigen	2235	CLEAN (SOMETHING)
-rein, unschuldig, unsträflich, keusch	90	INNOCENT
+rein, unschuldig, unsträflich, keusch	1147	PURE
 offenbar, offen heraus, deutlich, ausdrücklich	989	CLEAR
 bekanntgeben, offenbaren		
 offenkundig, offenbar, bekannt	3005	FAMILIAR
@@ -3800,7 +3744,6 @@ dem Tode Naher, Todgeweihter
 auf den Tod gerichtet, todgeweiht		
 Tod	910	DEATH
 Teich		
-t, Abkürzung für 300		
 Opfer, Opfertier	1103	SACRIFICE
 Zottel, Fetzen, Flausch		
 Haar	1040	HAIR
@@ -3823,7 +3766,7 @@ einem etwas zeigen
 Zeichen, Wunder	1720	SIGN
 Korb, Weidenkorb	1539	BASKET
 Zweig, Rebe	3222	TWIG
-zerstören, zerreißen, auflösen	681	DESTROY
+zerstören, zerreißen, auflösen	1735	TEAR (SHRED)
 Waldbewohner		
 Tetrarch, Vierfürst		
 Mägdlein		
@@ -3878,9 +3821,6 @@ bauen, zimmern, erbauen	1840	BUILD
 Bau, Gebäude	2949	LAIR
 ziehen, führen, wegführen	1455	PULL
 Ruck, Zug	900	TRAIN
-320		
-333		
-345		
 getan habend, tuend, Tuer		
 Gefahr	1810	DANGER
 Vertrauen, Zuversicht		
@@ -3927,7 +3867,6 @@ entzwei
 sich trennen, Abschied nehmen von	1359	SEPARATE
 Zwistigkeit, Zwiespalt		
 Ziu, Kriegsgott, Siegesgott, tRune		
-th, Abkürzung für 9		
 wohin, dorthin wo	2928	WHITHER (WHERE TO)
 denken, überlegen	1415	THINK (REFLECT)
 Dank		
@@ -3949,9 +3888,9 @@ verdorren
 decken		
 dann, darauf, wann, so lange als, als, da	1238	WHEN
 dann	2921	THEN
-weiter, noch, mehr	2919	STILL (CONTINUING)
+weiter, noch, mehr	1992	MORE
 weiter, noch	2919	STILL (CONTINUING)
-wenn, weil, so lange als, da	1157	BECAUSE
+wenn, weil, so lange als, da	1937	THERE
 wann, wieviel	1238	WHEN
 strecken, dehnen		
 ja, wohl, also darum	1268	YES
@@ -4091,7 +4030,6 @@ Sicherheit
 befestigen		
 fest	3003	SOLID
 Rauchopfer, Räucherwerk		
-u, Abkürzung für 70		
 ob, oder	1014	OR
 Übel		
 übel, böse	45	EVIL
@@ -4101,7 +4039,6 @@ ob, oder	1014	OR
 übelredend, schmähsüchtig		
 Halle		
 unter	1485	BELOW OR UNDER
-74		
 unter	1485	BELOW OR UNDER
 durch Eid verpflichtet, durch Eid verbunden, vereidet		
 der seinen Überfluss zeigt		
@@ -4178,7 +4115,6 @@ vielleicht	2278	PERHAPS
 ausdehnen, ausstrecken, nach etwas trachten	214	STRETCH
 verheiratet		
 aufschreien, ausrufen		
-73		
 unser beider		
 Unze		
 und, nun, also	1577	AND
@@ -4284,7 +4220,7 @@ unbeweibt
 unaussprechlich		
 Unvergänglichkeit		
 unvergänglich		
-nicht redend, stumm	1666	MUTE
+nicht redend, stumm	1492	DUMB
 unbestritten, unbestreitbar		
 nicht sehend		
 ungesalzen, kraftlos		
@@ -4301,7 +4237,7 @@ Unehre
 nicht geachtet, verachtet		
 unbekannt		
 unfügsam, unbotmäßig, ungehorsam, ungebildet, töricht	3813	DISOBEDIENT
-bis, solange als, denn, weil, da	1157	BECAUSE
+bis, solange als, denn, weil, da	1937	THERE
 voreilig, unbesonnen		
 untreu, ungerecht		
 entfliehen, einem entrinnen	1615	ESCAPE
@@ -4410,7 +4346,7 @@ bekannt, offenbar	3005	FAMILIAR
 auflegen, anlegen		
 belehrt, gelehrt		
 belehren, lehren	709	TEACH
-erlauben	1003	PERMIT
+erlauben	3237	ALLOW OR PERMIT
 Erlösung		
 entledigen, entäußern, entleeren, berauben, erlösen, befreien, entwurzeln		
 hinausgehen, weggehen, verreisen, vergehen	1752	LEAVE
@@ -4577,7 +4513,7 @@ Wau, Färberwau
 walten, haushalten, dem Hauswesen vorstehen		
 mächtig, Walter	3001	POWERFUL
 Walter, Herrscher	3377	EMPEROR
-Gewalt, Macht	2526	POWER
+Gewalt, Macht	2976	VIOLENCE
 Wald	420	FOREST
 Wahl		
 wälzen		
@@ -4787,7 +4723,7 @@ ins Gesicht schlagen, kasteien
 Wachen		
 wachen		
 Ertrag, Frucht, Zins	1507	FRUIT
-rufen, krähen, zurufen, schreien, ausrufen, laut rufen	1084	CALL
+rufen, krähen, zurufen, schreien, ausrufen, laut rufen	715	SHOUT
 angenehm, süß, lieblich	717	SWEET
 wütend, besessen	2223	BE ANGRY
 krumm, schräg	297	CROOKED
@@ -4826,10 +4762,4 @@ wund
 Wunde, Geißel, Plage	1109	WOUND
 Leiden		
 Wunsch		
-662		
-666		
-623		
-630		
-654		
-z, Abkürzung für 7		
 Eiferer		

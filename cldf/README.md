@@ -13,7 +13,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.koeblergerhard.de/got/got.html
 [dc:license](http://purl.org/dc/terms/license) | CC-BY
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/martino-vic/koeblergothic
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/koeblergothic/tree/571057b">martino-vic/koeblergothic 571057b</a></li><li><a href="https://github.com/glottolog/glottolog/tree/33d1cbbfa7">Glottolog v4.7-4-g33d1cbbfa7</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/db61a3a0">Concepticon v3.0.0-43-gdb61a3a0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/6e60c1d">CLTS v2.2.0-11-g6e60c1d</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/koeblergothic/tree/8c163e6">martino-vic/koeblergothic 8c163e6</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.5">Glottolog v4.5</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | koeblergothic
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -24,7 +24,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF FormTable](http://cldf.clld.org/v1.0/terms.rdf#FormTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 4834
+[dc:extent](http://purl.org/dc/terms/extent) | 4764
 
 
 ### Columns
@@ -73,7 +73,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 4281
+[dc:extent](http://purl.org/dc/terms/extent) | 4211
 
 
 ### Columns
@@ -84,4 +84,22 @@ Name/Property | Datatype | Description
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Concepticon_ID](http://cldf.clld.org/v1.0/terms.rdf#concepticonReference) | `string` | 
 `Concepticon_Gloss` | `string` | 
+
+## <a name="table-sensescsv"></a>Table [senses.csv](./senses.csv)
+
+property | value
+ --- | ---
+[dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF SenseTable](http://cldf.clld.org/v1.0/terms.rdf#SenseTable)
+[dc:extent](http://purl.org/dc/terms/extent) | 8508
+
+
+### Columns
+
+Name/Property | Datatype | Description
+ --- | --- | --- 
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
+[Entry_ID](http://cldf.clld.org/v1.0/terms.rdf#entryReference) | `string` | 
+`Spacy` | `string` | 
+`Form_ID` | `string` | 
 
