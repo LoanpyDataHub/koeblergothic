@@ -29,11 +29,12 @@ jobs:
             pip install -e loanpy
             python3 -m spacy download de_core_news_lg
       - run:
-          name: Preprocess - create etc/gothic.tsv and etc/concepts.tsv
+          name: Preprocess - create raw/gothic.tsv, etc/concepts.tsv and etc/orthography.tsv
           command: |
             cd koeblergothic
             cldfbench koeblergothic.txt2tsv
             cldfbench koeblergothic.map2concepts
+            cldfbench koeblergothic.makeortho
       - run:
           name: run lexibank script
           command: >
@@ -57,10 +58,9 @@ jobs:
             cd koeblergothic &&
             cldfbench koeblergothic.update_readme
       - run:
-          name: Postprocess - create orthographic profile, add stats to readme
+          name: Postprocess - add stats and badges to readme
           command: |
             cd koeblergothic
-            cldfbench koeblergothic.makeortho
             cldfbench koeblergothic.update_readme
 
 workflows:
