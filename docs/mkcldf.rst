@@ -125,6 +125,16 @@ a table that contains references to entries in `Concepticon
 .. automodule:: gerstnerhungariancommands.map2concepts
    :members:
 
+Lastly, we are creating orthographic profiles with the help of the
+`epitran <https://pypi.org/project/epitran/>`_ library and lingpy's
+`ipa2tokens
+<https://lingpy.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.ipa2tokens>`_
+function. The resulting file, ``etc/orthography.tsv`` will be the basis for
+creating the column ``Segment`` in ``cldf/forms.csv``, which contains
+tokenised IPA transcriptions of words.
+
+.. automodule:: gerstnerhungariancommands.makeortho
+   :members:
 
 Step 5: Run lexibank script
 ---------------------------
@@ -428,7 +438,37 @@ This is how your console should approximately look like after the conversion:
 
 .. image:: consoleoutput.png
 
-Congratulations, the CLDF-conversion was successful.
+Now only two minor changes are missing before the CLDF conversion is finished.
 
 Step 6: Post-processing
 -----------------------
+
+First, we need to change the IDs in ``cldf/forms.csv``, so they match the
+ones in ``cldf/adapt.csv``. This cannot be done from within the
+lexibank-script, which is why it is done during post-processing. The reason
+why we have to use custom IDs in this case is that the default IDs are too
+long and take up too much space. ``adapt.csv`` with default IDs takes up
+26MB and with short IDs only 11MB. This makes a significant difference,
+especially if we were to make more predictions than only 100 per word.
+The IDs are replaced with this command:
+
+.. code-block:: sh
+
+   cldfbench koeblergothic.fixid
+
+.. automodule:: gerstnerhungariancommands.fixid
+  :members:
+
+Secondly, the readme needs to be updated by adding information about
+the version of Spacy and the vector coverage within it, as well as a bullet
+that informs about the number of senses in ``cldf/senses.csv``, to which
+the percentage in the vector-coverage-badge refers.
+
+.. code-block:: sh
+
+   cldfbench koeblergothic.update_readme
+
+.. automodule:: gerstnerhungariancommands.update_readme
+  :members:
+
+Congratulations, the CLDF-conversion was successful!
