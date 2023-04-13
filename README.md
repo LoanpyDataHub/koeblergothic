@@ -14,6 +14,17 @@ This dataset is licensed under a CC-BY license
 
 Available online at https://www.koeblergerhard.de/got/got.html
 
+## Notes
+
+[![License: CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/martino-vic/gerstnerhungarian/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/martino-vic/gerstnerhungarian/tree/main)
+[![Documentation Status](https://readthedocs.org/projects/gerstnerhungarian/badge/?version=latest)](https://gerstnerhungarian.readthedocs.io/en/latest/?badge=latest)
+
+Tools used to create parts of the orthographic profile: https://digling.org/calc/profiler/
+Skeleton for the Hungarian orthographic profile comes from: https://github.com/dmort27/epitran/blob/master/epitran/data/map/hun-Latn.csv
+
+
+
 ## Statistics
 
 
@@ -23,6 +34,8 @@ Available online at https://www.koeblergerhard.de/got/got.html
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+![Vector Coverage 92%](https://img.shields.io/badge/Vector_Coverage-92%25-brightgreen)
+[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
 
 - **Varieties:** 1
 - **Concepts:** 4,211
@@ -33,6 +46,17 @@ Available online at https://www.koeblergerhard.de/got/got.html
 - **Tokens:** 31,109
 - **Segments:** 52 (0 BIPA errors, 0 CLTS sound class errors, 52 CLTS modified)
 - **Inventory size (avg):** 52.00
+- **Senses:** 8,509
+
+# Contributors
+
+Name | GitHub user | Description | Role |
+--- | --- | --- | --- |
+Gerhard Köbler | | Gotisches Wörterbuch | Editor |
+Viktor Martinović | @martino-vic | CLDF conversion | Other
+
+
+
 
 ## CLDF Datasets
 

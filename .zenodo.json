@@ -6,7 +6,16 @@
         "linguistics"
     ],
     "creators": [],
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Gerhard K\u00f6bler",
+            "type": "Editor"
+        },
+        {
+            "name": "Viktor Martinovi\u0107",
+            "type": "Other"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"
