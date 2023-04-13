@@ -29,10 +29,11 @@ jobs:
             pip install -e loanpy
             python3 -m spacy download de_core_news_lg
       - run:
-          name: Extract tabular data from text file
-          command: >
-            cd koeblergothic &&
+          name: Preprocess: create etc/gothic.tsv and etc/concepts.tsv
+          command: |
+            cd koeblergothic
             cldfbench koeblergothic.txt2tsv
+            cldfbench koeblergothic.map2concepts
       - run:
           name: run lexibank script
           command: >
@@ -54,6 +55,12 @@ jobs:
           name: Update readme
           command: >
             cd koeblergothic &&
+            cldfbench koeblergothic.update_readme
+      - run:
+          name: Postprocess: create orthographic profile, add stats to readme
+          command: |
+            cd koeblergothic
+            cldfbench koeblergothic.makeortho
             cldfbench koeblergothic.update_readme
 
 workflows:
