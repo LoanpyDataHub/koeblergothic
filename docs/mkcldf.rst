@@ -289,7 +289,8 @@ Here we are creating a new table that will be called ``cldf/senses.csv`` (see
 and the `list of available table types
 <https://github.com/cldf/cldf/tree/master/components>`_).
 The column ``Meaning`` in ``raw/gothic.tsv`` contains multiple
-English translations separated by ``, ``. This is an array-like data-structure,
+English translations separated by a comma and a space. This is an
+array-like data-structure,
 which in relational databases should be avoided. With the sense-table,
 we are therefore giving each translation in the list of meanings an own row
 and a foreign key that points to the corresponding row in ``cldf/forms.csv``.
