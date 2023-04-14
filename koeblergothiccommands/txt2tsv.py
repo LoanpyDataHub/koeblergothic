@@ -7,9 +7,8 @@ from re import search, sub
 
 def run(args):
     """
-    #. Read ``raw/gothic.txt``, which was copied from
-       `https://www.koeblergerhard.de/got/got.html`_
-    #. Split by "\n"
+    #. Read ``raw/gothic.txt``, which has been copied from
+       `<https://www.koeblergerhard.de/got/got.html>`_
     #. Loop through rows
     #. Ignore empty rows
     #. The element left of the first number is the Gothic headword
