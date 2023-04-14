@@ -58,10 +58,11 @@ jobs:
             cd koeblergothic &&
             cldfbench koeblergothic.update_readme
       - run:
-          name: Postprocess - add stats and badges to readme
+          name: Postprocess - add stats and badges to readme, fix form.csv ID
           command: |
             cd koeblergothic
             cldfbench koeblergothic.update_readme
+            cldfbench koeblergothic.fixid
 
 workflows:
   main:
