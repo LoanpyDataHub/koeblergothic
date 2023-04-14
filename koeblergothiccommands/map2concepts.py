@@ -6,7 +6,7 @@ import csv
 from pysem.glosses import to_concepticon
 
 def run(args):
-    """"
+    """
     #. Read ``raw/gothic.tsv``
     #. Loop through data and turn it into a dictionary
     #. Input that dictionary to pysem's to_concepticon function

@@ -14,10 +14,11 @@ def run(args):
     """
     #. Read values from ``raw/gothic.tsv``
     #. Loop through this file row by row
-    #. Transcribe column Gothic to IPA
+    #. Transcribe column ``Gothic`` to `IPA
+       <https://www.internationalphoneticassociation.org/sites/default/files/IPA_Kiel_2015.pdf>`_
     #. Tokenise the IPA-transcription
     #. Write the result to ``etc/orthography.tsv``
-     
+
     """
     #ds = Dataset.from_metadata("./cldf/cldf-metadata.json")
     wrdlst = []
