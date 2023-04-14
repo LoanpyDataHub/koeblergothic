@@ -1,5 +1,5 @@
 """
-Map concepts to concepticon and make a wordlist.
+Map concepts to concepticon with the pysem library.
 """
 import csv
 
@@ -7,9 +7,12 @@ from pysem.glosses import to_concepticon
 
 def run(args):
     """"
-    read gothic.tsv,
-    link data to concepticon,
-    write concepts.tsv
+    #. Read ``raw/gothic.tsv``
+    #. Loop through data and turn it into a dictionary
+    #. Input that dictionary to pysem's to_concepticon function
+    #. Add the mappings to a new column where available
+    #. Write the new file to ``etc/concepts.tsv``
+
     """
     glo = []
     with open("raw/gothic.tsv", "r") as f:

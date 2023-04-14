@@ -1,14 +1,17 @@
 """
-read cldf/forms.csv
-Replace col ID with f0, f1, f2, f3,...
-Write file.
-(This can't be done from lexibank script.)
+Replace primary key of ``forms.csv``. This can't be done from lexibank script.
+Necessary because default keys eat up too much space.
+Read and write files with the inbuilt csv package.
 """
 
 import csv
 
 def run(args):
     """
+    #. read ``cldf/forms.csv``
+    #. Replace contents of column ID with f0, f1, f2, f3,...
+    #. Write file.
+    
     """
     with open("cldf/forms.csv", "r") as f:
         data = list(csv.reader(f))

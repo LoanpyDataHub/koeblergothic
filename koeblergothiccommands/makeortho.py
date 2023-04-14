@@ -1,5 +1,7 @@
 """
-IPA-transcribe Spanish words
+IPA-transcribe and tokenise Gothic words with epitran and lingpy.
+The transcription rules were created based on Braune (2004) and contributed
+to epitran through a pull request.
 """
 import csv
 
@@ -10,7 +12,12 @@ epi = epitran.Epitran("got-Latn").transliterate
 
 def run(args):
     """
-    Read values from ``raw/gothic.tsv`` and IPA-transcribe + segment them
+    #. Read values from ``raw/gothic.tsv``
+    #. Loop through this file row by row
+    #. Transcribe column Gothic to IPA
+    #. Tokenise the IPA-transcription
+    #. Write the result to ``etc/orthography.tsv``
+     
     """
     #ds = Dataset.from_metadata("./cldf/cldf-metadata.json")
     wrdlst = []
