@@ -113,7 +113,7 @@ by following script:
 The output is ``raw/gothic.tsv``, which will serve as the main input file
 for the conversion.
 
-.. automodule:: gerstnerhungariancommands.txt2tsv
+.. automodule:: koeblergothiccommands.txt2tsv
    :members:
 
 Next, the file ``etc/concepts.tsv`` has to be created with the help of the
@@ -126,7 +126,7 @@ a table that contains references to entries in `Concepticon
 
    cldfbench koeblergothic.map2concepts
 
-.. automodule:: gerstnerhungariancommands.map2concepts
+.. automodule:: koeblergothiccommands.map2concepts
    :members:
 
 Lastly, we are creating orthographic profiles with the help of the
@@ -141,7 +141,7 @@ tokenised IPA transcriptions of words. Create by running:
 
    cldfbench koeblergothic.makeortho
 
-.. automodule:: gerstnerhungariancommands.makeortho
+.. automodule:: koeblergothiccommands.makeortho
    :members:
 
 Step 5: Run lexibank script
@@ -465,7 +465,7 @@ The IDs are replaced with this command:
 
    cldfbench koeblergothic.fixid
 
-.. automodule:: gerstnerhungariancommands.fixid
+.. automodule:: koeblergothiccommands.fixid
   :members:
 
 Secondly, the readme needs to be updated by adding information about
@@ -477,7 +477,7 @@ the percentage in the vector-coverage-badge refers.
 
    cldfbench koeblergothic.update_readme
 
-.. automodule:: gerstnerhungariancommands.update_readme
+.. automodule:: koeblergothiccommands.update_readme
   :members:
 
 Congratulations, the CLDF-conversion was successful!
