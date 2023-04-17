@@ -91,6 +91,7 @@ class Dataset(BaseDataset):
                         Parameter_ID=concepts[data[i][1]], # col "Meaning" ID
                         Value=data[i][0],  # col "Gothic",
                         Source="Kobler1989",
+                        Local_ID=f"f{i}"
                         ):
                     lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
 
