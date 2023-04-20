@@ -11,7 +11,7 @@ import spacy
 
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
-ad = Adrc("etc/WOT2EAHsc.json")
+ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
 
 @lru_cache(maxsize=None)
 def filter_vectors(meaning):
@@ -93,8 +93,9 @@ class Dataset(BaseDataset):
                         Source="Kobler1989",
                         Local_ID=f"f{i}"
                         ):
-                    lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
+                    pros = prosodic_string(lex["Segments"], _output='cv')
+                    lex["ProsodicStructure"] = pros
 
-                    for pred in ad.adapt(lex["Segments"], 100).split(", "):
+                    for pred in ad.adapt(lex["Segments"], 100, pros).split(", "):
                         writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
                         adidx += 1
