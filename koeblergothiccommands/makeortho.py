@@ -22,16 +22,16 @@ def run(args):
     """
     #ds = Dataset.from_metadata("./cldf/cldf-metadata.json")
     wrdlst = []
-    with open("raw/gothic.tsv", "r") as f:
-        data = list(csv.reader(f, delimiter="\t"))
+    with open("cldf/forms.csv", "r") as f:
+        data = list(csv.reader(f)) #, delimiter="\t"))
 
     with open("etc/orthography.tsv", "w+") as f:
         writer = csv.writer(f, delimiter="\t")
         writer.writerow(["Grapheme", "IPA"])
         for row in data[1:]:
-            if row[0] not in wrdlst:  # to avoid doublets
-                ipa = epi(row[0])
+            if row[5] not in wrdlst:  # to avoid doublets
+                ipa = epi(row[5])
                 ipa = ipa2tokens(ipa, merge_vowels=False, merge_geminates=False)
                 ipa = " ".join(ipa)
-                writer.writerow([row[0], ipa])
-                wrdlst.append(row[0])
+                writer.writerow([row[5], ipa])
+                wrdlst.append(row[5])

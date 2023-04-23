@@ -1,4 +1,5 @@
 import csv
+import json
 from functools import lru_cache
 import pathlib
 
@@ -6,12 +7,20 @@ import attr
 from clldutils.misc import slug
 from loanpy.scapplier import Adrc
 from lingpy import prosodic_string
-from pylexibank import Dataset as BaseDataset, Lexeme
+from pylexibank import Dataset as BaseDataset, Lexeme, FormSpec
+import re
 import spacy
 
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
 ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
+#ad = Adrc("../ronataswestoldturkic/loanpy/WOT2EAHsc.json",
+#          "../ronataswestoldturkic/loanpy/invsEAH.json")
+
+def trim(word):
+    if word == "an":
+        return word
+    return re.sub("an$", "", word)
 
 @lru_cache(maxsize=None)
 def filter_vectors(meaning):
@@ -73,29 +82,30 @@ class Dataset(BaseDataset):
         languages = args.writer.add_languages()
         args.log.info("added language")
 
-        # add forms
-        data = self.raw_dir.read_csv(
-            "gothic.tsv", delimiter="\t",
-        )
-        header = data[0]
         cognates = {}
         cogidx = 1
         adidx = 1
-
         with open("cldf/adapt.csv", "w+") as f:
             writer = csv.writer(f)
             writer.writerow(["ID", "Form_ID", "ad100"])
-            for i in range(1, len(data)):
-                for lex in args.writer.add_forms_from_value(
+
+            for i, row in enumerate(self.raw_dir.read_csv(
+                "gothic.tsv", delimiter="\t", dicts=True
+                    )):
+
+                args.writer.add_form(
+                        Form=trim(row["Gothic"]),
                         Language_ID="Gothic",
-                        Parameter_ID=concepts[data[i][1]], # col "Meaning" ID
-                        Value=data[i][0],  # col "Gothic",
+                        Parameter_ID=concepts[row["Meaning"]],
+                        Value=row["Gothic"],
                         Source="Kobler1989",
                         Local_ID=f"f{i}"
-                        ):
-                    pros = prosodic_string(lex["Segments"], _output='cv')
-                    lex["ProsodicStructure"] = pros
+                        )
 
-                    for pred in ad.adapt(lex["Segments"], 100, pros).split(", "):
-                        writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
-                        adidx += 1
+                lex = args.writer.objects["FormTable"][i]
+                pros = prosodic_string(lex["Segments"], _output='cv')
+                lex["ProsodicStructure"] = pros
+
+                for pred in ad.adapt(lex["Segments"], 100, pros):
+                    writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
+                    adidx += 1
