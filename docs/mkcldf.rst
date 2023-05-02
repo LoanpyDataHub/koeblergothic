@@ -344,8 +344,8 @@ Here we are predicting loanword adaptation with loanpy, based on heuristics
 and data extracted from the etymological dictionary "West Old Turkic"
 in the repository `ronataswestoldturkic
 <https://ronataswestoldturkic.readthedocs.io/en/latest/?badge=latest>`_. We
-are making 100 predictions per word, this number was set to 100 earlier.
-We write the references to
+are making 100 predictions per word, this number was set earlier through the
+``HOWMANY`` variable. We write the references to
 ``cldf/adapt.csv`` and add a primary key and a foreign key to reference
 rows in ``cldf/forms.csv``.
 
