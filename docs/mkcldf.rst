@@ -304,16 +304,21 @@ it in the static variable ``HOWMANY`` earlier.
 
 .. code-block:: python
 
-   for i in range(1, len(data)):
-       for lex in args.writer.add_forms_from_value(
+   for i, row in enumerate(self.raw_dir.read_csv(
+       "gothic.tsv", delimiter="\t", dicts=True
+           )):
+
+       args.writer.add_form(
+               Form=trim(row["Gothic"]),
                Language_ID="Gothic",
-               Parameter_ID=concepts[data[i][1]],
-               Value=data[i][0],
+               Parameter_ID=concepts[row["Meaning"]],
+               Value=row["Gothic"],
                Source="Kobler1989",
-               ):
-            ipa.get_prosody(
-                 " ".join(lex["Segments"])
-                 )
+               Local_ID=f"f{i}"
+               )
+       lex = args.writer.objects["FormTable"][i]
+       pros = ipa.get_prosody((" ".join(lex["Segments"])))
+       lex["ProsodicStructure"] = pros
 
 Here we are creating the file ``cldf/forms.csv`` by looping
 through the rows of ``raw/gothic.tsv``. The columns ``Language_ID`` and
@@ -326,7 +331,7 @@ same as the column ``Gothic`` in ``raw/gothic.tsv``. The column
 from one of its columns, namely ``Segments`` as input. Its output are
 phonotactic profiles such as "CVCV". These are created with loanpy's
 `get_prosody
-<https://lingpyxrotwang.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.prosodic_string>`_
+<https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.utils.IPA.get_prosody>`_
 function.
 
 .. code-block:: python
