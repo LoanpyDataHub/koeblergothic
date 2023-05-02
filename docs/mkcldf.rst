@@ -175,12 +175,6 @@ The files itself have been directly copied from the
 Here we trim the sequence "an" from the end of Gothic words, since this
 is a suffix that marks the infinitive.
 
-This function will be used when populating the column ``Spacy`` in
-``cldf/senses.csv``. It takes a string as input, which can be a word
-or a phrase. It then checks whether spacy's word-vector model contains a
-vector for it. If yes, it returns the the word or phrase, if not
-it returns a blank line.
-
 .. code-block:: python
 
    @attr.s
@@ -190,27 +184,6 @@ it returns a blank line.
 Here we are defining a custom column called ``ProsodicStructure`` in
 ``cldf/forms.csv``. It will contain the phonotactic structures of
 headwords, like "CVCV", for example.
-
-.. code-block:: python
-
-   class Dataset(BaseDataset):
-       dir = pathlib.Path(__file__).parent
-       id = "koeblergothic"
-       lexeme_class = CustomLexeme
-
-Here we define a class and inherit the default format ``BaseDataset`` that we
-have imported in the beginning. ``dir`` is the working directory and is
-defined with the help of ``pathlib`` that we have imported in the beginning.
-``id`` is the name of the repository. In ``lexeme_class`` we are plugging in
-the custom columns that we have created earlier.
-
-.. code-block:: python
-
-	def cmd_makecldf(self, args):
-
-This function is being run when summoning the cldfbench script from the command
-line. It converts the data from folders ``raw`` and ``etc`` to standardised
-CLDF data.
 
 .. code-block:: python
 
@@ -231,11 +204,8 @@ which in relational databases should be avoided. With the sense-table,
 we are therefore giving each translation in the list of meanings an own row
 and a foreign key that points to the corresponding row in ``cldf/forms.csv``.
 
-
-
 .. code-block:: python
 
-   # add bib
    args.writer.add_sources()
    args.log.info("added sources")
 
@@ -246,9 +216,8 @@ was successful.
 
 .. code-block:: python
 
-   # add concept
    concepts = {}
-   for i, concept in enumerate(self.concepts):
+   for i, concept in enumerate(tqdm(self.concepts, "Check vectors")):
        idx = str(i)+"_"+slug(concept["Sense"])
        concepts[concept["Sense"]] = idx
        args.writer.add_concept(
@@ -275,7 +244,6 @@ during the previous step.
            "Spacy": vector,
            "Parameter_ID": idx
            })
-       print(f"{i+1}/{len(self.concepts)} meanings checked for word vectors", end="\r")
 
    args.log.info("added concepts and senses")
 
@@ -287,12 +255,8 @@ translations that originate from the column ``Meaning`` in
 This foreign key points to the primary key in ``parameters.csv`` and to the
 foreign keys in ``Parameter_ID`` in ``cldf/forms.csv``. The column
 ``Entry_ID`` is a default column and must be populated even if it is not
-pointing anywhere. Therefore, it contains only zeroes.
-
-Since this loop takes a bit longer to execute (about one minute on my
-own machine), there is a print statement that shows its progress.
-After this step is done, the logger prints a message to the console
-that the step was executed successfully.
+pointing anywhere. Therefore, it contains only zeroes. The tqdm-library prints
+a progressbar to the console.
 
 .. code-block:: python
 
