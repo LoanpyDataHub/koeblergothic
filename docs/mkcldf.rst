@@ -305,8 +305,8 @@ it in the static variable ``HOWMANY`` earlier.
    for i in range(1, len(data)):
        for lex in args.writer.add_forms_from_value(
                Language_ID="Gothic",
-               Parameter_ID=concepts[data[i][1]], # col "Meaning" ID
-               Value=data[i][0],  # col "Gothic",
+               Parameter_ID=concepts[data[i][1]],
+               Value=data[i][0],
                Source="Kobler1989",
                ):
            lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
@@ -332,9 +332,10 @@ function.
        adidx += 1
 
 Here we are predicting loanword adaptation with loanpy, based on heuristics
-and data extracted from the etymological dictionary `"West Old Turkic"
+and data extracted from the etymological dictionary "West Old Turkic"
+in the repository `ronataswestoldturkic
 <https://ronataswestoldturkic.readthedocs.io/en/latest/?badge=latest>`_. We
-are making HOWMANY predictions per word, this number was set to 100 earlier.
+are making 100 predictions per word, this number was set to 100 earlier.
 We write the references to
 ``cldf/adapt.csv`` and add a primary key and a foreign key to reference
 rows in ``cldf/forms.csv``.
