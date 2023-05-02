@@ -20,7 +20,7 @@ as CLDF <https://github.com/martino-vic/streitberggothic>`_, or `Lehmann
 (1986) <https://archive.org/details/lehmann-gothic-etymological-dictionary-1986/mode/2up>`_).
 The raw data in this repository contains
 only a small fraction of the contents of the dictionary.
-If you are passionate about Gothic and have ideas how to improve this data
+If you are passionate about Gothic and want to improve this data
 set, check out our `contribution guidelines
 <https://github.com/martino-vic/koeblergothic/blob/main/CONTRIBUTING.md>`_
 and let's get in touch!
@@ -33,71 +33,43 @@ Step 1: Activate virtual environment and clone the repository
    python3 -m venv venv && source venv/bin/activate
    git clone https://github.com/martino-vic/koeblergothic.git
 
-For a slightly more detailed explanation of virtual environments see the
-documentation of the `ronataswestoldturkic
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
-repository
-
-Originally, the skeleton of the repository was created using this command:
+Deactivate the virtual environment by running
 
 .. code-block:: sh
 
-   cldfbench new
+   deactivate
 
-and answering the follow-up questions. More on this can be read in the
-`cldfbench tutorial <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>`_.
+See `Part1, Step 1 in gerstnerhungarian
+<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#part-1-create-cldf>`_
+for more details.
 
 Step 2: Clone reference catalogues and loanpy
 ---------------------------------------------
 
-- `Glottolog <https://glottolog.org/>`_ (Hammarström et al. 2022)
-  to reference the languages in the repo.
-- `Concepticon <https://concepticon.clld.org/>`_ (List et al. 2023) for
-  referencing concepts.
-- `loanpy <https://loanpy.readthedocs.io/en/latest/?badge=latest>`_
-  (Martinović 2022). This step will not be necessary once version 3 is out.
-
-.. code-block:: sh
-
-   mkdir concepticon
-   cd concepticon
-   git clone https://github.com/concepticon/concepticon-data.git
-   cd ..
-   git clone https://github.com/glottolog/glottolog.git
-   git clone https://github.com/cldf-clts/clts.git
-   git clone https://github.com/martino-vic/loanpy.git
+See `Part1, Step 2 in gerstnerhungarian
+<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-2-clone-reference-catalogues-and-loanpy>`_.
 
 
 Step 3: Install commands, download wordvectors, create orthographic profile
 ---------------------------------------------------------------------------
 
-The ``-e`` flag will install all necessary dependencies in development mode.
-I.e. if you modify any code in those repositories, changes will apply
-immediately.
+Install necessary dependencies in development mode with the ``-e`` flag:
 
 .. code-block:: sh
 
    pip install -e koeblergothic
    pip install -e loanpy
 
-Installing these two packages will also install all their dependencies,
-which are specified in their respective ``setup.py`` files. One of the
-dependencies that has been installed together with *koeblergothic* is
-`Spacy <https://pypi.org/project/spacy/>`_. Spacy offers pre-trained
-wordvector models. Since this is a rapidly changing field, it is adviced
-to download always the most up-to-date vectors from the most up-to-date
-packages. The architecture allows you to replace this step with more suitable
-libraries. At the current moment (April 2023), the best available option
-for German word vectors seems to be this 500MB alternativem which can be
-downloaded by running:
+Install 500MB word-vector model:
 
 .. code-block:: sh
 
    python3 -m spacy download de_core_news_lg
 
-The orthographic profiles are contained in the folder ``etc``. They were
-created based on data in the ``cldf`` folder, which is why we will first
-run the lexibank script.
+
+ See See `Part1, Step 3 in gerstnerhungarian
+ <https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-3-install-commands-download-wordvectors-create-orthographic-profile>`_
+ for more details.
 
 Step 4: Some preparations
 -------------------------
@@ -136,7 +108,15 @@ Lastly, we are creating orthographic profiles with the help of the
 <https://lingpy.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.ipa2tokens>`_
 function. The resulting file, ``etc/orthography.tsv`` will be the basis for
 creating the column ``Segment`` in ``cldf/forms.csv``, which contains
-tokenised IPA transcriptions of words. Create by running:
+tokenised IPA transcriptions of words. This command takes ``cldf/forms.csv``
+as input and can therefore be only run once the lexibank_script was exectuted
+successfully. This can sometimes mean that you have to comment out certain
+parts of the lexibank-script to make it run, then create the correct
+orthographic profiles, then uncomment and rerun the lexibank script
+(especially when there are BIPA transcription errors, it means your
+orthographic profiles are not up to date).
+
+Create orthographic profiles by running:
 
 .. code-block:: sh
 
