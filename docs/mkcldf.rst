@@ -365,16 +365,12 @@ This is how your console should approximately look like after the conversion:
           INFO    file written: /home/viktor/Documents/GitHub/koeblergothic/cldf/lingpy-rcParams.json
           INFO    ... done koeblergothic [24.9 secs]
 
-Now only two minor changes are missing before the CLDF conversion is finished.
 
-Step 6: Post-processing
------------------------
+Step 6: Post-process and verify CLDF-conformity
+-----------------------------------------------
 
-.. code-block:: sh
-
-   cldfbench koeblergothic.update_readme
-
-.. automodule:: koeblergothiccommands.update_readme
-  :members:
+See `Part 1, Step 6 in gerstnerhungarian
+<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#part-1-create-cldf>`_
+for more details.
 
 Congratulations, the CLDF-conversion was successful!
