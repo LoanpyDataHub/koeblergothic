@@ -87,6 +87,7 @@ class Dataset(BaseDataset):
         cognates = {}
         cogidx = 1
         adidx = 1
+        
         with open(f"cldf/adapt{HOWMANY}.csv", "w+") as f:
             writer = csv.writer(f)
             writer.writerow(["ID", "Form_ID", f"ad{HOWMANY}"])

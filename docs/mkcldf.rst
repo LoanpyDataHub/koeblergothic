@@ -274,6 +274,7 @@ pointing anywhere. Therefore, it contains only zeroes.
    header = data[0]
    cognates = {}
    cogidx = 1
+   adidx = 1
 
 Here, we are reading the file ``etc/languages.tsv``, writing it to
 ``cldf/languages.tsv`` without modification, and print a message to
