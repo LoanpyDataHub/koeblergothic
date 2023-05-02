@@ -4,19 +4,20 @@ Part 1: Create CLDF
 The following six steps will guide you through the process of
 converting raw language data to CLDF. Each step can be found in the
 `continuous integration workflow
-<https://app.circleci.com/pipelines/github/martino-vic/koeblergothic>`_
+<https://app.circleci.com/pipelines/github/LoanpyDataHub/koeblergothic>`_
 as well. The data we are converting comes from
 the `Gothic Dictionary
 <https://www.koeblergerhard.de/got/got.html>`_ (Köbler 2014),
 which contains Gothic words as headwords, together with their
 meaning and a list of sources that have dealt with analysing them.
 `Gothic <https://glottolog.org/resource/languoid/id/goth1244>`_ belongs to the
-Eastern branch of Germanic, which belong to the
+Eastern branch of Germanic, which belongs to the
 Indo-European language family. The main data source for Gothic is a
 1600 year old bible translation that was rediscovered 354 years ago and has
 lead to extensive analyses and the creation of multiple dictionaries ever
-since (for example the one by `Wilhelm Streitberg (1910), available
-as CLDF <https://github.com/martino-vic/streitberggothic>`_).
+since (for example `Streitberg (1910), available
+as CLDF <https://github.com/martino-vic/streitberggothic>`_, or `Lehmann
+(1986) <https://archive.org/details/lehmann-gothic-etymological-dictionary-1986/mode/2up>`_).
 The raw data in this repository contains
 only a small fraction of the contents of the dictionary.
 If you are passionate about Gothic and have ideas how to improve this data
