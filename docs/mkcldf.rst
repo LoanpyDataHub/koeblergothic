@@ -1,5 +1,5 @@
-Part 1: Create CLDF
-===================
+Create CLDF
+===========
 
 The following six steps will guide you through the process of
 converting raw language data to CLDF. Each step can be found in the
