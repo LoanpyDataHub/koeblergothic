@@ -154,10 +154,14 @@ keys to save disc space.
 
    ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
 
-LoanPy's Adrc class and "etc/WOT2EAHsc.json" is the sound correspondence file
-we have generated in `Part 3, steps 1-3 of the ronataswestoldturkic
+The file ``etc/WOT2EAHsc.json`` is the sound correspondence file for
+predicting loanword adaptations into Early Ancient Hungarian, and
+``etc/invsEAH.json`` is the phonotactic inventory file.
+We have generated these in `Part 3, steps 1-3 of the ronataswestoldturkic
 repository
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_.
+<https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_
+and create an instance of the Adrc-object now based on that
+information.
 The file itself has been directly copied from
 ``ronataswestoldturkic/loanpy/WOT2EAHsc.json``. This is the information based
 on which we will predict hypothetical loanword adaptations into
