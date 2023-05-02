@@ -160,7 +160,7 @@ predicting loanword adaptations into Early Ancient Hungarian, and
 ``etc/invsEAH.json`` is the phonotactic inventory file.
 We have generated these in `Part 3, steps 1-3 of the ronataswestoldturkic
 repository
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_
+<https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#part-3-analyse-data-with-loanpy>`_
 and create an instance of the Adrc-object now based on that
 information.
 The files itself have been directly copied from the
