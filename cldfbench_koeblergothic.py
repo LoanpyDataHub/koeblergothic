@@ -5,13 +5,12 @@ import re
 from functools import lru_cache
 
 import attr
+import spacy
 from clldutils.misc import slug
 from loanpy.scapplier import Adrc
 from loanpy.utils import IPA
 from pylexibank import Dataset as BaseDataset, Lexeme, FormSpec
 from tqdm import tqdm
-
-import spacy
 
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
