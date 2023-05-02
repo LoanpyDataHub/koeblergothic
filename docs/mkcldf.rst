@@ -214,7 +214,7 @@ and a foreign key that points to the corresponding row in ``cldf/forms.csv``.
    args.writer.add_sources()
    args.log.info("added sources")
 
-Here we are adding the sources from the
+Here we are adding the source from the
 `BibTex <https://de.wikipedia.org/wiki/BibTeX>`_ file ``raw/sources.bib`` to
 the ``cldf`` folder and print a message to the console after this step
 was successful.
