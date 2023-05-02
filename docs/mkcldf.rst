@@ -75,8 +75,8 @@ Step 4: Some preparations
 -------------------------
 
 ``raw/gothic.txt`` is a raw text file that was directly copied from the
-original online-dictionary. It has to be parsed and turned into tabular data.
-This is done by running following command:
+original online-dictionary. It has to be parsed and its relevant parts turned
+into tabular data. This is done by running following command:
 
 .. code-block:: sh
 
@@ -127,8 +127,8 @@ Create orthographic profiles by running:
 Step 5: Run lexibank script
 ---------------------------
 
-This script combines files from the raw and etc folders and creates and
-populates the folder `cldf`:
+This script combines files from the raw and etc folders and populates the
+folder ``cldf``:
 
 .. code-block:: sh
 
@@ -146,44 +146,16 @@ in the earlier tutorials yet:
 
    import csv
 
-- This inbuilt library will be used to write the table ``cldf/adapt.csv``
-  containing predicted loanword adaptations with short primary and foreign
-  keys to save disc space.
-
-
-Then, we import functionalities from six third-party libraries.
-These were installed when running ``pip install -e koeblergothic``
-eariler.
-
-- The attr library from the PyLexibank ecosystem will create the custom
-  language class with custom columns in the output file ``cldf/forms.csv``.
-- The `slug <https://clldutils.readthedocs.io/en/latest/misc.html#clldutils.misc.slug>`_
-  function from the clldutils library will be used to format some IDs.
-- The `Adrc
-  <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc>`_
-  class from loanpy will be used to predict horizontal transfers with
-  similarity-based heuristics combined with
-  sound and phonotactic correspondences that were extracted from etymological
-  data, such as the `ronataswestoldturkic
-  <https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
-  repository.
-- The classes from the `pylexibank <https://pypi.org/project/pylexibank/>`_
-  library are all related to specifying the output format. Dataset for example
-  loads the default data format, Lexeme will be used to customise it, and
-  FormSpec will be used to document the cleaning of the raw data.
-- `Spacy <https://pypi.org/project/spacy/>`_ will be used to check the word
-  vector coverage of the meanings associated with each headword.
+This inbuilt library will be used to write the table ``cldf/adapt.csv``
+containing predicted loanword adaptations with short primary and foreign
+keys to save disc space.
 
 .. code-block:: python
 
-   nlp = spacy.load('de_core_news_lg')
-   ad = Adrc("etc/WOT2EAHsc.json")
+   ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
 
-In this block we are defining some global variables that we will need later.
-We are loading the word-vectors that we have downloaded in step 3. ``ad`` is
-an instance of
-loanpy's Adrc class and "etc/WOT2EAHsc.json" is the sound correspondence file
-we have generated in `part two, step three of the ronataswestoldturkic
+LoanPy's Adrc class and "etc/WOT2EAHsc.json" is the sound correspondence file
+we have generated in `Part 3, steps 1-3 of the ronataswestoldturkic
 repository
 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_.
 The file itself has been directly copied from
