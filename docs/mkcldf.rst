@@ -166,7 +166,7 @@ information.
 The files itself have been directly copied from the
 ``ronataswestoldturkic/loanpy`` folder.
 
-With ``HOWMANY=100`` we specify that we want 100 loanword adaptation
+With ``HOWMANY = 100`` we specify that we want 100 loanword adaptation
 predictions per input word.
 
 .. code-block:: python
@@ -177,7 +177,8 @@ predictions per input word.
        return re.sub("an$", "", word)
 
 Here we trim the sequence "an" from the end of Gothic words, since this
-is a suffix that marks the infinitive.
+is a suffix that marks the infinitive and is not part of the remaining
+etymology of a word, which we care about.
 
 .. code-block:: python
 
