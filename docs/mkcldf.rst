@@ -377,13 +377,13 @@ This is how your console should approximately look like after the conversion:
 Step 6: Post-process and verify CLDF-conformity
 -----------------------------------------------
 
-To update the readme run
+To update the readme run:
 
 .. code-block:: sh
 
    cldfbench koeblergothic.update_readme
 
-And to test for CLDF-conformity
+And to test for CLDF-conformity run:
 
 .. code-block:: sh
 
