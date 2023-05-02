@@ -1,0 +1,11 @@
+README.md
+cldfbench_koeblergothic.py
+setup.cfg
+setup.py
+cldfbench_koeblergothic.egg-info/PKG-INFO
+cldfbench_koeblergothic.egg-info/SOURCES.txt
+cldfbench_koeblergothic.egg-info/dependency_links.txt
+cldfbench_koeblergothic.egg-info/entry_points.txt
+cldfbench_koeblergothic.egg-info/not-zip-safe
+cldfbench_koeblergothic.egg-info/requires.txt
+cldfbench_koeblergothic.egg-info/top_level.txt
