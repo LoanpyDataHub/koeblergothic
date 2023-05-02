@@ -283,7 +283,7 @@ script.
 
 .. code-block:: python
 
-   with open("cldf/adapt.csv", "w+") as f:
+   with open("cldf/adapt{HOWMANY}.csv", "w+") as f:
        writer = csv.writer(f)
        writer.writerow(["ID", "Form_ID", f"ad{HOWMANY}"])
 
@@ -344,32 +344,33 @@ rows in ``cldf/forms.csv``.
 This is how your console should approximately look like after the conversion:
 
 .. image:: consoleoutput.png
+   :alt:  (venv) viktor@viktor-Latitude-5430:~/Documents/GitHub/koeblergothic$ bash got.sh
+
+          INFO    running _cmd_makecldf on koeblergothic ...
+          INFO    added sources
+          Check vectors: 100%|PROGRESSBAR| 4764/4764 [00:13<00:00, 359.61it/s]
+          INFO    added concepts and senses
+          INFO    added language
+          INFO    file written: /home/viktor/Documents/GitHub/koeblergothic/cldf/.transcription-report.json
+          INFO    Summary for dataset /home/viktor/Documents/GitHub/koeblergothic/cldf/cldf-metadata.json
+          - **Varieties:** 1
+          - **Concepts:** 4,211
+          - **Lexemes:** 4,764
+          - **Sources:** 1
+          - **Synonymy:** 1.13
+          - **Invalid lexemes:** 0
+          - **Tokens:** 28,261
+          - **Segments:** 52 (0 BIPA errors, 0 CLTS sound class errors, 52 CLTS modified)
+          - **Inventory size (avg):** 52.00
+          INFO    file written: /home/viktor/Documents/GitHub/koeblergothic/TRANSCRIPTION.md
+          INFO    file written: /home/viktor/Documents/GitHub/koeblergothic/cldf/lingpy-rcParams.json
+          INFO    ... done koeblergothic [24.9 secs]
+
 
 Now only two minor changes are missing before the CLDF conversion is finished.
 
 Step 6: Post-processing
 -----------------------
-
-First, we need to change the IDs in ``cldf/forms.csv``, so they match the
-ones in ``cldf/adapt.csv``. This cannot be done from within the
-lexibank-script, which is why it is done during post-processing. The reason
-why we have to use custom IDs in this case is that the default IDs are too
-long and take up too much space. ``adapt.csv`` with default IDs takes up
-26MB and with short IDs only 11MB. This makes a significant difference,
-especially if we were to make more predictions than only 100 per word.
-The IDs are replaced with this command:
-
-.. code-block:: sh
-
-   cldfbench koeblergothic.fixid
-
-.. automodule:: koeblergothiccommands.fixid
-  :members:
-
-Secondly, the readme needs to be updated by adding information about
-the version of Spacy and the vector coverage within it, as well as a bullet
-that informs about the number of senses in ``cldf/senses.csv``, to which
-the percentage in the vector-coverage-badge refers.
 
 .. code-block:: sh
 
