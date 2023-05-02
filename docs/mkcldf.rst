@@ -378,5 +378,5 @@ Step 6: Post-process and verify CLDF-conformity
 -----------------------------------------------
 
 See `Part 1, Step 6 in gerstnerhungarian
-<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-6-test-with-pytest-cldf-whether-the-dataset-is-cldf-conform>`_
+<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-6-test-with-pytest-cldf-whether-the-dataset-conforms-to-cldf>`_
 .
