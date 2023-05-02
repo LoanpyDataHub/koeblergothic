@@ -337,14 +337,14 @@ function.
 
 .. code-block:: python
 
-   for pred in ad.adapt(lex["Segments"], HOWMANY).split(", "):
+   for pred in ad.adapt(lex["Segments"], HOWMANY):
        writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
        adidx += 1
 
 Here we are predicting loanword adaptation with loanpy, based on heuristics
 and data extracted from the etymological dictionary "West Old Turkic"
 in the repository `ronataswestoldturkic
-<https://ronataswestoldturkic.readthedocs.io/en/latest/?badge=latest>`_. We
+<https://ronataswestoldturkic.readthedocs.io/en/latest/home.html>`_. We
 are making 100 predictions per word, this number was set earlier through the
 ``HOWMANY`` variable. We write the references to
 ``cldf/adapt.csv`` and add a primary key and a foreign key to reference
