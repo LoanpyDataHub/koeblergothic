@@ -1,0 +1,6 @@
+[cldfbench.commands]
+koeblergothic = koeblergothiccommands
+
+[cldfbench.dataset]
+koeblergothic = cldfbench_koeblergothic:Dataset
+
