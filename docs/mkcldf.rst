@@ -162,19 +162,18 @@ repository
 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_
 and create an instance of the Adrc-object now based on that
 information.
-The file itself has been directly copied from
-``ronataswestoldturkic/loanpy/WOT2EAHsc.json``. This is the information based
-on which we will predict hypothetical loanword adaptations into
-Early Ancient Hungarian.
+The files itself have been directly copied from the
+``ronataswestoldturkic/loanpy`` folder.
 
 .. code-block:: python
 
-   @lru_cache(maxsize=None)
-   def filter_vectors(meaning):
-       """
-       filter out stopwords, add only if vector available.
-       """
-       return meaning if nlp(meaning).has_vector else None
+   def trim(word):
+       if word == "an":
+           return word
+       return re.sub("an$", "", word)
+
+Here we trim the sequence "an" from the end of Gothic words, since this
+is a suffix that marks the infinitive.
 
 This function will be used when populating the column ``Spacy`` in
 ``cldf/senses.csv``. It takes a string as input, which can be a word
