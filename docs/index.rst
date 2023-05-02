@@ -10,6 +10,8 @@ Welcome to koeblergothic's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   home.rst
+   TL;DR.rst
    mkcldf.rst
 
 Indices and tables
