@@ -231,7 +231,8 @@ Here we are creating the file ``cldf/parameters.csv``, which will hold
 references to concepts in `Concepticon <https://concepticon.clld.org/>`_.
 The ``self.concepts`` part reads the file ``etc/concepts.tsv``, which
 was created with the `pysem <https://pypi.org/project/pysem/>`_ library
-during the previous step.
+during the previous step. The tqdm-library prints
+a progressbar to the console.
 
 .. code-block:: python
 
@@ -255,16 +256,13 @@ translations that originate from the column ``Meaning`` in
 This foreign key points to the primary key in ``parameters.csv`` and to the
 foreign keys in ``Parameter_ID`` in ``cldf/forms.csv``. The column
 ``Entry_ID`` is a default column and must be populated even if it is not
-pointing anywhere. Therefore, it contains only zeroes. The tqdm-library prints
-a progressbar to the console.
+pointing anywhere. Therefore, it contains only zeroes.
 
 .. code-block:: python
 
-   # add language
    languages = args.writer.add_languages()
    args.log.info("added languages")
 
-   # add forms
    data = self.raw_dir.read_csv(
        "gothic.tsv", delimiter="\t",
    )
