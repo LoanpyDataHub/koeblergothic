@@ -345,7 +345,6 @@ This is how your console should approximately look like after the conversion:
 
 .. image:: consoleoutput.png
    :alt:  (venv) viktor@viktor-Latitude-5430:~/Documents/GitHub/koeblergothic$ bash got.sh
-
           INFO    running _cmd_makecldf on koeblergothic ...
           INFO    added sources
           Check vectors: 100%|PROGRESSBAR| 4764/4764 [00:13<00:00, 359.61it/s]
@@ -365,7 +364,6 @@ This is how your console should approximately look like after the conversion:
           INFO    file written: /home/viktor/Documents/GitHub/koeblergothic/TRANSCRIPTION.md
           INFO    file written: /home/viktor/Documents/GitHub/koeblergothic/cldf/lingpy-rcParams.json
           INFO    ... done koeblergothic [24.9 secs]
-
 
 Now only two minor changes are missing before the CLDF conversion is finished.
 
