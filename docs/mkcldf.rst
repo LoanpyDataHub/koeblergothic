@@ -129,31 +129,19 @@ Step 5: Run lexibank script
 ---------------------------
 
 This script combines files from the raw and etc folders and creates and
-populates the folder `cldf`.
+populates the folder `cldf`:
 
 .. code-block:: sh
 
    cldfbench lexibank.makecldf cldfbench_koeblergothic.py  --concepticon-version=v3.1.0 --glottolog-version=v4.7 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
    cldfbench koeblergothic.update_readme
 
-The first line of this shell script invokes `cldfbench
-<https://pure.mpg.de/rest/items/item_3259068/component/file_3261838/content>`_,
-a workbench for creating and managing CLDF datasets. The first three
-flags ("dash dash") specify the versions of the reference catalogues. This is
-important,
-since wrong versions can lead to mismatches in the references and may
-obstruct the CLDF-conversion.
-The last three flags specify the location of the reference
-catalogues. Those flags were added with increased replicability and
-maintainability in mind (Even though there is an alternative, namely editing
-the *catalog.ini* file with a text editor like *nano*, as showed in
-`this blog post <https://calc.hypotheses.org/2225>`_).
-The second line is a custom command that updates the readme by adding some
-custom badges and statistics.
+For a detailed explanation of what this script does, read the the tutorial at
+https://calc.hypotheses.org/3318 and `Part1, Step 4 in gerstnerhungarian
+<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-4-run-lexibank-script>`_.
 
-Below is a detailed description of what the lexibank script does.
-See also the tutorial at https://calc.hypotheses.org/3318, which has many
-similarities.
+The below description will only cover differences that weren't discussed
+in the earlier tutorials yet:
 
 .. code-block:: python
 
