@@ -294,7 +294,8 @@ be excluded when creating a database from metadata alone. The file we are
 writing will contain predicted loanword adaptations of Gothic words into
 Early Ancient Hungarian. Since we have multiple predictions that are
 outputted as an array and since arrays should not be used as data-structures
-in relational databases, we are creating this new table ``adapt.py``. We
+in relational databases, we are creating a new table ``adapt100.py``
+(since we have set the variable HOWMANY to 100 in the beginning). We
 are also writing the names of its three columns to the file. ``ID`` is the
 primary key, ``Form_ID`` points to the rows in column ``Local_ID`` in
 ``cldf/forms.csv`` and ``ad{HOWMANY}`` contains as many of the most likely
