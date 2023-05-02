@@ -23,7 +23,7 @@ make cldf (downloadsize: 1.5GB+):
    python3 -m spacy download de_core_news_lg
 
    cd koeblergothic
-   cldfbench lexibank.makecldf lexibank_koeblergothic.py  --concepticon-version=v2.5.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
+   cldfbench lexibank.makecldf cldfbench_koeblergothic.py  --concepticon-version=v2.5.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
 
    cldfbench koeblergothic.update_readme
 
