@@ -14,7 +14,7 @@ setup(
     },
     install_requires=[
         'cldfbench>=1.13.0', 'pylexibank>=3.4.0', 'epitran>=1.24',
-        'pysem>=0.6.0', 'spacy>=3.5.1'
+        'pysem>=0.6.0', 'spacy>=3.5.1', "tqdm<=4.65.0"
     ],
     extras_require={
         'test': [

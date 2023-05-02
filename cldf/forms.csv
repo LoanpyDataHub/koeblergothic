@@ -3,10 +3,10 @@ Gothic-0_ehemanngatte-1,f0,Gothic,0_ehemanngatte,aba,aba,a β a,,Kobler1989,,,^ 
 Gothic-1040_vater-1,f1,Gothic,1040_vater,abba,abba,a bː a,,Kobler1989,,,^ abba $,default,VCV
 Gothic-2_sehr-1,f2,Gothic,2_sehr,abraba,abraba,a β r a β a,,Kobler1989,,,^ abraba $,default,VCCVCV
 Gothic-3732_starkwerden-1,f3,Gothic,3732_starkwerden,abrjan,abrj,a β r j,,Kobler1989,,,^ abrj $,default,VCCC
-Gothic-4_starkheftig-1,f4,Gothic,4_starkheftig,abrs,abrs,a β r̥ s,,Kobler1989,,,^ abrs $,default,VCVC
+Gothic-4_starkheftig-1,f4,Gothic,4_starkheftig,abrs,abrs,a β r̥ s,,Kobler1989,,,^ abrs $,default,VCCC
 Gothic-6_ei-1,f5,Gothic,6_ei,ada,ada,a ð a,,Kobler1989,,,^ ada $,default,VCV
 Gothic-6_ei-2,f6,Gothic,6_ei,addi,addi,a dː ɪ,,Kobler1989,,,^ addi $,default,VCV
-Gothic-7_schnellrasch-1,f7,Gothic,7_schnellrasch,adrs,adrs,a ð r̥ s,,Kobler1989,,,^ adrs $,default,VCVC
+Gothic-7_schnellrasch-1,f7,Gothic,7_schnellrasch,adrs,adrs,a ð r̥ s,,Kobler1989,,,^ adrs $,default,VCCC
 Gothic-8_stein-1,f8,Gothic,8_stein,ael,ael,a e l,,Kobler1989,,,^ ael $,default,VVC
 Gothic-9_vonvonwegvonherseitabzuaus-1,f9,Gothic,9_vonvonwegvonherseitabzuaus,af,af,a ɸ,,Kobler1989,,,^ af $,default,VC
 Gothic-10_angstigensichangstigenabschrecken-1,f10,Gothic,10_angstigensichangstigenabschrecken,afagjan,afagj,a ɸ a ɣ j,,Kobler1989,,,^ afagj $,default,VCVCC
@@ -50,8 +50,8 @@ Gothic-47_ubervorteilenbetrugen-1,f47,Gothic,47_ubervorteilenbetrugen,afhōlōn,
 Gothic-48_etwasverunreinigendestilgenreinigen-1,f48,Gothic,48_etwasverunreinigendestilgenreinigen,afhrainjan,afhrainj,a ɸ h r ɛ n j,,Kobler1989,,,^ afhrainj $,default,VCCCVCC
 Gothic-4338_abschutteln-1,f49,Gothic,4338_abschutteln,afhrisjan,afhrisj,a ɸ h r ɪ s j,,Kobler1989,,,^ afhrisj $,default,VCCCVCC
 Gothic-50_bezaubern-1,f50,Gothic,50_bezaubern,afhugjan,afhugj,a ɸ h u ɣ j,,Kobler1989,,,^ afhugj $,default,VCCVCC
-Gothic-51_erstickenausloschen-1,f51,Gothic,51_erstickenausloschen,afƕapjan,afƕapj,a ɸ ʍ a p j,,Kobler1989,,,^ afƕapj $,default,VCCVCC
-Gothic-52_erstickenerloschen-1,f52,Gothic,52_erstickenerloschen,afƕapnan,afƕapn,a ɸ ʍ a p n̥,,Kobler1989,,,^ afƕapn $,default,VCCVCC
+Gothic-51_erstickenausloschen-1,f51,Gothic,51_erstickenausloschen,afƕapjan,afƕapj,a ɸ ʍ a p j,,Kobler1989,,,^ afƕapj $,default,VCVVCC
+Gothic-52_erstickenerloschen-1,f52,Gothic,52_erstickenerloschen,afƕapnan,afƕapn,a ɸ ʍ a p n̥,,Kobler1989,,,^ afƕapn $,default,VCVVCC
 Gothic-53_verschlingenfressen-1,f53,Gothic,53_verschlingenfressen,afitan,afit,a ɸ ɪ t,,Kobler1989,,,^ afit $,default,VCVC
 Gothic-54_ablegungerlassvergebung-1,f54,Gothic,54_ablegungerlassvergebung,aflageins,aflageins,a ɸ l a ɣ i n s,,Kobler1989,,,^ aflageins $,default,VCCVCVCC
 Gothic-55_etwasablegen-1,f55,Gothic,55_etwasablegen,aflagjan,aflagj,a ɸ l a ɣ j,,Kobler1989,,,^ aflagj $,default,VCCVCC
@@ -119,7 +119,7 @@ Gothic-116_verleumderischschandlich-1,f116,Gothic,116_verleumderischschandlich,a
 Gothic-117_drangsaltrubsal-1,f117,Gothic,117_drangsaltrubsal,agliþa,agliþa,a ɣ l ɪ θ a,,Kobler1989,,,^ agliþa $,default,VCCVCV
 Gothic-118_schadenbelastigen-1,f118,Gothic,118_schadenbelastigen,agljan,aglj,a ɣ l j,,Kobler1989,,,^ aglj $,default,VCCC
 Gothic-119_drangsal-1,f119,Gothic,119_drangsal,aglō,aglō,a ɣ l o,,Kobler1989,,,^ aglō $,default,VCCV
-Gothic-120_schimpflich-1,f120,Gothic,120_schimpflich,agls,agls,a ɣ l̥ s,,Kobler1989,,,^ agls $,default,VCVC
+Gothic-120_schimpflich-1,f120,Gothic,120_schimpflich,agls,agls,a ɣ l̥ s,,Kobler1989,,,^ agls $,default,VCCC
 Gothic-121_schwerschwerlich-1,f121,Gothic,121_schwerschwerlich,agluba,agluba,a ɣ l u β a,,Kobler1989,,,^ agluba $,default,VCCVCV
 Gothic-122_schwierig-1,f122,Gothic,122_schwierig,aglus,aglus,a ɣ l u s,,Kobler1989,,,^ aglus $,default,VCCVC
 Gothic-123_scharfspitz-1,f123,Gothic,123_scharfspitz,agra,agra,a ɣ r a,,Kobler1989,,,^ agra $,default,VCCV
@@ -140,10 +140,10 @@ Gothic-137_achttagig-1,f137,Gothic,137_achttagig,ahtaudōgs,ahtaudōgs,a h t ɔ 
 Gothic-138_achtzehn-1,f138,Gothic,138_achtzehn,ahtautaihun,ahtautaihun,a h t ɔ t ɛ h u n,,Kobler1989,,,^ ahtautaihun $,default,VCCVCVCVC
 Gothic-139_achtzig-1,f139,Gothic,139_achtzig,ahtautēhund,ahtautēhund,a h t ɔ t e h u n d,,Kobler1989,,,^ ahtautēhund $,default,VCCVCVCVCC
 Gothic-140_achte-1,f140,Gothic,140_achte,ahtuda,ahtuda,a h t u ð a,,Kobler1989,,,^ ahtuda $,default,VCCVCV
-Gothic-141_flussgewasser-1,f141,Gothic,141_flussgewasser,aƕa,aƕa,a ʍ a,,Kobler1989,,,^ aƕa $,default,VCV
+Gothic-141_flussgewasser-1,f141,Gothic,141_flussgewasser,aƕa,aƕa,a ʍ a,,Kobler1989,,,^ aƕa $,default,VVV
 Gothic-142_feuerbrand-1,f142,Gothic,142_feuerbrand,aids,aids,ɛ ð s,,Kobler1989,,,^ aids $,default,VCC
 Gothic-143_offnedich-1,f143,Gothic,143_offnedich,aíffaþa,aíffaþa,ɛ ɸː a θ a,,Kobler1989,,,^ aíffaþa $,default,VCVCV
-Gothic-2359_schrecklich-1,f144,Gothic,2359_schrecklich,aifrs,aifrs,ɛ ɸ r̥ s,,Kobler1989,,,^ aifrs $,default,VCVC
+Gothic-2359_schrecklich-1,f144,Gothic,2359_schrecklich,aifrs,aifrs,ɛ ɸ r̥ s,,Kobler1989,,,^ aifrs $,default,VCCC
 Gothic-145_haben-1,f145,Gothic,145_haben,aigan,aig,ɛ ɣ,,Kobler1989,,,^ aig $,default,VC
 Gothic-3711_eigentumvermogen-1,f146,Gothic,3711_eigentumvermogen,aigin,aigin,ɛ ɣ ɪ n,,Kobler1989,,,^ aigin $,default,VCVC
 Gothic-147_aneignen-1,f147,Gothic,147_aneignen,aiginōn,aiginōn,ɛ ɣ ɪ n o n,,Kobler1989,,,^ aiginōn $,default,VCVCVC
@@ -152,22 +152,22 @@ Gothic-149_klagebitte-1,f149,Gothic,149_klagebitte,aihtr,aihtr,ɛ h t r̥,,Koble
 Gothic-150_betenbettelnerbittenfursichverlangen-1,f150,Gothic,150_betenbettelnerbittenfursichverlangen,aihtrōn,aihtrōn,ɛ h t r o n,,Kobler1989,,,^ aihtrōn $,default,VCCCVC
 Gothic-151_bittegebet-1,f151,Gothic,151_bittegebet,aihtrōns,aihtrōns,ɛ h t r o n s,,Kobler1989,,,^ aihtrōns $,default,VCCCVCC
 Gothic-152_eigentumbesitzhabegut-1,f152,Gothic,152_eigentumbesitzhabegut,aihts,aihts,ɛ h t s,,Kobler1989,,,^ aihts $,default,VCCC
-Gothic-153_pferdedorndornstrauch-1,f153,Gothic,153_pferdedorndornstrauch,aíƕatundi,aíƕatundi,ɛ ʍ a t u n d ɪ,,Kobler1989,,,^ aíƕatundi $,default,VCVCVCCV
-Gothic-1038_pferderune-1,f154,Gothic,1038_pferderune,aíƕs,aíƕs,ɛ ʍ s,,Kobler1989,,,^ aíƕs $,default,VCC
+Gothic-153_pferdedorndornstrauch-1,f153,Gothic,153_pferdedorndornstrauch,aíƕatundi,aíƕatundi,ɛ ʍ a t u n d ɪ,,Kobler1989,,,^ aíƕatundi $,default,VVVCVCCV
+Gothic-1038_pferderune-1,f154,Gothic,1038_pferderune,aíƕs,aíƕs,ɛ ʍ s,,Kobler1989,,,^ aíƕs $,default,VVC
 Gothic-155_sprechen-1,f155,Gothic,155_sprechen,aikan,aik,ɛ k,,Kobler1989,,,^ aik $,default,VC
 Gothic-156_kirchegotteshausgemeinde-1,f156,Gothic,156_kirchegotteshausgemeinde,aíkklesjō,aíkklesjō,ɛ kː l e s j o,,Kobler1989,,,^ aíkklesjō $,default,VCCVCCV
 Gothic-157_eiche-1,f157,Gothic,157_eiche,aiks,aiks,ɛ k s,,Kobler1989,,,^ aiks $,default,VCC
 Gothic-158_eloimeingott-1,f158,Gothic,158_eloimeingott,aílōe,aílōe,ɛ l o e,,Kobler1989,,,^ aílōe $,default,VCVV
 Gothic-159_eingeboren-1,f159,Gothic,159_eingeboren,ainabaúr,ainabaúr,ɛ n a β ɔ r,,Kobler1989,,,^ ainabaúr $,default,VCVCVC
 Gothic-160_einzig-1,f160,Gothic,160_einzig,ainaha,ainaha,ɛ n a h a,,Kobler1989,,,^ ainaha $,default,VCVCV
-Gothic-161_vereinzeltalleinstehendeinzeln-1,f161,Gothic,161_vereinzeltalleinstehendeinzeln,ainakls,ainakls,ɛ n a k l̥ s,,Kobler1989,,,^ ainakls $,default,VCVCVC
+Gothic-161_vereinzeltalleinstehendeinzeln-1,f161,Gothic,161_vereinzeltalleinstehendeinzeln,ainakls,ainakls,ɛ n a k l̥ s,,Kobler1989,,,^ ainakls $,default,VCVCCC
 Gothic-162_einheiteinmutigkeit-1,f162,Gothic,162_einheiteinmutigkeit,ainamundiþa,ainamundiþa,ɛ n a m u n d ɪ θ a,,Kobler1989,,,^ ainamundiþa $,default,VCVCVCCVCV
 Gothic-3293_einmutig-1,f163,Gothic,3293_einmutig,ainamunds,ainamunds,ɛ n a m u n d s,,Kobler1989,,,^ ainamunds $,default,VCVCVCCC
 Gothic-164_einfaltig-1,f164,Gothic,164_einfaltig,ainfalþaba,ainfalþaba,ɛ n ɸ a l θ a β a,,Kobler1989,,,^ ainfalþaba $,default,VCCVCCVCV
 Gothic-165_einfalteinfachheit-1,f165,Gothic,165_einfalteinfachheit,ainfalþei,ainfalþei,ɛ n ɸ a l θ i,,Kobler1989,,,^ ainfalþei $,default,VCCVCCV
 Gothic-166_einfacheinfaltig-1,f166,Gothic,166_einfacheinfaltig,ainfalþs,ainfalþs,ɛ n ɸ a l θ s,,Kobler1989,,,^ ainfalþs $,default,VCCVCCC
-Gothic-167_einjeder-1,f167,Gothic,167_einjeder,ainƕarjizuh,ainƕarjizuh,ɛ n ʍ a r j ɪ z u h,,Kobler1989,,,^ ainƕarjizuh $,default,VCCVCCVCVC
-Gothic-2296_jedervonbeiden-1,f168,Gothic,2296_jedervonbeiden,ainƕaþaruh,ainƕaþaruh,ɛ n ʍ a θ a r u h,,Kobler1989,,,^ ainƕaþaruh $,default,VCCVCVCVC
+Gothic-167_einjeder-1,f167,Gothic,167_einjeder,ainƕarjizuh,ainƕarjizuh,ɛ n ʍ a r j ɪ z u h,,Kobler1989,,,^ ainƕarjizuh $,default,VCVVCCVCVC
+Gothic-2296_jedervonbeiden-1,f168,Gothic,2296_jedervonbeiden,ainƕaþaruh,ainƕaþaruh,ɛ n ʍ a θ a r u h,,Kobler1989,,,^ ainƕaþaruh $,default,VCVVCVCVC
 Gothic-3805_elf-1,f169,Gothic,3805_elf,ainlif,ainlif,ɛ n l ɪ ɸ,,Kobler1989,,,^ ainlif $,default,VCCVC
 Gothic-170_einalleinigeineinzigereingewisserirgendeineinmal-1,f170,Gothic,170_einalleinigeineinzigereingewisserirgendeineinmal,ains,ains,ɛ n s,,Kobler1989,,,^ ains $,default,VCC
 Gothic-171_irgendeinjederniemand-1,f171,Gothic,171_irgendeinjederniemand,ainshun,ainshun,ɛ n s h u n,,Kobler1989,,,^ ainshun $,default,VCCCVC
@@ -180,7 +180,7 @@ Gothic-177_langsteherfruher-1,f177,Gothic,177_langsteherfruher,airis,airis,ɛ r 
 Gothic-178_vorfahre-1,f178,Gothic,178_vorfahre,airiza,airiza,ɛ r ɪ z a,,Kobler1989,,,^ airiza $,default,VCVCV
 Gothic-4589_heilig-1,f179,Gothic,4589_heilig,aírknis,aírknis,ɛ r k n ɪ s,,Kobler1989,,,^ aírknis $,default,VCCCVC
 Gothic-180_lauterkeitechtheitreinheit-1,f180,Gothic,180_lauterkeitechtheitreinheit,aírkniþa,aírkniþa,ɛ r k n ɪ θ a,,Kobler1989,,,^ aírkniþa $,default,VCCCVCV
-Gothic-4589_heilig-2,f181,Gothic,4589_heilig,aírkns,aírkns,ɛ r k n̥ s,,Kobler1989,,,^ aírkns $,default,VCCVC
+Gothic-4589_heilig-2,f181,Gothic,4589_heilig,aírkns,aírkns,ɛ r k n̥ s,,Kobler1989,,,^ aírkns $,default,VCCCC
 Gothic-182_grogewaltig-1,f182,Gothic,182_grogewaltig,airmans,airmans,ɛ r m a n s,,Kobler1989,,,^ airmans $,default,VCCVCC
 Gothic-183_erdelanderdreicherdboden-1,f183,Gothic,183_erdelanderdreicherdboden,aírþa,aírþa,ɛ r θ a,,Kobler1989,,,^ aírþa $,default,VCCV
 Gothic-184_vonirdischerabkunftvondererdestammendirdisch-1,f184,Gothic,184_vonirdischerabkunftvondererdestammendirdisch,aírþakunds,aírþakunds,ɛ r θ a k u n d s,,Kobler1989,,,^ aírþakunds $,default,VCCVCVCCC
@@ -218,7 +218,7 @@ Gothic-215_aber-1,f215,Gothic,215_aber,akei,akei,a k i,,Kobler1989,,,^ akei $,de
 Gothic-216_essig-1,f216,Gothic,216_essig,akēt,akēt,a k e t,,Kobler1989,,,^ akēt $,default,VCVC
 Gothic-217_fruchtertrag-1,f217,Gothic,217_fruchtertrag,akran,akr,a k r̥,,Kobler1989,,,^ akr $,default,VCC
 Gothic-218_kornlosfruchtlosunfruchtbar-1,f218,Gothic,218_kornlosfruchtlosunfruchtbar,akranalaus,akranalaus,a k r a n a l ɔ s,,Kobler1989,,,^ akranalaus $,default,VCCVCVCVC
-Gothic-219_acker-1,f219,Gothic,219_acker,akrs,akrs,a k r̥ s,,Kobler1989,,,^ akrs $,default,VCVC
+Gothic-219_acker-1,f219,Gothic,219_acker,akrs,akrs,a k r̥ s,,Kobler1989,,,^ akrs $,default,VCCC
 Gothic-220_allganzvollig-1,f220,Gothic,220_allganzvollig,ala,ala,a l a,,Kobler1989,,,^ ala $,default,VCV
 Gothic-221_salbenbuchse-1,f221,Gothic,221_salbenbuchse,alabalstraún,alabalstraún,a l a β a l s t r ɔ n,,Kobler1989,,,^ alabalstraún $,default,VCVCVCCCCVC
 Gothic-222_brandopfer-1,f222,Gothic,222_brandopfer,alabrunsts,alabrunsts,a l a β r u n s t s,,Kobler1989,,,^ alabrunsts $,default,VCVCCVCCCC
@@ -236,7 +236,7 @@ Gothic-233_menschenalterzeit-1,f233,Gothic,233_menschenalterzeit,alds,alds,a l d
 Gothic-3368_alt-2,f234,Gothic,3368_alt,alduma,alduma,a l d u m a,,Kobler1989,,,^ alduma $,default,VCCVCV
 Gothic-235_elle-1,f235,Gothic,235_elle,aleina,aleina,a l i n a,,Kobler1989,,,^ aleina $,default,VCVCV
 Gothic-238_ol-1,f236,Gothic,238_ol,alēw,alēw,a l e w,,Kobler1989,,,^ alēw $,default,VCVC
-Gothic-237_olbaum-1,f237,Gothic,237_olbaum,alēwabagms,alēwabagms,a l e w a β a ɣ m̥ s,,Kobler1989,,,^ alēwabagms $,default,VCVCVCVCVC
+Gothic-237_olbaum-1,f237,Gothic,237_olbaum,alēwabagms,alēwabagms,a l e w a β a ɣ m̥ s,,Kobler1989,,,^ alēwabagms $,default,VCVCVCVCCC
 Gothic-238_ol-2,f238,Gothic,238_ol,alēwja,alēwja,a l e w j a,,Kobler1989,,,^ alēwja $,default,VCVCCV
 Gothic-239_gott-1,f239,Gothic,239_gott,alh,alh,a l h,,Kobler1989,,,^ alh $,default,VCC
 Gothic-240_tempelhain-1,f240,Gothic,240_tempelhain,alhs,alhs,a l h s,,Kobler1989,,,^ alhs $,default,VCCC
@@ -277,7 +277,7 @@ Gothic-274_daraufauerdemanaufinuber-1,f274,Gothic,274_daraufauerdemanaufinuber,a
 Gothic-275_ahnevorfahre-1,f275,Gothic,275_ahnevorfahre,ana,ana,a n a,,Kobler1989,,,^ ana $,default,VCV
 Gothic-276_hinzufugenzufortfahren-1,f276,Gothic,276_hinzufugenzufortfahren,anaaukan,anaauk,a n a ɔ k,,Kobler1989,,,^ anaauk $,default,VCVVC
 Gothic-277_entbietenbefehlenanordnen-1,f277,Gothic,277_entbietenbefehlenanordnen,anabiudan,anabiud,a n a β ɪ u ð,,Kobler1989,,,^ anabiud $,default,VCVCVVC
-Gothic-278_gebotbefehl-1,f278,Gothic,278_gebotbefehl,anabūsns,anabūsns,a n a β u s n̥ s,,Kobler1989,,,^ anabūsns $,default,VCVCVCVC
+Gothic-278_gebotbefehl-1,f278,Gothic,278_gebotbefehl,anabūsns,anabūsns,a n a β u s n̥ s,,Kobler1989,,,^ anabūsns $,default,VCVCVCCC
 Gothic-279_antrinkenbetrinken-1,f279,Gothic,279_antrinkenbetrinken,anadrigkan,anadrigk,a n a ð r ɪ ŋ k,,Kobler1989,,,^ anadrigk $,default,VCVCCVCC
 Gothic-280_anvertrautesempfehlunguberlieferung-1,f280,Gothic,280_anvertrautesempfehlunguberlieferung,anafilh,anafilh,a n a ɸ ɪ l h,,Kobler1989,,,^ anafilh $,default,VCVCVCC
 Gothic-281_ubergebenuberliefernverpachtenempfehlenanempfehlengeben-1,f281,Gothic,281_ubergebenuberliefernverpachtenempfehlenanempfehlengeben,anafilhan,anafilh,a n a ɸ ɪ l h,,Kobler1989,,,^ anafilh $,default,VCVCVCC
@@ -289,7 +289,7 @@ Gothic-286_diebekleidunganlegenanziehen-1,f286,Gothic,286_diebekleidunganlegenan
 Gothic-287_aufhaspeln-1,f287,Gothic,287_aufhaspeln,anahaspan,anahasp,a n a h a s p,,Kobler1989,,,^ anahasp $,default,VCVCVCC
 Gothic-288_niederlegen-1,f288,Gothic,288_niederlegen,anahnaiwjan,anahnaiwj,a n a h n ɛ w j,,Kobler1989,,,^ anahnaiwj $,default,VCVCCVCC
 Gothic-289_sichniederbeugensichneigensichbucken-1,f289,Gothic,289_sichniederbeugensichneigensichbucken,anahneiwan,anahneiw,a n a h n i w,,Kobler1989,,,^ anahneiw $,default,VCVCCVC
-Gothic-290_beruhigenerquicken-1,f290,Gothic,290_beruhigenerquicken,anaƕeilan,anaƕeil,a n a ʍ i l,,Kobler1989,,,^ anaƕeil $,default,VCVCVC
+Gothic-290_beruhigenerquicken-1,f290,Gothic,290_beruhigenerquicken,anaƕeilan,anaƕeil,a n a ʍ i l,,Kobler1989,,,^ anaƕeil $,default,VCVVVC
 Gothic-291_auferlegenhinzufugen-1,f291,Gothic,291_auferlegenhinzufugen,anainsakan,anainsak,a n ɛ n s a k,,Kobler1989,,,^ anainsak $,default,VCVCCVC
 Gothic-292_beschweren-1,f292,Gothic,292_beschweren,anakaúrjan,anakaúrj,a n a k ɔ r j,,Kobler1989,,,^ anakaúrj $,default,VCVCVCC
 Gothic-293_plotzlichsogleich-1,f293,Gothic,293_plotzlichsogleich,anaks,anaks,a n a k s,,Kobler1989,,,^ anaks $,default,VCVCC
@@ -301,7 +301,7 @@ Gothic-298_einlegenauflegenbeibringen-1,f298,Gothic,298_einlegenauflegenbeibring
 Gothic-299_verhindernhindernaufhaltenabhalten-1,f299,Gothic,299_verhindernhindernaufhaltenabhalten,analatjan,analatj,a n a l a t j,,Kobler1989,,,^ analatj $,default,VCVCVCC
 Gothic-2608_verborgenheit-1,f300,Gothic,2608_verborgenheit,analaugnei,analaugnei,a n a l ɔ ɣ n i,,Kobler1989,,,^ analaugnei $,default,VCVCVCCV
 Gothic-301_imgeheimenheimlichverborgen-1,f301,Gothic,301_imgeheimenheimlichverborgen,analaugniba,analaugniba,a n a l ɔ ɣ n ɪ β a,,Kobler1989,,,^ analaugniba $,default,VCVCVCCVCV
-Gothic-1491_verborgen-1,f302,Gothic,1491_verborgen,analaugns,analaugns,a n a l ɔ ɣ n̥ s,,Kobler1989,,,^ analaugns $,default,VCVCVCVC
+Gothic-1491_verborgen-1,f302,Gothic,1491_verborgen,analaugns,analaugns,a n a l ɔ ɣ n̥ s,,Kobler1989,,,^ analaugns $,default,VCVCVCCC
 Gothic-303_aufgleicheweisegleichermaen-1,f303,Gothic,303_aufgleicheweisegleichermaen,analeikō,analeikō,a n a l i k o,,Kobler1989,,,^ analeikō $,default,VCVCVCV
 Gothic-1610_ahnlichgleich-1,f304,Gothic,1610_ahnlichgleich,analeiks,analeiks,a n a l i k s,,Kobler1989,,,^ analeiks $,default,VCVCVCC
 Gothic-305_vergewaltigenraubenkrankenqualenerpressenmisshandelnbeleidigenschmahengewaltantununrechtantun-1,f305,Gothic,305_vergewaltigenraubenkrankenqualenerpressenmisshandelnbeleidigenschmahengewaltantununrechtantun,anamahtjan,anamahtj,a n a m a h t j,,Kobler1989,,,^ anamahtj $,default,VCVCVCCC
@@ -361,7 +361,7 @@ Gothic-358_offenfreimutig-1,f358,Gothic,358_offenfreimutig,andaugiba,andaugiba,a
 Gothic-359_offenoffenbaroffentlich-1,f359,Gothic,359_offenoffenbaroffentlich,andaugjō,andaugjō,a n d ɔ ɣ j o,,Kobler1989,,,^ andaugjō $,default,VCCVCCV
 Gothic-360_gegenwertpreis-1,f360,Gothic,360_gegenwertpreis,andawaírþi,andawaírþi,a n d a w ɛ r θ ɪ,,Kobler1989,,,^ andawaírþi $,default,VCCVCVCCV
 Gothic-361_antwort-1,f361,Gothic,361_antwort,andawaúrdi,andawaúrdi,a n d a w ɔ r d ɪ,,Kobler1989,,,^ andawaúrdi $,default,VCCVCVCCV
-Gothic-362_notdurftunterhaltsold-1,f362,Gothic,362_notdurftunterhaltsold,andawizns,andawizns,a n d a w ɪ z n̥ s,,Kobler1989,,,^ andawizns $,default,VCCVCVCVC
+Gothic-362_notdurftunterhaltsold-1,f362,Gothic,362_notdurftunterhaltsold,andawizns,andawizns,a n d a w ɪ z n̥ s,,Kobler1989,,,^ andawizns $,default,VCCVCVCCC
 Gothic-363_angesichtantlitzgesicht-1,f363,Gothic,363_angesichtantlitzgesicht,andawleizn,andawleizn,a n d a w l i z n̥,,Kobler1989,,,^ andawleizn $,default,VCCVCCVCC
 Gothic-364_antlitzgesichtangesicht-1,f364,Gothic,364_antlitzgesichtangesicht,andawliti,andawliti,a n d a w l ɪ t ɪ,,Kobler1989,,,^ andawliti $,default,VCCVCCVCV
 Gothic-365_amtdienst-1,f365,Gothic,365_amtdienst,andbahti,andbahti,a n d b a h t ɪ,,Kobler1989,,,^ andbahti $,default,VCCCVCCV
@@ -388,17 +388,17 @@ Gothic-385_scheidenabscheidenentlassenwerdenaufgelostwerdensichauflosensichlosma
 Gothic-386_annehmenaufnehmengenieenempfangenwiederempfangenerhalten-1,f386,Gothic,386_annehmenaufnehmengenieenempfangenwiederempfangenerhalten,andniman,andnim,a n d n ɪ m,,Kobler1989,,,^ andnim $,default,VCCCVC
 Gothic-387_entsagenabschiednehmenentlassenzusammenkommenmitsprechenmitsprechenlebewohlsagen-1,f387,Gothic,387_entsagenabschiednehmenentlassenzusammenkommenmitsprechenmitsprechenlebewohlsagen,andqiþan,andqiþ,a n d kʷ ɪ θ,,Kobler1989,,,^ andqiþ $,default,VCCCVC
 Gothic-388_entgegenrennenstreiten-1,f388,Gothic,388_entgegenrennenstreiten,andrinnan,andrinn,a n d r ɪ nː,,Kobler1989,,,^ andrinn $,default,VCCCVC
-Gothic-389_aufetwassehenberucksichtigenachtgebenanseheninbetrachtziehenbeachten-1,f389,Gothic,389_aufetwassehenberucksichtigenachtgebenanseheninbetrachtziehenbeachten,andsaíƕan,andsaíƕ,a n d s ɛ ʍ,,Kobler1989,,,^ andsaíƕ $,default,VCCCVC
+Gothic-389_aufetwassehenberucksichtigenachtgebenanseheninbetrachtziehenbeachten-1,f389,Gothic,389_aufetwassehenberucksichtigenachtgebenanseheninbetrachtziehenbeachten,andsaíƕan,andsaíƕ,a n d s ɛ ʍ,,Kobler1989,,,^ andsaíƕ $,default,VCCCVV
 Gothic-390_widersprechenbekampfenbestreiten-1,f390,Gothic,390_widersprechenbekampfenbestreiten,andsakan,andsak,a n d s a k,,Kobler1989,,,^ andsak $,default,VCCCVC
 Gothic-3253_bestritten-1,f391,Gothic,3253_bestritten,andsakans,andsakans,a n d s a k a n s,,Kobler1989,,,^ andsakans $,default,VCCCVCVCC
 Gothic-392_darbringenopfern-1,f392,Gothic,392_darbringenopfern,andsaljan,andsalj,a n d s a l j,,Kobler1989,,,^ andsalj $,default,VCCCVCC
 Gothic-393_scheuenrucksichtnehmen-1,f393,Gothic,393_scheuenrucksichtnehmen,andsitan,andsit,a n d s ɪ t,,Kobler1989,,,^ andsit $,default,VCCCVC
 Gothic-394_widerleglichbestreitbar-1,f394,Gothic,394_widerleglichbestreitbar,andsōks,andsōks,a n d s o k s,,Kobler1989,,,^ andsōks $,default,VCCCVCC
-Gothic-395_entgegenspeienausspeienverachtenverwerfen-1,f395,Gothic,395_entgegenspeienausspeienverachtenverwerfen,andspeiwan,andspeiw,a n d s p i w,,Kobler1989,,,^ andspeiw $,default,VCCVCVC
-Gothic-396_darbietungbeistanddarreichung-1,f396,Gothic,396_darbietungbeistanddarreichung,andstald,andstald,a n d s t a l d,,Kobler1989,,,^ andstald $,default,VCCVCVCC
-Gothic-397_versehendarreichen-1,f397,Gothic,397_versehendarreichen,andstaldan,andstald,a n d s t a l d,,Kobler1989,,,^ andstald $,default,VCCVCVCC
-Gothic-398_entgegenstehenwiderstehenwiderstreitenwiderstreben-1,f398,Gothic,398_entgegenstehenwiderstehenwiderstreitenwiderstreben,andstandan,andstand,a n d s t a n d,,Kobler1989,,,^ andstand $,default,VCCVCVCC
-Gothic-399_unwillenzeigenwiderspenstigseinanstarrenmurren-1,f399,Gothic,399_unwillenzeigenwiderspenstigseinanstarrenmurren,andstaúrran,andstaúrr,a n d s t ɔ rː,,Kobler1989,,,^ andstaúrr $,default,VCCVCVC
+Gothic-395_entgegenspeienausspeienverachtenverwerfen-1,f395,Gothic,395_entgegenspeienausspeienverachtenverwerfen,andspeiwan,andspeiw,a n d s p i w,,Kobler1989,,,^ andspeiw $,default,VCCCCVC
+Gothic-396_darbietungbeistanddarreichung-1,f396,Gothic,396_darbietungbeistanddarreichung,andstald,andstald,a n d s t a l d,,Kobler1989,,,^ andstald $,default,VCCCCVCC
+Gothic-397_versehendarreichen-1,f397,Gothic,397_versehendarreichen,andstaldan,andstald,a n d s t a l d,,Kobler1989,,,^ andstald $,default,VCCCCVCC
+Gothic-398_entgegenstehenwiderstehenwiderstreitenwiderstreben-1,f398,Gothic,398_entgegenstehenwiderstehenwiderstreitenwiderstreben,andstandan,andstand,a n d s t a n d,,Kobler1989,,,^ andstand $,default,VCCCCVCC
+Gothic-399_unwillenzeigenwiderspenstigseinanstarrenmurren-1,f399,Gothic,399_unwillenzeigenwiderspenstigseinanstarrenmurren,andstaúrran,andstaúrr,a n d s t ɔ rː,,Kobler1989,,,^ andstaúrr $,default,VCCCCVC
 Gothic-400_anhangensichannehmendienenhelfenbeistehen-1,f400,Gothic,400_anhangensichannehmendienenhelfenbeistehen,andtilōn,andtilōn,a n d t ɪ l o n,,Kobler1989,,,^ andtilōn $,default,VCCCVCVC
 Gothic-401_einfallenerinnerngedenkensichbesinnenuberlegenbedenkensichentsinnen-1,f401,Gothic,401_einfallenerinnerngedenkensichbesinnenuberlegenbedenkensichentsinnen,andþagkjansik,andþagkjansik,a n d θ a ŋ k j a n s ɪ k,,Kobler1989,,,^ andþagkjansik $,default,VCCCVCCCVCCVC
 Gothic-402_gegenwartangesichtpersongesicht-1,f402,Gothic,402_gegenwartangesichtpersongesicht,andwaírþi,andwaírþi,a n d w ɛ r θ ɪ,,Kobler1989,,,^ andwaírþi $,default,VCCCVCCV
@@ -426,7 +426,7 @@ Gothic-423_spitzeende-1,f423,Gothic,423_spitzeende,anþs,anþs,a n θ s,,Kobler1
 Gothic-424_geistseele-1,f424,Gothic,424_geistseele,anþs,anþs,a n θ s,,Kobler1989,,,^ anþs $,default,VCCC
 Gothic-425_apostolat-1,f425,Gothic,425_apostolat,apaústaúlei,apaústaúlei,a p ɔ s t ɔ l i,,Kobler1989,,,^ apaústaúlei $,default,VCVCCVCV
 Gothic-426_apostelboteabgesandter-1,f426,Gothic,426_apostelboteabgesandter,apaústaúlus,apaústaúlus,a p ɔ s t ɔ l u s,,Kobler1989,,,^ apaústaúlus $,default,VCVCCVCVC
-Gothic-427_apfel-1,f427,Gothic,427_apfel,apls,apls,a p l̥ s,,Kobler1989,,,^ apls $,default,VCVC
+Gothic-427_apfel-1,f427,Gothic,427_apfel,apls,apls,a p l̥ s,,Kobler1989,,,^ apls $,default,VCCC
 Gothic-428_axt-1,f428,Gothic,428_axt,aqizi,aqizi,a kʷ ɪ z ɪ,,Kobler1989,,,^ aqizi $,default,VCVCV
 Gothic-429_aaradler-1,f429,Gothic,429_aaradler,ara,ara,a r a,,Kobler1989,,,^ ara $,default,VCV
 Gothic-430_arabien-1,f430,Gothic,430_arabien,Arabia,Arabia,a r a β ɪ a,,Kobler1989,,,^ Arabia $,default,VCVCVV
@@ -442,8 +442,8 @@ Gothic-439_feiglingelender-1,f439,Gothic,439_feiglingelender,arga,arga,a r ɡ a,
 Gothic-440_feigeelend-1,f440,Gothic,440_feigeelend,args,args,a r ɡ s,,Kobler1989,,,^ args $,default,VCCC
 Gothic-444_pfeil-1,f441,Gothic,444_pfeil,arh,arh,a r h,,Kobler1989,,,^ arh $,default,VCC
 Gothic-444_pfeil-2,f442,Gothic,444_pfeil,arha,arha,a r h a,,Kobler1989,,,^ arha $,default,VCCV
-Gothic-444_pfeil-3,f443,Gothic,444_pfeil,arƕa,arƕa,a r ʍ a,,Kobler1989,,,^ arƕa $,default,VCCV
-Gothic-444_pfeil-4,f444,Gothic,444_pfeil,arƕazna,arƕazna,a r ʍ a z n a,,Kobler1989,,,^ arƕazna $,default,VCCVCCV
+Gothic-444_pfeil-3,f443,Gothic,444_pfeil,arƕa,arƕa,a r ʍ a,,Kobler1989,,,^ arƕa $,default,VCVV
+Gothic-444_pfeil-4,f444,Gothic,444_pfeil,arƕazna,arƕazna,a r ʍ a z n a,,Kobler1989,,,^ arƕazna $,default,VCVVCCV
 Gothic-445_pflugenackern-1,f445,Gothic,445_pflugenackern,arjan,arj,a r j,,Kobler1989,,,^ arj $,default,VCC
 Gothic-446_dienstag-2,f446,Gothic,446_dienstag,arjausdags,arjausdags,a r j ɔ s d a ɣ s,,Kobler1989,,,^ arjausdags $,default,VCCVCCVCC
 Gothic-447_archekastenfutteralbeutelgeldkasten-1,f447,Gothic,447_archekastenfutteralbeutelgeldkasten,arka,arka,a r k a,,Kobler1989,,,^ arka $,default,VCCV
@@ -498,16 +498,16 @@ Gothic-495_berufen-1,f495,Gothic,495_berufen,atlaþōn,atlaþōn,a t l a θ o n,
 Gothic-496_verrat-1,f496,Gothic,496_verrat,atlēweins,atlēweins,a t l e w i n s,,Kobler1989,,,^ atlēweins $,default,VCCVCVCC
 Gothic-1614_verrater-1,f497,Gothic,1614_verrater,atlēweis,atlēweis,a t l e w i s,,Kobler1989,,,^ atlēweis $,default,VCCVCVC
 Gothic-498_dabeiliegenvorliegenvorhandensein-1,f498,Gothic,498_dabeiliegenvorliegenvorhandensein,atligan,atlig,a t l ɪ ɣ,,Kobler1989,,,^ atlig $,default,VCCVC
-Gothic-499_herannahen-1,f499,Gothic,499_herannahen,atnēƕjan,atnēƕj,a t n e ʍ j,,Kobler1989,,,^ atnēƕj $,default,VCCVCC
+Gothic-499_herannahen-1,f499,Gothic,499_herannahen,atnēƕjan,atnēƕj,a t n e ʍ j,,Kobler1989,,,^ atnēƕj $,default,VCCVVC
 Gothic-500_aufnehmenversetzenannehmen-1,f500,Gothic,500_aufnehmenversetzenannehmen,atniman,atnim,a t n ɪ m,,Kobler1989,,,^ atnim $,default,VCCVC
-Gothic-513_schlecht-1,f501,Gothic,513_schlecht,atochta,atochta,a t o c h t a,,Kobler1989,,,^ atochta $,default,VCVCVCV
+Gothic-513_schlecht-1,f501,Gothic,513_schlecht,atochta,atochta,a t o c h t a,,Kobler1989,,,^ atochta $,default,VCVCCCV
 Gothic-1011_hinzulaufenhinzurennen-1,f502,Gothic,1011_hinzulaufenhinzurennen,atrinnan,atrinn,a t r ɪ nː,,Kobler1989,,,^ atrinn $,default,VCCVC
-Gothic-503_sehenaufsichinachtnehmensichhuten-1,f503,Gothic,503_sehenaufsichinachtnehmensichhuten,atsaíƕan,atsaíƕ,a t s ɛ ʍ,,Kobler1989,,,^ atsaíƕ $,default,VCCVC
+Gothic-503_sehenaufsichinachtnehmensichhuten-1,f503,Gothic,503_sehenaufsichinachtnehmensichhuten,atsaíƕan,atsaíƕ,a t s ɛ ʍ,,Kobler1989,,,^ atsaíƕ $,default,VCCVV
 Gothic-504_darstellen-1,f504,Gothic,504_darstellen,atsatjan,atsatj,a t s a t j,,Kobler1989,,,^ atsatj $,default,VCCVCC
 Gothic-505_anfassenanruhrenberuhrenangreifen-1,f505,Gothic,505_anfassenanruhrenberuhrenangreifen,atsnarpjan,atsnarpj,a t s n a r p j,,Kobler1989,,,^ atsnarpj $,default,VCCCVCCC
 Gothic-999_hinzueilen-1,f506,Gothic,999_hinzueilen,atsniwan,atsniw,a t s n ɪ w,,Kobler1989,,,^ atsniw $,default,VCCCVC
-Gothic-507_dabeisteheneintretenhinzukommenhinzutretenzugegensein-1,f507,Gothic,507_dabeisteheneintretenhinzukommenhinzutretenzugegensein,atstandan,atstand,a t s t a n d,,Kobler1989,,,^ atstand $,default,VCVCVCC
-Gothic-508_hinabsteigen-1,f508,Gothic,508_hinabsteigen,atsteigan,atsteig,a t s t i ɣ,,Kobler1989,,,^ atsteig $,default,VCVCVC
+Gothic-507_dabeisteheneintretenhinzukommenhinzutretenzugegensein-1,f507,Gothic,507_dabeisteheneintretenhinzukommenhinzutretenzugegensein,atstandan,atstand,a t s t a n d,,Kobler1989,,,^ atstand $,default,VCCCVCC
+Gothic-508_hinabsteigen-1,f508,Gothic,508_hinabsteigen,atsteigan,atsteig,a t s t i ɣ,,Kobler1989,,,^ atsteig $,default,VCCCVC
 Gothic-509_vatervorfahre-1,f509,Gothic,509_vatervorfahre,atta,atta,a tː a,,Kobler1989,,,^ atta $,default,VCV
 Gothic-510_beruhrenanruhren-1,f510,Gothic,510_beruhrenanruhren,attēkan,attēk,a tː e k,,Kobler1989,,,^ attēk $,default,VCVC
 Gothic-511_herbeiziehenherbeifuhrenherbeibringenhereinfuhrenbringen-1,f511,Gothic,511_herbeiziehenherbeifuhrenherbeibringenhereinfuhrenbringen,attiuhan,attiuh,a tː ɪ u h,,Kobler1989,,,^ attiuh $,default,VCVVC
@@ -536,7 +536,7 @@ Gothic-533_zeigen-1,f533,Gothic,533_zeigen,augjan,augj,ɔ ɣ j,,Kobler1989,,,^ a
 Gothic-534_auge-1,f534,Gothic,534_auge,augō,augō,ɔ ɣ o,,Kobler1989,,,^ augō $,default,VCV
 Gothic-4022_larm-1,f535,Gothic,4022_larm,áuhjōdus,áuhjōdus,ɔ h j o ð u s,,Kobler1989,,,^ áuhjōdus $,default,VCCVCVC
 Gothic-536_larmenschreien-1,f536,Gothic,536_larmenschreien,auhjōn,auhjōn,ɔ h j o n,,Kobler1989,,,^ auhjōn $,default,VCCVC
-Gothic-537_ofen-1,f537,Gothic,537_ofen,aúhns,aúhns,ɔ h n̥ s,,Kobler1989,,,^ aúhns $,default,VCVC
+Gothic-537_ofen-1,f537,Gothic,537_ofen,aúhns,aúhns,ɔ h n̥ s,,Kobler1989,,,^ aúhns $,default,VCCC
 Gothic-539_ochserind-1,f538,Gothic,539_ochserind,aúhsa,aúhsa,ɔ h s a,,Kobler1989,,,^ aúhsa $,default,VCCV
 Gothic-539_ochserind-2,f539,Gothic,539_ochserind,aúhsus,aúhsus,ɔ h s u s,,Kobler1989,,,^ aúhsus $,default,VCCVC
 Gothic-540_hohererhabenvorzuglicher-1,f540,Gothic,540_hohererhabenvorzuglicher,aúhuma,aúhuma,ɔ h u m a,,Kobler1989,,,^ aúhuma $,default,VCVCV
@@ -575,18 +575,18 @@ Gothic-572_leichtgern-1,f572,Gothic,572_leichtgern,azētaba,azētaba,a z e t a �
 Gothic-573_leichtigkeitvergnugenlustannehmlichkeitzrune-1,f573,Gothic,573_leichtigkeitvergnugenlustannehmlichkeitzrune,azēti,azēti,a z e t ɪ,,Kobler1989,,,^ azēti $,default,VCVCV
 Gothic-574_leichtertraglich-1,f574,Gothic,574_leichtertraglich,azēts,azēts,a z e t s,,Kobler1989,,,^ azēts $,default,VCVCC
 Gothic-575_asche-1,f575,Gothic,575_asche,azgō,azgō,a z ɡ o,,Kobler1989,,,^ azgō $,default,VCCV
-Gothic-576_ungesauertesbrot-1,f576,Gothic,576_ungesauertesbrot,azwmus,azwmus,a z w m u s,,Kobler1989,,,^ azwmus $,default,VCVCVC
+Gothic-576_ungesauertesbrot-1,f576,Gothic,576_ungesauertesbrot,azwmus,azwmus,a z w m u s,,Kobler1989,,,^ azwmus $,default,VCCCVC
 Gothic-584_wenn-1,f577,Gothic,584_wenn,ba,ba,b a,,Kobler1989,,,^ ba $,default,CV
 Gothic-578_bett-1,f578,Gothic,578_bett,badi,badi,b a ð ɪ,,Kobler1989,,,^ badi $,default,CVCV
 Gothic-4640_kampf-1,f579,Gothic,4640_kampf,badu,badu,b a ð u,,Kobler1989,,,^ badu $,default,CVCV
 Gothic-649_wohnung-1,f580,Gothic,649_wohnung,baggwiþa,baggwiþa,b a ɡ ɡ w ɪ θ a,,Kobler1989,,,^ baggwiþa $,default,CVCCCVCV
 Gothic-581_bank-1,f581,Gothic,581_bank,bagks,bagks,b a ŋ k s,,Kobler1989,,,^ bagks $,default,CVCCC
-Gothic-582_baum-1,f582,Gothic,582_baum,bagms,bagms,b a ɣ m̥ s,,Kobler1989,,,^ bagms $,default,CVCVC
+Gothic-582_baum-1,f582,Gothic,582_baum,bagms,bagms,b a ɣ m̥ s,,Kobler1989,,,^ bagms $,default,CVCCC
 Gothic-604_beide-1,f583,Gothic,604_beide,bai,bai,b ɛ,,Kobler1989,,,^ bai $,default,CV
 Gothic-584_wenn-2,f584,Gothic,584_wenn,bai,bai,b ɛ,,Kobler1989,,,^ bai $,default,CV
 Gothic-585_zwingennotigen-1,f585,Gothic,585_zwingennotigen,baidjan,baidj,b ɛ ð j,,Kobler1989,,,^ baidj $,default,CVCC
 Gothic-586_bar-1,f586,Gothic,586_bar,baira,baira,b ɛ r a,,Kobler1989,,,^ baira $,default,CVCV
-Gothic-587_maulbeerbaum-1,f587,Gothic,587_maulbeerbaum,baírabagms,baírabagms,b ɛ r a β a ɣ m̥ s,,Kobler1989,,,^ baírabagms $,default,CVCVCVCVC
+Gothic-587_maulbeerbaum-1,f587,Gothic,587_maulbeerbaum,baírabagms,baírabagms,b ɛ r a β a ɣ m̥ s,,Kobler1989,,,^ baírabagms $,default,CVCVCVCCC
 Gothic-588_tragenleidenerleidengebarenertragen-1,f588,Gothic,588_tragenleidenerleidengebarenertragen,baíran,baír,b ɛ r,,Kobler1989,,,^ baír $,default,CVC
 Gothic-593_berge-1,f589,Gothic,593_berge,baírga,baírga,b ɛ r ɡ a,,Kobler1989,,,^ baírga $,default,CVCCV
 Gothic-590_gebirgsgegendberggegendgebirge-1,f590,Gothic,590_gebirgsgegendberggegendgebirge,baírgahei,baírgahei,b ɛ r ɡ a h i,,Kobler1989,,,^ baírgahei $,default,CVCCVCV
@@ -602,7 +602,7 @@ Gothic-599_helloffenbardeutlich-1,f599,Gothic,599_helloffenbardeutlich,baírhts,
 Gothic-600_birke-1,f600,Gothic,600_birke,baírka,baírka,b ɛ r k a,,Kobler1989,,,^ baírka $,default,CVCCV
 Gothic-603_bitter-1,f601,Gothic,603_bitter,baitraba,baitraba,b ɛ t r a β a,,Kobler1989,,,^ baitraba $,default,CVCCVCV
 Gothic-602_bitterkeit-1,f602,Gothic,602_bitterkeit,baitrei,baitrei,b ɛ t r i,,Kobler1989,,,^ baitrei $,default,CVCCV
-Gothic-603_bitter-2,f603,Gothic,603_bitter,baitrs,baitrs,b ɛ t r̥ s,,Kobler1989,,,^ baitrs $,default,CVCVC
+Gothic-603_bitter-2,f603,Gothic,603_bitter,baitrs,baitrs,b ɛ t r̥ s,,Kobler1989,,,^ baitrs $,default,CVCCC
 Gothic-604_beide-2,f604,Gothic,604_beide,bajōþs,bajōþs,b a j o θ s,,Kobler1989,,,^ bajōþs $,default,CVCVCC
 Gothic-605_pferdmitblesse-1,f605,Gothic,605_pferdmitblesse,bala,bala,b a l a,,Kobler1989,,,^ bala $,default,CVCV
 Gothic-606_balgbersten-1,f606,Gothic,606_balgbersten,balgbrust,balgbrust,b a l ɡ b r u s t,,Kobler1989,,,^ balgbrust $,default,CVCCCCVCC
@@ -711,8 +711,8 @@ Gothic-708_ublenachrede-1,f708,Gothic,708_ublenachrede,bihait,bihait,b ɪ h ɛ t
 Gothic-709_prahlenverleumden-1,f709,Gothic,709_prahlenverleumden,bihaitan,bihait,b ɪ h ɛ t,,Kobler1989,,,^ bihait $,default,CVCVC
 Gothic-710_prahlerstreitsuchtigermensch-1,f710,Gothic,710_prahlerstreitsuchtigermensch,bihaitja,bihaitja,b ɪ h ɛ t j a,,Kobler1989,,,^ bihaitja $,default,CVCVCCV
 Gothic-711_verlachenverspottenauslachen-1,f711,Gothic,711_verlachenverspottenauslachen,bihlahjan,bihlahj,b ɪ h l a h j,,Kobler1989,,,^ bihlahj $,default,CVCCVCC
-Gothic-712_umdrangen-1,f712,Gothic,712_umdrangen,biƕaírban,biƕaírb,b ɪ ʍ ɛ r b,,Kobler1989,,,^ biƕaírb $,default,CVCVCC
-Gothic-713_woran-1,f713,Gothic,713_woran,biƕē,biƕē,b ɪ ʍ e,,Kobler1989,,,^ biƕē $,default,CVCV
+Gothic-712_umdrangen-1,f712,Gothic,712_umdrangen,biƕaírban,biƕaírb,b ɪ ʍ ɛ r b,,Kobler1989,,,^ biƕaírb $,default,CVVVCC
+Gothic-713_woran-1,f713,Gothic,713_woran,biƕē,biƕē,b ɪ ʍ e,,Kobler1989,,,^ biƕē $,default,CVVV
 Gothic-714_zugleichaberauch-1,f714,Gothic,714_zugleichaberauch,bijandzuþþan,bijandzuþþ,b ɪ j a n d z u θː,,Kobler1989,,,^ bijandzuþþ $,default,CVCVCCCVC
 Gothic-715_mitkussenbedecken-1,f715,Gothic,715_mitkussenbedecken,bikukjan,bikukj,b ɪ k u k j,,Kobler1989,,,^ bikukj $,default,CVCVCC
 Gothic-716_gesetz-1,f716,Gothic,716_gesetz,bilageins,bilageins,b ɪ l a ɣ i n s,,Kobler1989,,,^ bilageins $,default,CVCVCVCC
@@ -743,7 +743,7 @@ Gothic-740_murrenverleumdung-1,f740,Gothic,740_murrenverleumdung,birōdeins,bir�
 Gothic-741_murrendredenmurren-1,f741,Gothic,741_murrendredenmurren,birōdjan,birōdj,b ɪ r o ð j,,Kobler1989,,,^ birōdj $,default,CVCVCC
 Gothic-742_nachstellunganschlag-1,f742,Gothic,742_nachstellunganschlag,birūnains,birūnains,b ɪ r u n ɛ n s,,Kobler1989,,,^ birūnains $,default,CVCVCVCC
 Gothic-743_leisesprechensichverschworenbeschlieen-1,f743,Gothic,743_leisesprechensichverschworenbeschlieen,birūnan,birūn,b ɪ r u n,,Kobler1989,,,^ birūn $,default,CVCVC
-Gothic-744_umsehenansehenbemerkensorgenfursichvorsehenerkennenbetrachten-1,f744,Gothic,744_umsehenansehenbemerkensorgenfursichvorsehenerkennenbetrachten,bisaíƕan,bisaíƕ,b ɪ s ɛ ʍ,,Kobler1989,,,^ bisaíƕ $,default,CVCVC
+Gothic-744_umsehenansehenbemerkensorgenfursichvorsehenerkennenbetrachten-1,f744,Gothic,744_umsehenansehenbemerkensorgenfursichvorsehenerkennenbetrachten,bisaíƕan,bisaíƕ,b ɪ s ɛ ʍ,,Kobler1989,,,^ bisaíƕ $,default,CVCVV
 Gothic-745_umgeben-1,f745,Gothic,745_umgeben,bisatjan,bisatj,b ɪ s a t j,,Kobler1989,,,^ bisatj $,default,CVCVCC
 Gothic-746_befleckung-1,f746,Gothic,746_befleckung,bisauleins,bisauleins,b ɪ s ɔ l i n s,,Kobler1989,,,^ bisauleins $,default,CVCVCVCC
 Gothic-747_besudelnbeflecken-1,f747,Gothic,747_besudelnbeflecken,bisauljan,bisaulj,b ɪ s ɔ l j,,Kobler1989,,,^ bisaulj $,default,CVCVCC
@@ -810,10 +810,10 @@ Gothic-807_buchstabeschrift-1,f807,Gothic,807_buchstabeschrift,bōka,bōka,b o k
 Gothic-808_schriftgelehrterschreiber-1,f808,Gothic,808_schriftgelehrterschreiber,bōkāreis,bōkāreis,b o k a r i s,,Kobler1989,,,^ bōkāreis $,default,CVCVCVC
 Gothic-809_nutzen-1,f809,Gothic,809_nutzen,bōta,bōta,b o t a,,Kobler1989,,,^ bōta $,default,CVCV
 Gothic-810_nutzenbessern-1,f810,Gothic,810_nutzenbessern,bōtjan,bōtj,b o t j,,Kobler1989,,,^ bōtj $,default,CVCC
-Gothic-811_brauezwinkernblick-1,f811,Gothic,811_brauezwinkernblick,braƕ,braƕ,b r a ʍ,,Kobler1989,,,^ braƕ $,default,CCVC
+Gothic-811_brauezwinkernblick-1,f811,Gothic,811_brauezwinkernblick,braƕ,braƕ,b r a ʍ,,Kobler1989,,,^ braƕ $,default,CCVV
 Gothic-812_breite-1,f812,Gothic,812_breite,braidei,braidei,b r ɛ ð i,,Kobler1989,,,^ braidei $,default,CCVCV
 Gothic-813_breiten-1,f813,Gothic,813_breiten,braidjan,braidj,b r ɛ ð j,,Kobler1989,,,^ braidj $,default,CCVCC
-Gothic-814_strahlenglanzen-1,f814,Gothic,814_strahlenglanzen,braiƕan,braiƕ,b r ɛ ʍ,,Kobler1989,,,^ braiƕ $,default,CCVC
+Gothic-814_strahlenglanzen-1,f814,Gothic,814_strahlenglanzen,braiƕan,braiƕ,b r ɛ ʍ,,Kobler1989,,,^ braiƕ $,default,CCVV
 Gothic-815_breit-1,f815,Gothic,815_breit,braiþs,braiþs,b r ɛ θ s,,Kobler1989,,,^ braiþs $,default,CCVCC
 Gothic-816_ringenringkampfkampf-1,f816,Gothic,816_ringenringkampfkampf,brakja,brakja,b r a k j a,,Kobler1989,,,^ brakja $,default,CCVCCV
 Gothic-818_brullen-1,f817,Gothic,818_brullen,bramjan,bramj,b r a m j,,Kobler1989,,,^ bramj $,default,CCVCC
@@ -870,8 +870,8 @@ Gothic-867_bulgar-1,f867,Gothic,867_bulgar,Bulgar,Bulgar,b u l ɡ a r,,Kobler198
 Gothic-868_gebundenwerden-1,f868,Gothic,868_gebundenwerden,bundnan,bundn,b u n d n̥,,Kobler1989,,,^ bundn $,default,CVCCC
 Gothic-869_gebaude-1,f869,Gothic,869_gebaude,būrjō,būrjō,b u r j o,,Kobler1989,,,^ būrjō $,default,CVCCV
 Gothic-870_scheit-1,f870,Gothic,870_scheit,būska,būska,b u s k a,,Kobler1989,,,^ būska $,default,CVCCV
-Gothic-871_gebot-1,f871,Gothic,871_gebot,būsns,būsns,b u s n̥ s,,Kobler1989,,,^ būsns $,default,CVCVC
-Gothic-872_feineslinnenfeineleinwand-1,f872,Gothic,872_feineslinnenfeineleinwand,bwssaún,bwssaún,b w sː ɔ n,,Kobler1989,,,^ bwssaún $,default,CVCVC
+Gothic-871_gebot-1,f871,Gothic,871_gebot,būsns,būsns,b u s n̥ s,,Kobler1989,,,^ būsns $,default,CVCCC
+Gothic-872_feineslinnenfeineleinwand-1,f872,Gothic,872_feineslinnenfeineleinwand,bwssaún,bwssaún,b w sː ɔ n,,Kobler1989,,,^ bwssaún $,default,CCCVC
 Gothic-1459_soldat-1,f873,Gothic,1459_soldat,cadariou,cadariou,c a ð a r ɪ o u,,Kobler1989,,,^ cadariou $,default,CVCVCVVV
 Gothic-3922_vergleichen-1,f874,Gothic,3922_vergleichen,contropare,contropare,c o n t r o p a r e,,Kobler1989,,,^ contropare $,default,CVCCCVCVCV
 Gothic-875_vergleich-1,f875,Gothic,875_vergleich,contropatio,contropatio,c o n t r o p a t ɪ o,,Kobler1989,,,^ contropatio $,default,CVCCCVCVCVV
@@ -931,7 +931,7 @@ Gothic-928_verleumderin-1,f928,Gothic,928_verleumderin,diabula,diabula,d ɪ a β
 Gothic-929_diakonpfleger-1,f929,Gothic,929_diakonpfleger,diakaúnus,diakaúnus,d ɪ a k ɔ n u s,,Kobler1989,,,^ diakaúnus $,default,CVVCVCVC
 Gothic-930_knetenaustonbildenbildenformen-1,f930,Gothic,930_knetenaustonbildenbildenformen,digan,dig,d ɪ ɣ,,Kobler1989,,,^ dig $,default,CVC
 Gothic-1376_fulle-1,f931,Gothic,1376_fulle,digrei,digrei,d ɪ ɣ r i,,Kobler1989,,,^ digrei $,default,CVCCV
-Gothic-932_vollzusammengeknetetdicht-1,f932,Gothic,932_vollzusammengeknetetdicht,digrs,digrs,d ɪ ɣ r̥ s,,Kobler1989,,,^ digrs $,default,CVCVC
+Gothic-932_vollzusammengeknetetdicht-1,f932,Gothic,932_vollzusammengeknetetdicht,digrs,digrs,d ɪ ɣ r̥ s,,Kobler1989,,,^ digrs $,default,CVCCC
 Gothic-933_zerauseinanderver-1,f933,Gothic,933_zerauseinanderver,dis,dis,d ɪ s,,Kobler1989,,,^ dis $,default,CVC
 Gothic-934_verteilenzerteilenteilen-1,f934,Gothic,934_verteilenzerteilenteilen,disdailjan,disdailj,d ɪ s d ɛ l j,,Kobler1989,,,^ disdailj $,default,CVCCVCC
 Gothic-935_befallen-1,f935,Gothic,935_befallen,disdriusan,disdrius,d ɪ s d r ɪ u s,,Kobler1989,,,^ disdrius $,default,CVCCCVVC
@@ -1003,7 +1003,7 @@ Gothic-1000_taube-1,f1000,Gothic,1000_taube,dūbō,dūbō,d u β o,,Kobler1989,,
 Gothic-1001_taugennutzen-1,f1001,Gothic,1001_taugennutzen,dugan,dug,d u ɣ,,Kobler1989,,,^ dug $,default,CVC
 Gothic-1002_sichverwickelnsichverstricken-1,f1002,Gothic,1002_sichverwickelnsichverstricken,dugawindansik,dugawindansik,d u ɣ a w ɪ n d a n s ɪ k,,Kobler1989,,,^ dugawindansik $,default,CVCVCVCCVCCVC
 Gothic-1003_beginnenanfangenversuchen-1,f1003,Gothic,1003_beginnenanfangenversuchen,duginnan,duginn,d u ɣ ɪ nː,,Kobler1989,,,^ duginn $,default,CVCVC
-Gothic-1004_wozuwarum-1,f1004,Gothic,1004_wozuwarum,duƕē,duƕē,d u ʍ e,,Kobler1989,,,^ duƕē $,default,CVCV
+Gothic-1004_wozuwarum-1,f1004,Gothic,1004_wozuwarum,duƕē,duƕē,d u ʍ e,,Kobler1989,,,^ duƕē $,default,CVVV
 Gothic-1005_schuldheischerglaubiger-1,f1005,Gothic,1005_schuldheischerglaubiger,dulgahaitja,dulgahaitja,d u l ɡ a h ɛ t j a,,Kobler1989,,,^ dulgahaitja $,default,CVCCVCVCCV
 Gothic-1006_schuld-1,f1006,Gothic,1006_schuld,dulgs,dulgs,d u l ɡ s,,Kobler1989,,,^ dulgs $,default,CVCCC
 Gothic-1007_einfestfeiern-1,f1007,Gothic,1007_einfestfeiern,dulþjan,dulþj,d u l θ j,,Kobler1989,,,^ dulþj $,default,CVCCC
@@ -1045,7 +1045,7 @@ Gothic-2515_geschlecht-1,f1042,Gothic,2515_geschlecht,fadreins,fadreins,ɸ a ð 
 Gothic-1043_vaterlich-1,f1043,Gothic,1043_vaterlich,fadreins,fadreins,ɸ a ð r i n s,,Kobler1989,,,^ fadreins $,default,CVCCVCC
 Gothic-1467_sichfreuen-1,f1044,Gothic,1467_sichfreuen,faginōn,faginōn,ɸ a ɣ ɪ n o n,,Kobler1989,,,^ faginōn $,default,CVCVCVC
 Gothic-4712_froh-1,f1045,Gothic,4712_froh,fagins,fagins,ɸ a ɣ ɪ n s,,Kobler1989,,,^ fagins $,default,CVCVCC
-Gothic-1046_passendgeeignetgeschickt-1,f1046,Gothic,1046_passendgeeignetgeschickt,fagrs,fagrs,ɸ a ɣ r̥ s,,Kobler1989,,,^ fagrs $,default,CVCVC
+Gothic-1046_passendgeeignetgeschickt-1,f1046,Gothic,1046_passendgeeignetgeschickt,fagrs,fagrs,ɸ a ɣ r̥ s,,Kobler1989,,,^ fagrs $,default,CVCCC
 Gothic-1464_fang-1,f1047,Gothic,1464_fang,fāh,fāh,ɸ a h,,Kobler1989,,,^ fāh $,default,CVC
 Gothic-1048_fangengreifen-1,f1048,Gothic,1048_fangengreifen,fāhan,fāh,ɸ a h,,Kobler1989,,,^ fāh $,default,CVC
 Gothic-1903_freude-1,f1049,Gothic,1903_freude,fahēþs,fahēþs,ɸ a h e θ s,,Kobler1989,,,^ fahēþs $,default,CVCVCC
@@ -1070,7 +1070,7 @@ Gothic-1067_teilhabenan-1,f1067,Gothic,1067_teilhabenan,faíraihan,faíraih,ɸ �
 Gothic-1068_ergreifengreifen-1,f1068,Gothic,1068_ergreifengreifen,faírgreipan,faírgreip,ɸ ɛ r ɡ r i p,,Kobler1989,,,^ faírgreip $,default,CVCCCVC
 Gothic-1069_berggebirge-1,f1069,Gothic,1069_berggebirge,faírguni,faírguni,ɸ ɛ r ɡ u n ɪ,,Kobler1989,,,^ faírguni $,default,CVCCVCV
 Gothic-1070_verheiendankwissen-1,f1070,Gothic,1070_verheiendankwissen,faírhaitan,faírhait,ɸ ɛ r h ɛ t,,Kobler1989,,,^ faírhait $,default,CVCCVC
-Gothic-1071_welt-1,f1071,Gothic,1071_welt,faírƕus,faírƕus,ɸ ɛ r ʍ u s,,Kobler1989,,,^ faírƕus $,default,CVCCVC
+Gothic-1071_welt-1,f1071,Gothic,1071_welt,faírƕus,faírƕus,ɸ ɛ r ʍ u s,,Kobler1989,,,^ faírƕus $,default,CVCVVC
 Gothic-1072_schuldvorwurfgrundursacheanklagegrundbeschuldigung-1,f1072,Gothic,1072_schuldvorwurfgrundursacheanklagegrundbeschuldigung,faírina,faírina,ɸ ɛ r ɪ n a,,Kobler1989,,,^ faírina $,default,CVCVCV
 Gothic-1077_tadeligunrecht-1,f1073,Gothic,1077_tadeligunrecht,faírina,faírina,ɸ ɛ r ɪ n a,,Kobler1989,,,^ faírina $,default,CVCVCV
 Gothic-4444_tadelig-1,f1074,Gothic,4444_tadelig,faírinōdaba,faírinōdaba,ɸ ɛ r ɪ n o ð a β a,,Kobler1989,,,^ faírinōdaba $,default,CVCVCVCVCV
@@ -1099,7 +1099,7 @@ Gothic-1096_faltenzusammenrollenzusammenlegen-1,f1096,Gothic,1096_faltenzusammen
 Gothic-1097_faltigkeit-1,f1097,Gothic,1097_faltigkeit,falþei,falþei,ɸ a l θ i,,Kobler1989,,,^ falþei $,default,CVCCV
 Gothic-1098_faltig-3,f1098,Gothic,1098_faltig,falþs,falþs,ɸ a l θ s,,Kobler1989,,,^ falþs $,default,CVCCC
 Gothic-1099_flugaschefunke-1,f1099,Gothic,1099_flugaschefunke,falwiska,falwiska,ɸ a l w ɪ s k a,,Kobler1989,,,^ falwiska $,default,CVCCVCCV
-Gothic-1100_fahlfalbgelblichgrau-1,f1100,Gothic,1100_fahlfalbgelblichgrau,falws,falws,ɸ a l w s,,Kobler1989,,,^ falws $,default,CVCVC
+Gothic-1100_fahlfalbgelblichgrau-1,f1100,Gothic,1100_fahlfalbgelblichgrau,falws,falws,ɸ a l w s,,Kobler1989,,,^ falws $,default,CVCCC
 Gothic-1101_stuckzeugzeugstucklappentuchschweituch-1,f1101,Gothic,1101_stuckzeugzeugstucklappentuchschweituch,fana,fana,ɸ a n a,,Kobler1989,,,^ fana $,default,CVCV
 Gothic-1102_schlammkot-1,f1102,Gothic,1102_schlammkot,fani,fani,ɸ a n ɪ,,Kobler1989,,,^ fani $,default,CVCV
 Gothic-1103_fusoldat-1,f1103,Gothic,1103_fusoldat,fanþja,fanþja,ɸ a n θ j a,,Kobler1989,,,^ fanþja $,default,CVCCCV
@@ -1203,7 +1203,7 @@ Gothic-1200_vier-2,f1200,Gothic,1200_vier,fidwōr,fidwōr,ɸ ɪ ð w o r,,Kobler
 Gothic-1201_vierzehn-1,f1201,Gothic,1201_vierzehn,fidwōrtaíhun,fidwōrtaíhun,ɸ ɪ ð w o r t ɛ h u n,,Kobler1989,,,^ fidwōrtaíhun $,default,CVCCVCCVCVC
 Gothic-1202_viertausend-1,f1202,Gothic,1202_viertausend,fidwōrþūsundjos,fidwōrþūsundjos,ɸ ɪ ð w o r θ u s u n d j o s,,Kobler1989,,,^ fidwōrþūsundjos $,default,CVCCVCCVCVCCCVC
 Gothic-1203_fingergoldfingerring-1,f1203,Gothic,1203_fingergoldfingerring,figgragulþ,figgragulþ,ɸ ɪ ŋ ɡ r a ɣ u l θ,,Kobler1989,,,^ figgragulþ $,default,CVCCCVCVCC
-Gothic-1204_finger-1,f1204,Gothic,1204_finger,figgrs,figgrs,ɸ ɪ ŋ ɡ r̥ s,,Kobler1989,,,^ figgrs $,default,CVCCVC
+Gothic-1204_finger-1,f1204,Gothic,1204_finger,figgrs,figgrs,ɸ ɪ ŋ ɡ r̥ s,,Kobler1989,,,^ figgrs $,default,CVCCCC
 Gothic-1205_hassenverabscheuen-1,f1205,Gothic,1205_hassenverabscheuen,fijan,fij,ɸ ɪ j,,Kobler1989,,,^ fij $,default,CVC
 Gothic-1206_feind-1,f1206,Gothic,1206_feind,fijands,fijands,ɸ ɪ j a n d s,,Kobler1989,,,^ fijands $,default,CVCVCCC
 Gothic-1207_feindschaft-1,f1207,Gothic,1207_feindschaft,fijaþwa,fijaþwa,ɸ ɪ j a θ w a,,Kobler1989,,,^ fijaþwa $,default,CVCVCCV
@@ -1281,7 +1281,7 @@ Gothic-1278_verlieren-1,f1278,Gothic,1278_verlieren,fraliusan,fralius,ɸ r a l �
 Gothic-1279_verlorengehenverlorenwerden-1,f1279,Gothic,1279_verlorengehenverlorenwerden,fralusnan,fralusn,ɸ r a l u s n̥,,Kobler1989,,,^ fralusn $,default,CCVCVCC
 Gothic-1280_verderbenverlust-1,f1280,Gothic,1280_verderbenverlust,fralusts,fralusts,ɸ r a l u s t s,,Kobler1989,,,^ fralusts $,default,CCVCVCCC
 Gothic-1281_weitervonvonhervonananvorseitbei-1,f1281,Gothic,1281_weitervonvonhervonananvorseitbei,fram,fram,ɸ r a m,,Kobler1989,,,^ fram $,default,CCVC
-Gothic-1282_imaltervorgeschrittenbejahrt-1,f1282,Gothic,1282_imaltervorgeschrittenbejahrt,framaldrs,framaldrs,ɸ r a m a l d r̥ s,,Kobler1989,,,^ framaldrs $,default,CCVCVCCVC
+Gothic-1282_imaltervorgeschrittenbejahrt-1,f1282,Gothic,1282_imaltervorgeschrittenbejahrt,framaldrs,framaldrs,ɸ r a m a l d r̥ s,,Kobler1989,,,^ framaldrs $,default,CCVCVCCCC
 Gothic-1283_fremd-1,f1283,Gothic,1283_fremd,framaþeis,framaþeis,ɸ r a m a θ i s,,Kobler1989,,,^ framaþeis $,default,CCVCVCVC
 Gothic-1284_entfremden-1,f1284,Gothic,1284_entfremden,framaþjan,framaþj,ɸ r a m a θ j,,Kobler1989,,,^ framaþj $,default,CCVCVCC
 Gothic-1285_fortschritt-1,f1285,Gothic,1285_fortschritt,framgāhts,framgāhts,ɸ r a m ɡ a h t s,,Kobler1989,,,^ framgāhts $,default,CCVCCVCCC
@@ -1363,7 +1363,7 @@ Gothic-1360_zuerst-1,f1360,Gothic,1360_zuerst,frumist,frumist,ɸ r u m ɪ s t,,K
 Gothic-1361_anfang-4,f1361,Gothic,1361_anfang,frumisti,frumisti,ɸ r u m ɪ s t ɪ,,Kobler1989,,,^ frumisti $,default,CCVCVCCV
 Gothic-1362_dererste-1,f1362,Gothic,1362_dererste,frumists,frumists,ɸ r u m ɪ s t s,,Kobler1989,,,^ frumists $,default,CCVCVCCC
 Gothic-1363_fordernvollbringen-1,f1363,Gothic,1363_fordernvollbringen,frumjan,frumj,ɸ r u m j,,Kobler1989,,,^ frumj $,default,CCVCC
-Gothic-1364_vogel-1,f1364,Gothic,1364_vogel,fugls,fugls,ɸ u ɣ l̥ s,,Kobler1989,,,^ fugls $,default,CVCVC
+Gothic-1364_vogel-1,f1364,Gothic,1364_vogel,fugls,fugls,ɸ u ɣ l̥ s,,Kobler1989,,,^ fugls $,default,CVCCC
 Gothic-1365_fohlenfullen-1,f1365,Gothic,1365_fohlenfullen,fula,fula,ɸ u l a,,Kobler1989,,,^ fula $,default,CVCV
 Gothic-1366_volk-1,f1366,Gothic,1366_volk,fulcus,fulcus,ɸ u l c u s,,Kobler1989,,,^ fulcus $,default,CVCCVC
 Gothic-1491_verborgen-2,f1367,Gothic,1491_verborgen,fulgins,fulgins,ɸ u l ɡ ɪ n s,,Kobler1989,,,^ fulgins $,default,CVCCVCC
@@ -1387,7 +1387,7 @@ Gothic-1384_faulstinkend-1,f1384,Gothic,1384_faulstinkend,fūls,fūls,ɸ u l s,,
 Gothic-1385_feld-1,f1385,Gothic,1385_feld,fulþ,fulþ,ɸ u l θ,,Kobler1989,,,^ fulþ $,default,CVCC
 Gothic-1386_feurig-1,f1386,Gothic,1386_feurig,funisks,funisks,ɸ u n ɪ s k s,,Kobler1989,,,^ funisks $,default,CVCVCCC
 Gothic-1387_bereiteiligtapfer-1,f1387,Gothic,1387_bereiteiligtapfer,funs,funs,ɸ u n s,,Kobler1989,,,^ funs $,default,CVCC
-Gothic-1388_phonikisch-1,f1388,Gothic,1388_phonikisch,fwnīkisks,fwnīkisks,ɸ w n i k ɪ s k s,,Kobler1989,,,^ fwnīkisks $,default,CVCVCVCCC
+Gothic-1388_phonikisch-1,f1388,Gothic,1388_phonikisch,fwnīkisks,fwnīkisks,ɸ w n i k ɪ s k s,,Kobler1989,,,^ fwnīkisks $,default,CCCVCVCCC
 Gothic-1389_gemit-1,f1389,Gothic,1389_gemit,ga,ga,ɡ a,,Kobler1989,,,^ ga $,default,CV
 Gothic-1390_einschrankung-1,f1390,Gothic,1390_einschrankung,gaaggwei,gaaggwei,ɡ a a ɡ ɡ w i,,Kobler1989,,,^ gaaggwei $,default,CVVCCCV
 Gothic-1391_beengungeinschrankung-1,f1391,Gothic,1391_beengungeinschrankung,gaaggweins,gaaggweins,ɡ a a ɡ ɡ w i n s,,Kobler1989,,,^ gaaggweins $,default,CVVCCCVCC
@@ -1544,13 +1544,13 @@ Gothic-1541_gangbar-1,f1541,Gothic,1541_gangbar,gāhts,gāhts,ɡ a h t s,,Kobler
 Gothic-1542_gesinnungsinngewissen-1,f1542,Gothic,1542_gesinnungsinngewissen,gahugds,gahugds,ɡ a h u ɣ d s,,Kobler1989,,,^ gahugds $,default,CVCVCCC
 Gothic-1543_meinen-2,f1543,Gothic,1543_meinen,gahugjan,gahugj,ɡ a h u ɣ j,,Kobler1989,,,^ gahugj $,default,CVCVCC
 Gothic-1544_verhullenverbergen-1,f1544,Gothic,1544_verhullenverbergen,gahuljan,gahulj,ɡ a h u l j,,Kobler1989,,,^ gahulj $,default,CVCVCC
-Gothic-1545_umdrehenumkehrenbekehren-1,f1545,Gothic,1545_umdrehenumkehrenbekehren,gaƕaírban,gaƕaírb,ɡ a ʍ ɛ r b,,Kobler1989,,,^ gaƕaírb $,default,CVCVCC
-Gothic-1546_fugsamgetreugehorsam-1,f1546,Gothic,1546_fugsamgetreugehorsam,gaƕaírbs,gaƕaírbs,ɡ a ʍ ɛ r b s,,Kobler1989,,,^ gaƕaírbs $,default,CVCVCCC
-Gothic-2292_anreizenverlocken-1,f1547,Gothic,2292_anreizenverlocken,gaƕatjan,gaƕatj,ɡ a ʍ a t j,,Kobler1989,,,^ gaƕatj $,default,CVCVCC
-Gothic-1548_verweilenruhe-1,f1548,Gothic,1548_verweilenruhe,gaƕeilains,gaƕeilains,ɡ a ʍ i l ɛ n s,,Kobler1989,,,^ gaƕeilains $,default,CVCVCVCC
-Gothic-1549_zurruhekommenaufhorenverweilen-1,f1549,Gothic,1549_zurruhekommenaufhorenverweilen,gaƕeilan,gaƕeil,ɡ a ʍ i l,,Kobler1989,,,^ gaƕeil $,default,CVCVC
-Gothic-1550_weienweimachen-1,f1550,Gothic,1550_weienweimachen,gaƕeitjan,gaƕeitj,ɡ a ʍ i t j,,Kobler1989,,,^ gaƕeitj $,default,CVCVCC
-Gothic-1551_bedrohenscheltenstrafen-1,f1551,Gothic,1551_bedrohenscheltenstrafen,gaƕōtjan,gaƕōtj,ɡ a ʍ o t j,,Kobler1989,,,^ gaƕōtj $,default,CVCVCC
+Gothic-1545_umdrehenumkehrenbekehren-1,f1545,Gothic,1545_umdrehenumkehrenbekehren,gaƕaírban,gaƕaírb,ɡ a ʍ ɛ r b,,Kobler1989,,,^ gaƕaírb $,default,CVVVCC
+Gothic-1546_fugsamgetreugehorsam-1,f1546,Gothic,1546_fugsamgetreugehorsam,gaƕaírbs,gaƕaírbs,ɡ a ʍ ɛ r b s,,Kobler1989,,,^ gaƕaírbs $,default,CVVVCCC
+Gothic-2292_anreizenverlocken-1,f1547,Gothic,2292_anreizenverlocken,gaƕatjan,gaƕatj,ɡ a ʍ a t j,,Kobler1989,,,^ gaƕatj $,default,CVVVCC
+Gothic-1548_verweilenruhe-1,f1548,Gothic,1548_verweilenruhe,gaƕeilains,gaƕeilains,ɡ a ʍ i l ɛ n s,,Kobler1989,,,^ gaƕeilains $,default,CVVVCVCC
+Gothic-1549_zurruhekommenaufhorenverweilen-1,f1549,Gothic,1549_zurruhekommenaufhorenverweilen,gaƕeilan,gaƕeil,ɡ a ʍ i l,,Kobler1989,,,^ gaƕeil $,default,CVVVC
+Gothic-1550_weienweimachen-1,f1550,Gothic,1550_weienweimachen,gaƕeitjan,gaƕeitj,ɡ a ʍ i t j,,Kobler1989,,,^ gaƕeitj $,default,CVVVCC
+Gothic-1551_bedrohenscheltenstrafen-1,f1551,Gothic,1551_bedrohenscheltenstrafen,gaƕōtjan,gaƕōtj,ɡ a ʍ o t j,,Kobler1989,,,^ gaƕōtj $,default,CVVVCC
 Gothic-2065_holle-1,f1552,Gothic,2065_holle,gaíaínna,gaíaínna,ɡ ɛ ɛ nː a,,Kobler1989,,,^ gaíaínna $,default,CVVCV
 Gothic-2327_gleichmachenebnen-1,f1553,Gothic,2327_gleichmachenebnen,gaibnjan,gaibnj,ɡ ɛ β n j,,Kobler1989,,,^ gaibnj $,default,CVCCC
 Gothic-1554_speerspitze-1,f1554,Gothic,1554_speerspitze,gaida,gaida,ɡ ɛ ð a,,Kobler1989,,,^ gaida $,default,CVCV
@@ -1654,7 +1654,7 @@ Gothic-1651_erinnerung-1,f1651,Gothic,1651_erinnerung,gamaudeins,gamaudeins,ɡ a
 Gothic-2804_erinnern-1,f1652,Gothic,2804_erinnern,gamaudjan,gamaudj,ɡ a m ɔ ð j,,Kobler1989,,,^ gamaudj $,default,CVCVCC
 Gothic-1653_verkurzenabkurzenkurzen-1,f1653,Gothic,1653_verkurzenabkurzenkurzen,gamaúrgjan,gamaúrgj,ɡ a m ɔ r ɡ j,,Kobler1989,,,^ gamaúrgj $,default,CVCVCCC
 Gothic-1654_schriftbuchstabenschrift-1,f1654,Gothic,1654_schriftbuchstabenschrift,gamēleins,gamēleins,ɡ a m e l i n s,,Kobler1989,,,^ gamēleins $,default,CVCVCVCC
-Gothic-1655_geschriebenesschrift-1,f1655,Gothic,1655_geschriebenesschrift,gamēliþsbzw.þatagamēlidō,gamēliþsbzw.þatagamēlidō,ɡ a m e l ɪ θ s b z w θ a t a ɣ a m e l ɪ ð o,,Kobler1989,,,^ gamēliþsbzw.þatagamēlidō $,default,CVCVCVCCCCVCVCVCVCVCVCV
+Gothic-1655_geschriebenesschrift-1,f1655,Gothic,1655_geschriebenesschrift,gamēliþsbzw.þatagamēlidō,gamēliþsbzw.þatagamēlidō,ɡ a m e l ɪ θ s b z w θ a t a ɣ a m e l ɪ ð o,,Kobler1989,,,^ gamēliþsbzw.þatagamēlidō $,default,CVCVCVCCCCCCVCVCVCVCVCV
 Gothic-1656_schreibenaufschreibensichindielisteneintragenlassen-1,f1656,Gothic,1656_schreibenaufschreibensichindielisteneintragenlassen,gamēljan,gamēlj,ɡ a m e l j,,Kobler1989,,,^ gamēlj $,default,CVCVCC
 Gothic-1657_gromachenpreisenerheben-1,f1657,Gothic,1657_gromachenpreisenerheben,gamikiljan,gamikilj,ɡ a m ɪ k ɪ l j,,Kobler1989,,,^ gamikilj $,default,CVCVCVCC
 Gothic-1658_erinnerunggedachtnis-1,f1658,Gothic,1658_erinnerunggedachtnis,gaminþi,gaminþi,ɡ a m ɪ n θ ɪ,,Kobler1989,,,^ gaminþi $,default,CVCVCCV
@@ -1721,7 +1721,7 @@ Gothic-1718_hofmannhofbeamter-2,f1718,Gothic,1718_hofmannhofbeamter,gardingus,ga
 Gothic-1719_haushauswesenfamiliehofpratorium-1,f1719,Gothic,1719_haushauswesenfamiliehofpratorium,gards,gards,ɡ a r d s,,Kobler1989,,,^ gards $,default,CVCCC
 Gothic-1720_anstandigehrbar-3,f1720,Gothic,1720_anstandigehrbar,garēdaba,garēdaba,ɡ a r e ð a β a,,Kobler1989,,,^ garēdaba $,default,CVCVCVCV
 Gothic-1721_vorsorgetreffenratenversorgen-1,f1721,Gothic,1721_vorsorgetreffenratenversorgen,garēdan,garēd,ɡ a r e ð,,Kobler1989,,,^ garēd $,default,CVCVC
-Gothic-1722_bestimmtezeitbestimmungplan-1,f1722,Gothic,1722_bestimmtezeitbestimmungplan,garēhsns,garēhsns,ɡ a r e h s n̥ s,,Kobler1989,,,^ garēhsns $,default,CVCVCCVC
+Gothic-1722_bestimmtezeitbestimmungplan-1,f1722,Gothic,1722_bestimmtezeitbestimmungplan,garēhsns,garēhsns,ɡ a r e h s n̥ s,,Kobler1989,,,^ garēhsns $,default,CVCVCCCC
 Gothic-1723_anstandig-2,f1723,Gothic,1723_anstandig,garēþs,garēþs,ɡ a r e θ s,,Kobler1989,,,^ garēþs $,default,CVCVCC
 Gothic-1724_zusammenlaufenzusammenkommenerlaufenerringenerlangen-1,f1724,Gothic,1724_zusammenlaufenzusammenkommenerlaufenerringenerlangen,garinnan,garinn,ɡ a r ɪ nː,,Kobler1989,,,^ garinn $,default,CVCVC
 Gothic-3209_erroten-1,f1725,Gothic,3209_erroten,gariudan,gariud,ɡ a r ɪ u ð,,Kobler1989,,,^ gariud $,default,CVCVVC
@@ -1734,10 +1734,10 @@ Gothic-1731_flutuberschwemmung-1,f1731,Gothic,1731_flutuberschwemmung,garunjō,g
 Gothic-1732_marktstrae-1,f1732,Gothic,1732_marktstrae,garuns,garuns,ɡ a r u n s,,Kobler1989,,,^ garuns $,default,CVCVCC
 Gothic-1735_schmuck-1,f1733,Gothic,1735_schmuck,garwi,garwi,ɡ a r w ɪ,,Kobler1989,,,^ garwi $,default,CVCCV
 Gothic-1734_bereitenkleiden-1,f1734,Gothic,1734_bereitenkleiden,garwōn,garwōn,ɡ a r w o n,,Kobler1989,,,^ garwōn $,default,CVCCVC
-Gothic-1735_schmuck-2,f1735,Gothic,1735_schmuck,garws,garws,ɡ a r w s,,Kobler1989,,,^ garws $,default,CVCVC
+Gothic-1735_schmuck-2,f1735,Gothic,1735_schmuck,garws,garws,ɡ a r w s,,Kobler1989,,,^ garws $,default,CVCCC
 Gothic-1736_vorwurftadelzurechtweisungbeschuldigung-1,f1736,Gothic,1736_vorwurftadelzurechtweisungbeschuldigung,gasahts,gasahts,ɡ a s a h t s,,Kobler1989,,,^ gasahts $,default,CVCVCCC
-Gothic-1737_erblickensehen-1,f1737,Gothic,1737_erblickensehen,gasaíƕan,gasaíƕ,ɡ a s ɛ ʍ,,Kobler1989,,,^ gasaíƕ $,default,CVCVC
-Gothic-1738_gesehensichtbar-1,f1738,Gothic,1738_gesehensichtbar,gasaíƕans,gasaíƕans,ɡ a s ɛ ʍ a n s,,Kobler1989,,,^ gasaíƕans $,default,CVCVCVCC
+Gothic-1737_erblickensehen-1,f1737,Gothic,1737_erblickensehen,gasaíƕan,gasaíƕ,ɡ a s ɛ ʍ,,Kobler1989,,,^ gasaíƕ $,default,CVCVV
+Gothic-1738_gesehensichtbar-1,f1738,Gothic,1738_gesehensichtbar,gasaíƕans,gasaíƕans,ɡ a s ɛ ʍ a n s,,Kobler1989,,,^ gasaíƕans $,default,CVCVVVCC
 Gothic-1739_uberfuhrenscheltendenmundstopfenzumschweigenbringenwiderlegen-1,f1739,Gothic,1739_uberfuhrenscheltendenmundstopfenzumschweigenbringenwiderlegen,gasakan,gasak,ɡ a s a k,,Kobler1989,,,^ gasak $,default,CVCVC
 Gothic-1740_salbenbesalben-1,f1740,Gothic,1740_salbenbesalben,gasalbōn,gasalbōn,ɡ a s a l b o n,,Kobler1989,,,^ gasalbōn $,default,CVCVCCVC
 Gothic-1741_hausgemeinschaftgenosse-1,f1741,Gothic,1741_hausgemeinschaftgenosse,gasalja,gasalja,ɡ a s a l j a,,Kobler1989,,,^ gasalja $,default,CVCVCCV
@@ -1902,7 +1902,7 @@ Gothic-1899_verweilenverbleiben-1,f1899,Gothic,1899_verweilenverbleiben,gawisan,
 Gothic-1900_verbindunggelenkbanddergelenke-1,f1900,Gothic,1900_verbindunggelenkbanddergelenke,gawiss,gawiss,ɡ a w ɪ sː,,Kobler1989,,,^ gawiss $,default,CVCVC
 Gothic-1901_verteidigen-1,f1901,Gothic,1901_verteidigen,gawitan,gawit,ɡ a w ɪ t,,Kobler1989,,,^ gawit $,default,CVCVC
 Gothic-1902_vollmitfreude-1,f1902,Gothic,1902_vollmitfreude,gawizneigs,gawizneigs,ɡ a w ɪ z n i ɣ s,,Kobler1989,,,^ gawizneigs $,default,CVCVCCVCC
-Gothic-1903_freude-2,f1903,Gothic,1903_freude,gawizns,gawizns,ɡ a w ɪ z n̥ s,,Kobler1989,,,^ gawizns $,default,CVCVCVC
+Gothic-1903_freude-2,f1903,Gothic,1903_freude,gawizns,gawizns,ɡ a w ɪ z n̥ s,,Kobler1989,,,^ gawizns $,default,CVCVCCC
 Gothic-1904_bestrafenrachenrachenehmen-1,f1904,Gothic,1904_bestrafenrachenrachenehmen,gawrikan,gawrik,ɡ a w r ɪ k,,Kobler1989,,,^ gawrik $,default,CVCCVC
 Gothic-4741_fruchtbringen-1,f1905,Gothic,4741_fruchtbringen,gawrisqan,gawrisq,ɡ a w r ɪ s kʷ,,Kobler1989,,,^ gawrisq $,default,CVCCVCC
 Gothic-1906_verwunden-1,f1906,Gothic,1906_verwunden,gawundōn,gawundōn,ɡ a w u n d o n,,Kobler1989,,,^ gawundōn $,default,CVCVCCVC
@@ -1912,7 +1912,7 @@ Gothic-2637_gehen-1,f1909,Gothic,2637_gehen,geen,geen,ɡ e e n,,Kobler1989,,,^ g
 Gothic-1910_begehren-1,f1910,Gothic,1910_begehren,geigan,geig,ɡ i ɣ,,Kobler1989,,,^ geig $,default,CVC
 Gothic-1911_gier-1,f1911,Gothic,1911_gier,geirō,geirō,ɡ i r o,,Kobler1989,,,^ geirō $,default,CVCV
 Gothic-1912_gierig-1,f1912,Gothic,1912_gierig,geirs,geirs,ɡ i r s,,Kobler1989,,,^ geirs $,default,CVCC
-Gothic-1913_geisel-1,f1913,Gothic,1913_geisel,geisls,geisls,ɡ i s l̥ s,,Kobler1989,,,^ geisls $,default,CVCVC
+Gothic-1913_geisel-1,f1913,Gothic,1913_geisel,geisls,geisls,ɡ i s l̥ s,,Kobler1989,,,^ geisls $,default,CVCCC
 Gothic-4321_erschrecken-2,f1914,Gothic,4321_erschrecken,geisnan,geisn,ɡ i s n̥,,Kobler1989,,,^ geisn $,default,CVCC
 Gothic-1915_gabegeschenkgrune-1,f1915,Gothic,1915_gabegeschenkgrune,giba,giba,ɡ ɪ β a,,Kobler1989,,,^ giba $,default,CVCV
 Gothic-1916_geben-1,f1916,Gothic,1916_geben,giban,gib,ɡ ɪ β,,Kobler1989,,,^ gib $,default,CVC
@@ -1925,14 +1925,14 @@ Gothic-1922_steuerabgabe-1,f1922,Gothic,1922_steuerabgabe,gilstr,gilstr,ɡ ɪ l 
 Gothic-1923_eintragungindiesteuerliste-1,f1923,Gothic,1923_eintragungindiesteuerliste,gilstramēleins,gilstramēleins,ɡ ɪ l s t r a m e l i n s,,Kobler1989,,,^ gilstramēleins $,default,CVCCCCVCVCVCC
 Gothic-1924_sichel-1,f1924,Gothic,1924_sichel,gilþa,gilþa,ɡ ɪ l θ a,,Kobler1989,,,^ gilþa $,default,CVCCV
 Gothic-1925_beginnen-1,f1925,Gothic,1925_beginnen,ginnan,ginn,ɡ ɪ nː,,Kobler1989,,,^ ginn $,default,CVC
-Gothic-1926_speer-2,f1926,Gothic,1926_speer,gisls,gisls,ɡ ɪ s l̥ s,,Kobler1989,,,^ gisls $,default,CVCVC
+Gothic-1926_speer-2,f1926,Gothic,1926_speer,gisls,gisls,ɡ ɪ s l̥ s,,Kobler1989,,,^ gisls $,default,CVCCC
 Gothic-1927_morgen-1,f1927,Gothic,1927_morgen,gistradagis,gistradagis,ɡ ɪ s t r a ð a ɣ ɪ s,,Kobler1989,,,^ gistradagis $,default,CVCCCVCVCVC
 Gothic-1928_findenbekommenerlangen-1,f1928,Gothic,1928_findenbekommenerlangen,gitan,git,ɡ ɪ t,,Kobler1989,,,^ git $,default,CVC
 Gothic-1929_gieen-1,f1929,Gothic,1929_gieen,giutan,giut,ɡ ɪ u t,,Kobler1989,,,^ giut $,default,CVVC
 Gothic-3698_frohfrohlich-1,f1930,Gothic,3698_frohfrohlich,glad,glad,ɡ l a ð,,Kobler1989,,,^ glad $,default,CCVC
 Gothic-1931_sorgsam-1,f1931,Gothic,1931_sorgsam,glaggwaba,glaggwaba,ɡ l a ɡ ɡ w a β a,,Kobler1989,,,^ glaggwaba $,default,CCVCCCVCV
 Gothic-1934_genau-1,f1932,Gothic,1934_genau,glaggwō,glaggwō,ɡ l a ɡ ɡ w o,,Kobler1989,,,^ glaggwō $,default,CCVCCCV
-Gothic-1934_genau-2,f1933,Gothic,1934_genau,glaggws,glaggws,ɡ l a ɡ ɡ w s,,Kobler1989,,,^ glaggws $,default,CCVCCVC
+Gothic-1934_genau-2,f1933,Gothic,1934_genau,glaggws,glaggws,ɡ l a ɡ ɡ w s,,Kobler1989,,,^ glaggws $,default,CCVCCCC
 Gothic-1934_genau-3,f1934,Gothic,1934_genau,glaggwuba,glaggwuba,ɡ l a ɡ ɡ w u β a,,Kobler1989,,,^ glaggwuba $,default,CCVCCCVCV
 Gothic-2600_glanz-1,f1935,Gothic,2600_glanz,glitmuni,glitmuni,ɡ l ɪ t m u n ɪ,,Kobler1989,,,^ glitmuni $,default,CCVCCVCV
 Gothic-1936_glanzen-1,f1936,Gothic,1936_glanzen,glitmunjan,glitmunj,ɡ l ɪ t m u n j,,Kobler1989,,,^ glitmunj $,default,CCVCCVCC
@@ -2055,7 +2055,7 @@ Gothic-2052_heier-1,f2052,Gothic,2052_heier,haitja,haitja,h ɛ t j a,,Kobler1989
 Gothic-2053_heidesteppefeldacker-1,f2053,Gothic,2053_heidesteppefeldacker,haiþi,haiþi,h ɛ θ ɪ,,Kobler1989,,,^ haiþi $,default,CVCV
 Gothic-4649_wild-1,f2054,Gothic,4649_wild,haiþiwisks,haiþiwisks,h ɛ θ ɪ w ɪ s k s,,Kobler1989,,,^ haiþiwisks $,default,CVCVCVCCC
 Gothic-2055_heidin-1,f2055,Gothic,2055_heidin,haiþnō,haiþnō,h ɛ θ n o,,Kobler1989,,,^ haiþnō $,default,CVCCV
-Gothic-3952_heidnisch-1,f2056,Gothic,3952_heidnisch,haiþns,haiþns,h ɛ θ n̥ s,,Kobler1989,,,^ haiþns $,default,CVCVC
+Gothic-3952_heidnisch-1,f2056,Gothic,3952_heidnisch,haiþns,haiþns,h ɛ θ n̥ s,,Kobler1989,,,^ haiþns $,default,CVCCC
 Gothic-2057_hecheln-1,f2057,Gothic,2057_hecheln,hakiljan,hakilj,h a k ɪ l j,,Kobler1989,,,^ hakilj $,default,CVCVCC
 Gothic-2058_mantel-1,f2058,Gothic,2058_mantel,hakuls,hakuls,h a k u l s,,Kobler1989,,,^ hakuls $,default,CVCVCC
 Gothic-2059_halfteseiteteil-1,f2059,Gothic,2059_halfteseiteteil,halba,halba,h a l b a,,Kobler1989,,,^ halba $,default,CVCCV
@@ -2098,7 +2098,7 @@ Gothic-2095_harfe-1,f2095,Gothic,2095_harfe,harpa,harpa,h a r p a,,Kobler1989,,,
 Gothic-2096_packen-1,f2096,Gothic,2096_packen,harpōn,harpōn,h a r p o n,,Kobler1989,,,^ harpōn $,default,CVCCVC
 Gothic-2097_haspewinde-1,f2097,Gothic,2097_haspewinde,haspa,haspa,h a s p a,,Kobler1989,,,^ haspa $,default,CVCCV
 Gothic-2098_haspeln-1,f2098,Gothic,2098_haspeln,haspan,hasp,h a s p,,Kobler1989,,,^ hasp $,default,CVCC
-Gothic-2099_grau-2,f2099,Gothic,2099_grau,hasws,hasws,h a s w s,,Kobler1989,,,^ hasws $,default,CVCVC
+Gothic-2099_grau-2,f2099,Gothic,2099_grau,hasws,hasws,h a s w s,,Kobler1989,,,^ hasws $,default,CVCCC
 Gothic-2103_hassen-1,f2100,Gothic,2103_hassen,hatan,hat,h a t,,Kobler1989,,,^ hat $,default,CVC
 Gothic-2101_hasszorn-1,f2101,Gothic,2101_hasszorn,hatis,hatis,h a t ɪ s,,Kobler1989,,,^ hatis $,default,CVCVC
 Gothic-3172_zurnen-1,f2102,Gothic,3172_zurnen,hatizōn,hatizōn,h a t ɪ z o n,,Kobler1989,,,^ hatizōn $,default,CVCVCVC
@@ -2189,7 +2189,7 @@ Gothic-2186_gehorschweigenstilleaufmerksamkeit-1,f2186,Gothic,2186_gehorschweige
 Gothic-2187_lachenmachen-1,f2187,Gothic,2187_lachenmachen,hlōhjan,hlōhj,h l o h j,,Kobler1989,,,^ hlōhj $,default,CCVCC
 Gothic-2189_lauterkeitreinheitaufrichtigkeit-1,f2188,Gothic,2189_lauterkeitreinheitaufrichtigkeit,hlūtrei,hlūtrei,h l u t r i,,Kobler1989,,,^ hlūtrei $,default,CCVCCV
 Gothic-2189_lauterkeitreinheitaufrichtigkeit-2,f2189,Gothic,2189_lauterkeitreinheitaufrichtigkeit,hlūtriþa,hlūtriþa,h l u t r ɪ θ a,,Kobler1989,,,^ hlūtriþa $,default,CCVCCVCV
-Gothic-2190_lauterrein-1,f2190,Gothic,2190_lauterrein,hlūtrs,hlūtrs,h l u t r̥ s,,Kobler1989,,,^ hlūtrs $,default,CCVCVC
+Gothic-2190_lauterrein-1,f2190,Gothic,2190_lauterrein,hlūtrs,hlūtrs,h l u t r̥ s,,Kobler1989,,,^ hlūtrs $,default,CCVCCC
 Gothic-2191_beruhmt-1,f2191,Gothic,2191_beruhmt,hluþ,hluþ,h l u θ,,Kobler1989,,,^ hluþ $,default,CCVC
 Gothic-2192_erniedrigungdemut-2,f2192,Gothic,2192_erniedrigungdemut,hnaiweins,hnaiweins,h n ɛ w i n s,,Kobler1989,,,^ hnaiweins $,default,CCVCVCC
 Gothic-2193_niedrigmachenerniedrigen-1,f2193,Gothic,2193_niedrigmachenerniedrigen,hnaiwjan,hnaiwj,h n ɛ w j,,Kobler1989,,,^ hnaiwj $,default,CCVCC
@@ -2210,7 +2210,7 @@ Gothic-2207_verleumdenbetrugendurchbetrugschadigenschikanierenschaden-1,f2207,Go
 Gothic-2208_ehebruchhurerei-1,f2208,Gothic,2208_ehebruchhurerei,hōrinassus,hōrinassus,h o r ɪ n a sː u s,,Kobler1989,,,^ hōrinassus $,default,CVCVCVCVC
 Gothic-2209_hurendieehebrechenehebruchtreiben-1,f2209,Gothic,2209_hurendieehebrechenehebruchtreiben,hōrinōn,hōrinōn,h o r ɪ n o n,,Kobler1989,,,^ hōrinōn $,default,CVCVCVC
 Gothic-2210_hurerehebrecher-1,f2210,Gothic,2210_hurerehebrecher,hōrs,hōrs,h o r s,,Kobler1989,,,^ hōrs $,default,CVCC
-Gothic-2211_rabe-1,f2211,Gothic,2211_rabe,hrabns,hrabns,h r a β n̥ s,,Kobler1989,,,^ hrabns $,default,CCVCVC
+Gothic-2211_rabe-1,f2211,Gothic,2211_rabe,hrabns,hrabns,h r a β n̥ s,,Kobler1989,,,^ hrabns $,default,CCVCCC
 Gothic-2212_reinheitreinigung-1,f2212,Gothic,2212_reinheitreinigung,hrainei,hrainei,h r ɛ n i,,Kobler1989,,,^ hrainei $,default,CCVCV
 Gothic-3720_reinigung-2,f2213,Gothic,3720_reinigung,hraineins,hraineins,h r ɛ n i n s,,Kobler1989,,,^ hraineins $,default,CCVCVCC
 Gothic-2214_reinheit-1,f2214,Gothic,2214_reinheit,hrainiþa,hrainiþa,h r ɛ n ɪ θ a,,Kobler1989,,,^ hrainiþa $,default,CCVCVCV
@@ -2270,56 +2270,56 @@ Gothic-3181_haus-1,f2267,Gothic,3181_haus,hūs,hūs,h u s,,Kobler1989,,,^ hūs $
 Gothic-2268_beinschienehosebeinkleid-1,f2268,Gothic,2268_beinschienehosebeinkleid,husa,husa,h u s a,,Kobler1989,,,^ husa $,default,CVCV
 Gothic-2269_hortschatz-1,f2269,Gothic,2269_hortschatz,huzd,huzd,h u z d,,Kobler1989,,,^ huzd $,default,CVCC
 Gothic-2270_schatzesammelnsammeln-1,f2270,Gothic,2270_schatzesammelnsammeln,huzdjan,huzdj,h u z d j,,Kobler1989,,,^ huzdj $,default,CVCCC
-Gothic-2320_ysop-1,f2271,Gothic,2320_ysop,hwssōpō,hwssōpō,h w sː o p o,,Kobler1989,,,^ hwssōpō $,default,CVCVCV
-Gothic-2294_wohin-1,f2272,Gothic,2294_wohin,ƕadrē,ƕadrē,ʍ a ð r e,,Kobler1989,,,^ ƕadrē $,default,CVCCV
-Gothic-2273_kesselrune-1,f2273,Gothic,2273_kesselrune,ƕair,ƕair,ʍ ɛ r,,Kobler1989,,,^ ƕair $,default,CVC
-Gothic-2274_wandelnsichwenden-1,f2274,Gothic,2274_wandelnsichwenden,ƕaírban,ƕaírb,ʍ ɛ r b,,Kobler1989,,,^ ƕaírb $,default,CVCC
-Gothic-2277_schadel-1,f2275,Gothic,2277_schadel,ƕaírnei,ƕaírnei,ʍ ɛ r n i,,Kobler1989,,,^ ƕaírnei $,default,CVCCV
-Gothic-2277_schadel-2,f2276,Gothic,2277_schadel,ƕaírneins,ƕaírneins,ʍ ɛ r n i n s,,Kobler1989,,,^ ƕaírneins $,default,CVCCVCC
-Gothic-2277_schadel-3,f2277,Gothic,2277_schadel,ƕaírnō,ƕaírnō,ʍ ɛ r n o,,Kobler1989,,,^ ƕaírnō $,default,CVCCV
-Gothic-2278_weizen-1,f2278,Gothic,2278_weizen,ƕaiteis,ƕaiteis,ʍ ɛ t i s,,Kobler1989,,,^ ƕaiteis $,default,CVCVC
-Gothic-2279_wieirgendwie-1,f2279,Gothic,2279_wieirgendwie,ƕaiwa,ƕaiwa,ʍ ɛ w a,,Kobler1989,,,^ ƕaiwa $,default,CVCV
-Gothic-2280_wannirgendwannwieumwievieletwa-1,f2280,Gothic,2280_wannirgendwannwieumwievieletwa,ƕan,ƕ,ʍ,,Kobler1989,,,^ ƕ $,default,C
-Gothic-2281_jemals-1,f2281,Gothic,2281_jemals,ƕanhun,ƕanhun,ʍ a n h u n,,Kobler1989,,,^ ƕanhun $,default,CVCCVC
-Gothic-2283_ersticken-1,f2282,Gothic,2283_ersticken,ƕapjan,ƕapj,ʍ a p j,,Kobler1989,,,^ ƕapj $,default,CVCC
-Gothic-2283_ersticken-2,f2283,Gothic,2283_ersticken,ƕapnan,ƕapn,ʍ a p n̥,,Kobler1989,,,^ ƕapn $,default,CVCC
-Gothic-3900_wo-1,f2284,Gothic,3900_wo,ƕar,ƕar,ʍ a r,,Kobler1989,,,^ ƕar $,default,CVC
-Gothic-2285_wandelngehenumhergehen-1,f2285,Gothic,2285_wandelngehenumhergehen,ƕarbōn,ƕarbōn,ʍ a r b o n,,Kobler1989,,,^ ƕarbōn $,default,CVCCVC
-Gothic-2286_welcherwer-1,f2286,Gothic,2286_welcherwer,ƕarjis,ƕarjis,ʍ a r j ɪ s,,Kobler1989,,,^ ƕarjis $,default,CVCCVC
-Gothic-2300_jeder-1,f2287,Gothic,2300_jeder,ƕarjizuh,ƕarjizuh,ʍ a r j ɪ z u h,,Kobler1989,,,^ ƕarjizuh $,default,CVCCVCVC
-Gothic-2288_werwasirgendeinerjemandetwas-1,f2288,Gothic,2288_werwasirgendeinerjemandetwas,ƕas,ƕas,ʍ a s,,Kobler1989,,,^ ƕas $,default,CVC
-Gothic-2772_jemand-1,f2289,Gothic,2772_jemand,ƕashun,ƕashun,ʍ a s h u n,,Kobler1989,,,^ ƕashun $,default,CVCCVC
-Gothic-2290_scharfstreng-1,f2290,Gothic,2290_scharfstreng,ƕassaba,ƕassaba,ʍ a sː a β a,,Kobler1989,,,^ ƕassaba $,default,CVCVCV
-Gothic-2291_strengescharfe-1,f2291,Gothic,2291_strengescharfe,ƕassei,ƕassei,ʍ a sː i,,Kobler1989,,,^ ƕassei $,default,CVCV
-Gothic-2292_anreizenverlocken-2,f2292,Gothic,2292_anreizenverlocken,ƕatjan,ƕatj,ʍ a t j,,Kobler1989,,,^ ƕatj $,default,CVCC
-Gothic-2293_scharf-1,f2293,Gothic,2293_scharf,ƕats,ƕats,ʍ a t s,,Kobler1989,,,^ ƕats $,default,CVCC
-Gothic-2294_wohin-2,f2294,Gothic,2294_wohin,ƕaþ,ƕaþ,ʍ a θ,,Kobler1989,,,^ ƕaþ $,default,CVC
-Gothic-2295_wervonbeiden-1,f2295,Gothic,2295_wervonbeiden,ƕaþar,ƕaþar,ʍ a θ a r,,Kobler1989,,,^ ƕaþar $,default,CVCVC
-Gothic-2296_jedervonbeiden-2,f2296,Gothic,2296_jedervonbeiden,ƕaþaruh,ƕaþaruh,ʍ a θ a r u h,,Kobler1989,,,^ ƕaþaruh $,default,CVCVCVC
-Gothic-2297_schaumen-1,f2297,Gothic,2297_schaumen,ƕaþjan,ƕaþj,ʍ a θ j,,Kobler1989,,,^ ƕaþj $,default,CVCC
-Gothic-3461_schaum-1,f2298,Gothic,3461_schaum,ƕaþō,ƕaþō,ʍ a θ o,,Kobler1989,,,^ ƕaþō $,default,CVCV
-Gothic-2299_wohervonwoher-1,f2299,Gothic,2299_wohervonwoher,ƕaþrō,ƕaþrō,ʍ a θ r o,,Kobler1989,,,^ ƕaþrō $,default,CVCCV
-Gothic-2300_jeder-2,f2300,Gothic,2300_jeder,ƕazuh,ƕazuh,ʍ a z u h,,Kobler1989,,,^ ƕazuh $,default,CVCVC
-Gothic-2301_wemmitwemwomitumwasirgendwieetwa-1,f2301,Gothic,2301_wemmitwemwomitumwasirgendwieetwa,ƕē,ƕē,ʍ e,,Kobler1989,,,^ ƕē $,default,CV
-Gothic-2302_jedenfallsnur-1,f2302,Gothic,2302_jedenfallsnur,ƕēh,ƕēh,ʍ e h,,Kobler1989,,,^ ƕēh $,default,CVC
-Gothic-2303_weilezeitstunde-1,f2303,Gothic,2303_weilezeitstunde,ƕeila,ƕeila,ʍ i l a,,Kobler1989,,,^ ƕeila $,default,CVCV
-Gothic-2304_nureinezeitlangdauerndverganglichunbestandig-1,f2304,Gothic,2304_nureinezeitlangdauerndverganglichunbestandig,ƕeilaƕaírbs,ƕeilaƕaírbs,ʍ i l a ʍ ɛ r b s,,Kobler1989,,,^ ƕeilaƕaírbs $,default,CVCVCVCCC
-Gothic-2305_ruheverweilen-1,f2305,Gothic,2305_ruheverweilen,ƕeilains,ƕeilains,ʍ i l ɛ n s,,Kobler1989,,,^ ƕeilains $,default,CVCVCC
-Gothic-2306_aufhoren-1,f2306,Gothic,2306_aufhoren,ƕeilan,ƕeil,ʍ i l,,Kobler1989,,,^ ƕeil $,default,CVC
-Gothic-2307_einestundelang-1,f2307,Gothic,2307_einestundelang,ƕeilōhun,ƕeilōhun,ʍ i l o h u n,,Kobler1989,,,^ ƕeilōhun $,default,CVCVCVC
-Gothic-2310_wei-2,f2308,Gothic,2310_wei,ƕeitags,ƕeitags,ʍ i t a ɣ s,,Kobler1989,,,^ ƕeitags $,default,CVCVCC
-Gothic-2309_weien-1,f2309,Gothic,2309_weien,ƕeitjan,ƕeitj,ʍ i t j,,Kobler1989,,,^ ƕeitj $,default,CVCC
-Gothic-2310_wei-3,f2310,Gothic,2310_wei,ƕeits,ƕeits,ʍ i t s,,Kobler1989,,,^ ƕeits $,default,CVCC
-Gothic-2311_wiegro-1,f2311,Gothic,2311_wiegro,ƕēlauþs,ƕēlauþs,ʍ e l ɔ θ s,,Kobler1989,,,^ ƕēlauþs $,default,CVCVCC
-Gothic-2312_wolben-1,f2312,Gothic,2312_wolben,ƕilban,ƕilb,ʍ ɪ l b,,Kobler1989,,,^ ƕilb $,default,CVCC
-Gothic-2313_wiebeschaffenwasfureinwelcher-1,f2313,Gothic,2313_wiebeschaffenwasfureinwelcher,ƕileiks,ƕileiks,ʍ ɪ l i k s,,Kobler1989,,,^ ƕileiks $,default,CVCVCC
-Gothic-2314_wolbung-1,f2314,Gothic,2314_wolbung,ƕilftri,ƕilftri,ʍ ɪ l ɸ t r ɪ,,Kobler1989,,,^ ƕilftri $,default,CVCCCCV
-Gothic-2315_totenkistesarg-1,f2315,Gothic,2315_totenkistesarg,ƕilftrjōs,ƕilftrjōs,ʍ ɪ l ɸ t r j o s,,Kobler1989,,,^ ƕilftrjōs $,default,CVCCCCCVC
-Gothic-2316_ruhmruhmen-1,f2316,Gothic,2316_ruhmruhmen,ƕōftuli,ƕōftuli,ʍ o ɸ t u l ɪ,,Kobler1989,,,^ ƕōftuli $,default,CVCCVCV
-Gothic-2317_sichruhmen-1,f2317,Gothic,2317_sichruhmen,ƕōpan,ƕōp,ʍ o p,,Kobler1989,,,^ ƕōp $,default,CVC
-Gothic-2318_drohung-1,f2318,Gothic,2318_drohung,ƕōta,ƕōta,ʍ o t a,,Kobler1989,,,^ ƕōta $,default,CVCV
-Gothic-2319_drohen-1,f2319,Gothic,2319_drohen,ƕōtjan,ƕōtj,ʍ o t j,,Kobler1989,,,^ ƕōtj $,default,CVCC
-Gothic-2320_ysop-2,f2320,Gothic,2320_ysop,ƕssōpō,ƕssōpō,ʍ sː o p o,,Kobler1989,,,^ ƕssōpō $,default,CCVCV
+Gothic-2320_ysop-1,f2271,Gothic,2320_ysop,hwssōpō,hwssōpō,h w sː o p o,,Kobler1989,,,^ hwssōpō $,default,CCCVCV
+Gothic-2294_wohin-1,f2272,Gothic,2294_wohin,ƕadrē,ƕadrē,ʍ a ð r e,,Kobler1989,,,^ ƕadrē $,default,VVCCV
+Gothic-2273_kesselrune-1,f2273,Gothic,2273_kesselrune,ƕair,ƕair,ʍ ɛ r,,Kobler1989,,,^ ƕair $,default,VVC
+Gothic-2274_wandelnsichwenden-1,f2274,Gothic,2274_wandelnsichwenden,ƕaírban,ƕaírb,ʍ ɛ r b,,Kobler1989,,,^ ƕaírb $,default,VVCC
+Gothic-2277_schadel-1,f2275,Gothic,2277_schadel,ƕaírnei,ƕaírnei,ʍ ɛ r n i,,Kobler1989,,,^ ƕaírnei $,default,VVCCV
+Gothic-2277_schadel-2,f2276,Gothic,2277_schadel,ƕaírneins,ƕaírneins,ʍ ɛ r n i n s,,Kobler1989,,,^ ƕaírneins $,default,VVCCVCC
+Gothic-2277_schadel-3,f2277,Gothic,2277_schadel,ƕaírnō,ƕaírnō,ʍ ɛ r n o,,Kobler1989,,,^ ƕaírnō $,default,VVCCV
+Gothic-2278_weizen-1,f2278,Gothic,2278_weizen,ƕaiteis,ƕaiteis,ʍ ɛ t i s,,Kobler1989,,,^ ƕaiteis $,default,VVCVC
+Gothic-2279_wieirgendwie-1,f2279,Gothic,2279_wieirgendwie,ƕaiwa,ƕaiwa,ʍ ɛ w a,,Kobler1989,,,^ ƕaiwa $,default,VVCV
+Gothic-2280_wannirgendwannwieumwievieletwa-1,f2280,Gothic,2280_wannirgendwannwieumwievieletwa,ƕan,ƕ,ʍ,,Kobler1989,,,^ ƕ $,default,V
+Gothic-2281_jemals-1,f2281,Gothic,2281_jemals,ƕanhun,ƕanhun,ʍ a n h u n,,Kobler1989,,,^ ƕanhun $,default,VVCCVC
+Gothic-2283_ersticken-1,f2282,Gothic,2283_ersticken,ƕapjan,ƕapj,ʍ a p j,,Kobler1989,,,^ ƕapj $,default,VVCC
+Gothic-2283_ersticken-2,f2283,Gothic,2283_ersticken,ƕapnan,ƕapn,ʍ a p n̥,,Kobler1989,,,^ ƕapn $,default,VVCC
+Gothic-3900_wo-1,f2284,Gothic,3900_wo,ƕar,ƕar,ʍ a r,,Kobler1989,,,^ ƕar $,default,VVC
+Gothic-2285_wandelngehenumhergehen-1,f2285,Gothic,2285_wandelngehenumhergehen,ƕarbōn,ƕarbōn,ʍ a r b o n,,Kobler1989,,,^ ƕarbōn $,default,VVCCVC
+Gothic-2286_welcherwer-1,f2286,Gothic,2286_welcherwer,ƕarjis,ƕarjis,ʍ a r j ɪ s,,Kobler1989,,,^ ƕarjis $,default,VVCCVC
+Gothic-2300_jeder-1,f2287,Gothic,2300_jeder,ƕarjizuh,ƕarjizuh,ʍ a r j ɪ z u h,,Kobler1989,,,^ ƕarjizuh $,default,VVCCVCVC
+Gothic-2288_werwasirgendeinerjemandetwas-1,f2288,Gothic,2288_werwasirgendeinerjemandetwas,ƕas,ƕas,ʍ a s,,Kobler1989,,,^ ƕas $,default,VVC
+Gothic-2772_jemand-1,f2289,Gothic,2772_jemand,ƕashun,ƕashun,ʍ a s h u n,,Kobler1989,,,^ ƕashun $,default,VVCCVC
+Gothic-2290_scharfstreng-1,f2290,Gothic,2290_scharfstreng,ƕassaba,ƕassaba,ʍ a sː a β a,,Kobler1989,,,^ ƕassaba $,default,VVCVCV
+Gothic-2291_strengescharfe-1,f2291,Gothic,2291_strengescharfe,ƕassei,ƕassei,ʍ a sː i,,Kobler1989,,,^ ƕassei $,default,VVCV
+Gothic-2292_anreizenverlocken-2,f2292,Gothic,2292_anreizenverlocken,ƕatjan,ƕatj,ʍ a t j,,Kobler1989,,,^ ƕatj $,default,VVCC
+Gothic-2293_scharf-1,f2293,Gothic,2293_scharf,ƕats,ƕats,ʍ a t s,,Kobler1989,,,^ ƕats $,default,VVCC
+Gothic-2294_wohin-2,f2294,Gothic,2294_wohin,ƕaþ,ƕaþ,ʍ a θ,,Kobler1989,,,^ ƕaþ $,default,VVC
+Gothic-2295_wervonbeiden-1,f2295,Gothic,2295_wervonbeiden,ƕaþar,ƕaþar,ʍ a θ a r,,Kobler1989,,,^ ƕaþar $,default,VVCVC
+Gothic-2296_jedervonbeiden-2,f2296,Gothic,2296_jedervonbeiden,ƕaþaruh,ƕaþaruh,ʍ a θ a r u h,,Kobler1989,,,^ ƕaþaruh $,default,VVCVCVC
+Gothic-2297_schaumen-1,f2297,Gothic,2297_schaumen,ƕaþjan,ƕaþj,ʍ a θ j,,Kobler1989,,,^ ƕaþj $,default,VVCC
+Gothic-3461_schaum-1,f2298,Gothic,3461_schaum,ƕaþō,ƕaþō,ʍ a θ o,,Kobler1989,,,^ ƕaþō $,default,VVCV
+Gothic-2299_wohervonwoher-1,f2299,Gothic,2299_wohervonwoher,ƕaþrō,ƕaþrō,ʍ a θ r o,,Kobler1989,,,^ ƕaþrō $,default,VVCCV
+Gothic-2300_jeder-2,f2300,Gothic,2300_jeder,ƕazuh,ƕazuh,ʍ a z u h,,Kobler1989,,,^ ƕazuh $,default,VVCVC
+Gothic-2301_wemmitwemwomitumwasirgendwieetwa-1,f2301,Gothic,2301_wemmitwemwomitumwasirgendwieetwa,ƕē,ƕē,ʍ e,,Kobler1989,,,^ ƕē $,default,VV
+Gothic-2302_jedenfallsnur-1,f2302,Gothic,2302_jedenfallsnur,ƕēh,ƕēh,ʍ e h,,Kobler1989,,,^ ƕēh $,default,VVC
+Gothic-2303_weilezeitstunde-1,f2303,Gothic,2303_weilezeitstunde,ƕeila,ƕeila,ʍ i l a,,Kobler1989,,,^ ƕeila $,default,VVCV
+Gothic-2304_nureinezeitlangdauerndverganglichunbestandig-1,f2304,Gothic,2304_nureinezeitlangdauerndverganglichunbestandig,ƕeilaƕaírbs,ƕeilaƕaírbs,ʍ i l a ʍ ɛ r b s,,Kobler1989,,,^ ƕeilaƕaírbs $,default,VVCVVVCCC
+Gothic-2305_ruheverweilen-1,f2305,Gothic,2305_ruheverweilen,ƕeilains,ƕeilains,ʍ i l ɛ n s,,Kobler1989,,,^ ƕeilains $,default,VVCVCC
+Gothic-2306_aufhoren-1,f2306,Gothic,2306_aufhoren,ƕeilan,ƕeil,ʍ i l,,Kobler1989,,,^ ƕeil $,default,VVC
+Gothic-2307_einestundelang-1,f2307,Gothic,2307_einestundelang,ƕeilōhun,ƕeilōhun,ʍ i l o h u n,,Kobler1989,,,^ ƕeilōhun $,default,VVCVCVC
+Gothic-2310_wei-2,f2308,Gothic,2310_wei,ƕeitags,ƕeitags,ʍ i t a ɣ s,,Kobler1989,,,^ ƕeitags $,default,VVCVCC
+Gothic-2309_weien-1,f2309,Gothic,2309_weien,ƕeitjan,ƕeitj,ʍ i t j,,Kobler1989,,,^ ƕeitj $,default,VVCC
+Gothic-2310_wei-3,f2310,Gothic,2310_wei,ƕeits,ƕeits,ʍ i t s,,Kobler1989,,,^ ƕeits $,default,VVCC
+Gothic-2311_wiegro-1,f2311,Gothic,2311_wiegro,ƕēlauþs,ƕēlauþs,ʍ e l ɔ θ s,,Kobler1989,,,^ ƕēlauþs $,default,VVCVCC
+Gothic-2312_wolben-1,f2312,Gothic,2312_wolben,ƕilban,ƕilb,ʍ ɪ l b,,Kobler1989,,,^ ƕilb $,default,VVCC
+Gothic-2313_wiebeschaffenwasfureinwelcher-1,f2313,Gothic,2313_wiebeschaffenwasfureinwelcher,ƕileiks,ƕileiks,ʍ ɪ l i k s,,Kobler1989,,,^ ƕileiks $,default,VVCVCC
+Gothic-2314_wolbung-1,f2314,Gothic,2314_wolbung,ƕilftri,ƕilftri,ʍ ɪ l ɸ t r ɪ,,Kobler1989,,,^ ƕilftri $,default,VVCCCCV
+Gothic-2315_totenkistesarg-1,f2315,Gothic,2315_totenkistesarg,ƕilftrjōs,ƕilftrjōs,ʍ ɪ l ɸ t r j o s,,Kobler1989,,,^ ƕilftrjōs $,default,VVCCCCCVC
+Gothic-2316_ruhmruhmen-1,f2316,Gothic,2316_ruhmruhmen,ƕōftuli,ƕōftuli,ʍ o ɸ t u l ɪ,,Kobler1989,,,^ ƕōftuli $,default,VVCCVCV
+Gothic-2317_sichruhmen-1,f2317,Gothic,2317_sichruhmen,ƕōpan,ƕōp,ʍ o p,,Kobler1989,,,^ ƕōp $,default,VVC
+Gothic-2318_drohung-1,f2318,Gothic,2318_drohung,ƕōta,ƕōta,ʍ o t a,,Kobler1989,,,^ ƕōta $,default,VVCV
+Gothic-2319_drohen-1,f2319,Gothic,2319_drohen,ƕōtjan,ƕōtj,ʍ o t j,,Kobler1989,,,^ ƕōtj $,default,VVCC
+Gothic-2320_ysop-2,f2320,Gothic,2320_ysop,ƕssōpō,ƕssōpō,ʍ sː o p o,,Kobler1989,,,^ ƕssōpō $,default,VCVCV
 Gothic-2321_obetwawohlobdenndochwohldochnichtdassnichtetwa-1,f2321,Gothic,2321_obetwawohlobdenndochwohldochnichtdassnichtetwa,ibai,ibai,ɪ β ɛ,,Kobler1989,,,^ ibai $,default,VCV
 Gothic-2322_berglehneabhang-1,f2322,Gothic,2322_berglehneabhang,ibdalja,ibdalja,ɪ β d a l j a,,Kobler1989,,,^ ibdalja $,default,VCCVCCV
 Gothic-2323_gleich-1,f2323,Gothic,2323_gleich,ibna,ibna,ɪ β n a,,Kobler1989,,,^ ibna $,default,VCCV
@@ -2329,8 +2329,8 @@ Gothic-2326_gleichheitbilligkeit-1,f2326,Gothic,2326_gleichheitbilligkeit,ibnass
 Gothic-2327_gleichmachenebnen-2,f2327,Gothic,2327_gleichmachenebnen,ibnatjan,ibnatj,ɪ β n a t j,,Kobler1989,,,^ ibnatj $,default,VCCVCC
 Gothic-2329_ebnen-1,f2328,Gothic,2329_ebnen,ibnjan,ibnj,ɪ β n j,,Kobler1989,,,^ ibnj $,default,VCCC
 Gothic-2329_ebnen-2,f2329,Gothic,2329_ebnen,ibnōn,ibnōn,ɪ β n o n,,Kobler1989,,,^ ibnōn $,default,VCCVC
-Gothic-2330_ebenflachgleich-1,f2330,Gothic,2330_ebenflachgleich,ibns,ibns,ɪ β n̥ s,,Kobler1989,,,^ ibns $,default,VCVC
-Gothic-2331_eber-2,f2331,Gothic,2331_eber,ibrs,ibrs,ɪ β r̥ s,,Kobler1989,,,^ ibrs $,default,VCVC
+Gothic-2330_ebenflachgleich-1,f2330,Gothic,2330_ebenflachgleich,ibns,ibns,ɪ β n̥ s,,Kobler1989,,,^ ibns $,default,VCCC
+Gothic-2331_eber-2,f2331,Gothic,2331_eber,ibrs,ibrs,ɪ β r̥ s,,Kobler1989,,,^ ibrs $,default,VCCC
 Gothic-2332_ruckwartsgewandtzuruck-1,f2332,Gothic,2332_ruckwartsgewandtzuruck,ibuks,ibuks,ɪ β u k s,,Kobler1989,,,^ ibuks $,default,VCVCC
 Gothic-2333_ging-1,f2333,Gothic,2333_ging,iddja,iddja,ɪ dː j a,,Kobler1989,,,^ iddja $,default,VCCV
 Gothic-2334_bue-1,f2334,Gothic,2334_bue,idreiga,idreiga,ɪ ð r i ɣ a,,Kobler1989,,,^ idreiga $,default,VCCVCV
@@ -2387,7 +2387,7 @@ Gothic-2384_erzitternerbeben-1,f2384,Gothic,2384_erzitternerbeben,inreiran,inrei
 Gothic-3322_schwert-3,f2385,Gothic,3322_schwert,ins,ins,ɪ n s,,Kobler1989,,,^ ins $,default,VCC
 Gothic-2386_erzahlungaussagezeugnis-1,f2386,Gothic,2386_erzahlungaussagezeugnis,insahts,insahts,ɪ n s a h t s,,Kobler1989,,,^ insahts $,default,VCCVCCC
 Gothic-2387_einsaenhineinsaen-1,f2387,Gothic,2387_einsaenhineinsaen,insáian,insái,ɪ n s ɛ,,Kobler1989,,,^ insái $,default,VCCV
-Gothic-2388_hinsehenansehenaufetwassehennachetwassehenaufblickensichumsehen-1,f2388,Gothic,2388_hinsehenansehenaufetwassehennachetwassehenaufblickensichumsehen,insaíƕan,insaíƕ,ɪ n s ɛ ʍ,,Kobler1989,,,^ insaíƕ $,default,VCCVC
+Gothic-2388_hinsehenansehenaufetwassehennachetwassehenaufblickensichumsehen-1,f2388,Gothic,2388_hinsehenansehenaufetwassehennachetwassehenaufblickensichumsehen,insaíƕan,insaíƕ,ɪ n s ɛ ʍ,,Kobler1989,,,^ insaíƕ $,default,VCCVV
 Gothic-2389_anseilenherablassen-1,f2389,Gothic,2389_anseilenherablassen,insailjan,insailj,ɪ n s ɛ l j,,Kobler1989,,,^ insailj $,default,VCCVCC
 Gothic-2390_vorstellenanrateneintretenfurbezeichnenvortragenanzeigen-1,f2390,Gothic,2390_vorstellenanrateneintretenfurbezeichnenvortragenanzeigen,insakan,insak,ɪ n s a k,,Kobler1989,,,^ insak $,default,VCCVC
 Gothic-2391_entsendenhinsendenzusendensenden-1,f2391,Gothic,2391_entsendenhinsendenzusendensenden,insandjan,insandj,ɪ n s a n d j,,Kobler1989,,,^ insandj $,default,VCCVCCC
@@ -2500,7 +2500,7 @@ Gothic-2497_sicherheitburgschaftverschreibung-1,f2497,Gothic,2497_sicherheitburg
 Gothic-2498_keimen-1,f2498,Gothic,2498_keimen,keinan,kein,k i n,,Kobler1989,,,^ kein $,default,CVC
 Gothic-2499_turmspeisesaalimobergeschosoller-1,f2499,Gothic,2499_turmspeisesaalimobergeschosoller,kēlikn,kēlikn,k e l ɪ k n̥,,Kobler1989,,,^ kēlikn $,default,CVCVCC
 Gothic-2500_schluckenschlingen-1,f2500,Gothic,2500_schluckenschlingen,kilan,kil,k ɪ l,,Kobler1989,,,^ kil $,default,CVC
-Gothic-2501_trinkedenbecheraus-1,f2501,Gothic,2501_trinkedenbecheraus,kilemschkop,kilemschkop,k ɪ l e m s c h k o p,,Kobler1989,,,^ kilemschkop $,default,CVCVCCCVCVC
+Gothic-2501_trinkedenbecheraus-1,f2501,Gothic,2501_trinkedenbecheraus,kilemschkop,kilemschkop,k ɪ l e m s c h k o p,,Kobler1989,,,^ kilemschkop $,default,CVCVCCCCCVC
 Gothic-2504_kind-3,f2502,Gothic,2504_kind,kilþ,kilþ,k ɪ l θ,,Kobler1989,,,^ kilþ $,default,CVCC
 Gothic-2503_mutterleib-1,f2503,Gothic,2503_mutterleib,kilþei,kilþei,k ɪ l θ i,,Kobler1989,,,^ kilþei $,default,CVCCV
 Gothic-2504_kind-4,f2504,Gothic,2504_kind,kind,kind,k ɪ n d,,Kobler1989,,,^ kind $,default,CVCC
@@ -2555,7 +2555,7 @@ Gothic-2552_keusch-1,f2552,Gothic,2552_keusch,kuskeis,kuskeis,k u s k i s,,Koble
 Gothic-2553_kehlekrunegeschwur-1,f2553,Gothic,2553_kehlekrunegeschwur,kusma,kusma,k u s m a,,Kobler1989,,,^ kusma $,default,CVCCV
 Gothic-2554_probe-1,f2554,Gothic,2554_probe,kusts,kusts,k u s t s,,Kobler1989,,,^ kusts $,default,CVCCC
 Gothic-2555_prufungbeweis-1,f2555,Gothic,2555_prufungbeweis,kustus,kustus,k u s t u s,,Kobler1989,,,^ kustus $,default,CVCCVC
-Gothic-2556_kyrenischeinwohnervonkyrene-1,f2556,Gothic,2556_kyrenischeinwohnervonkyrene,Kwreinaius,Kwreinaius,k w r i n ɛ u s,,Kobler1989,,,^ Kwreinaius $,default,CVCVCVVC
+Gothic-2556_kyrenischeinwohnervonkyrene-1,f2556,Gothic,2556_kyrenischeinwohnervonkyrene,Kwreinaius,Kwreinaius,k w r i n ɛ u s,,Kobler1989,,,^ Kwreinaius $,default,CCCVCVVC
 Gothic-2557_langmut-1,f2557,Gothic,2557_langmut,laggamōdei,laggamōdei,l a ŋ ɡ a m o ð i,,Kobler1989,,,^ laggamōdei $,default,CVCCVCVCV
 Gothic-2558_langmutig-1,f2558,Gothic,2558_langmutig,laggamōþs,laggamōþs,l a ŋ ɡ a m o θ s,,Kobler1989,,,^ laggamōþs $,default,CVCCVCVCC
 Gothic-2559_lange-1,f2559,Gothic,2559_lange,laggei,laggei,l a ŋ ɡ i,,Kobler1989,,,^ laggei $,default,CVCCV
@@ -2607,7 +2607,7 @@ Gothic-3427_gestalt-1,f2604,Gothic,3427_gestalt,laudi,laudi,l ɔ ð ɪ,,Kobler19
 Gothic-2605_laubblatt-1,f2605,Gothic,2605_laubblatt,laufs,laufs,l ɔ ɸ s,,Kobler1989,,,^ laufs $,default,CVCC
 Gothic-4752_wertvoll-1,f2606,Gothic,4752_wertvoll,laufs,laufs,l ɔ ɸ s,,Kobler1989,,,^ laufs $,default,CVCC
 Gothic-2607_leugnen-1,f2607,Gothic,2607_leugnen,laugnjan,laugnj,l ɔ ɣ n j,,Kobler1989,,,^ laugnj $,default,CVCCC
-Gothic-2608_verborgenheit-2,f2608,Gothic,2608_verborgenheit,laugns,laugns,l ɔ ɣ n̥ s,,Kobler1989,,,^ laugns $,default,CVCVC
+Gothic-2608_verborgenheit-2,f2608,Gothic,2608_verborgenheit,laugns,laugns,l ɔ ɣ n̥ s,,Kobler1989,,,^ laugns $,default,CVCCC
 Gothic-2609_blitzen-1,f2609,Gothic,2609_blitzen,lauhatjan,lauhatj,l ɔ h a t j,,Kobler1989,,,^ lauhatj $,default,CVCVCC
 Gothic-2610_blitz-1,f2610,Gothic,2610_blitz,lauhmuni,lauhmuni,l ɔ h m u n ɪ,,Kobler1989,,,^ lauhmuni $,default,CVCCVCV
 Gothic-2611_lohnbelohnungdank-1,f2611,Gothic,2611_lohnbelohnungdank,laun,laun,l ɔ n,,Kobler1989,,,^ laun $,default,CVC
@@ -2622,10 +2622,10 @@ Gothic-2620_mitleerenhanden-1,f2619,Gothic,2620_mitleerenhanden,laushandja,laush
 Gothic-2620_mitleerenhanden-2,f2620,Gothic,2620_mitleerenhanden,laushandus,laushandus,l ɔ s h a n d u s,,Kobler1989,,,^ laushandus $,default,CVCCVCCVC
 Gothic-2621_losenlosmachenrettengelderhebengeldeintreibengeldzuruckfordernfordernsichbezahlenlassen-1,f2621,Gothic,2621_losenlosmachenrettengelderhebengeldeintreibengeldzuruckfordernfordernsichbezahlenlassen,lausjan,lausj,l ɔ s j,,Kobler1989,,,^ lausj $,default,CVCC
 Gothic-2622_fasten-2,f2622,Gothic,2622_fasten,lausqiþrei,lausqiþrei,l ɔ s kʷ ɪ θ r i,,Kobler1989,,,^ lausqiþrei $,default,CVCCVCCV
-Gothic-2623_leerenmagensnuchternungespeist-1,f2623,Gothic,2623_leerenmagensnuchternungespeist,lausqiþrs,lausqiþrs,l ɔ s kʷ ɪ θ r̥ s,,Kobler1989,,,^ lausqiþrs $,default,CVCCVCVC
+Gothic-2623_leerenmagensnuchternungespeist-1,f2623,Gothic,2623_leerenmagensnuchternungespeist,lausqiþrs,lausqiþrs,l ɔ s kʷ ɪ θ r̥ s,,Kobler1989,,,^ lausqiþrs $,default,CVCCVCCC
 Gothic-2624_beschaffengro-1,f2624,Gothic,2624_beschaffengro,lauþs,lauþs,l ɔ θ s,,Kobler1989,,,^ lauþs $,default,CVCC
 Gothic-2625_leichtleichtsinnig-1,f2625,Gothic,2625_leichtleichtsinnig,leihts,leihts,l i h t s,,Kobler1989,,,^ leihts $,default,CVCCC
-Gothic-2626_leihenborgen-1,f2626,Gothic,2626_leihenborgen,leiƕansis,leiƕansis,l i ʍ a n s ɪ s,,Kobler1989,,,^ leiƕansis $,default,CVCVCCVC
+Gothic-2626_leihenborgen-1,f2626,Gothic,2626_leihenborgen,leiƕansis,leiƕansis,l i ʍ a n s ɪ s,,Kobler1989,,,^ leiƕansis $,default,CVVVCCVC
 Gothic-2627_korperleibleichnamfleisch-1,f2627,Gothic,2627_korperleibleichnamfleisch,leik,leik,l i k,,Kobler1989,,,^ leik $,default,CVC
 Gothic-2628_gefallengutdunkenwohlgefallenvorsatz-1,f2628,Gothic,2628_gefallengutdunkenwohlgefallenvorsatz,leikains,leikains,l i k ɛ n s,,Kobler1989,,,^ leikains $,default,CVCVCC
 Gothic-2629_gefallen-2,f2629,Gothic,2629_gefallen,leikan,leik,l i k,,Kobler1989,,,^ leik $,default,CVC
@@ -2657,7 +2657,7 @@ Gothic-2654_restuberbleibsel-1,f2654,Gothic,2654_restuberbleibsel,lif,lif,l ɪ �
 Gothic-2655_ubrigbleiben-2,f2655,Gothic,2655_ubrigbleiben,lifnan,lifn,l ɪ ɸ n̥,,Kobler1989,,,^ lifn $,default,CVCC
 Gothic-2656_lebenleib-1,f2656,Gothic,2656_lebenleib,lifs,lifs,l ɪ ɸ s,,Kobler1989,,,^ lifs $,default,CVCC
 Gothic-2657_liegendarniederliegen-1,f2657,Gothic,2657_liegendarniederliegen,ligan,lig,l ɪ ɣ,,Kobler1989,,,^ lig $,default,CVC
-Gothic-2658_lagerbettbeilager-1,f2658,Gothic,2658_lagerbettbeilager,ligrs,ligrs,l ɪ ɣ r̥ s,,Kobler1989,,,^ ligrs $,default,CVCVC
+Gothic-2658_lagerbettbeilager-1,f2658,Gothic,2658_lagerbettbeilager,ligrs,ligrs,l ɪ ɣ r̥ s,,Kobler1989,,,^ ligrs $,default,CVCCC
 Gothic-2659_warum-1,f2659,Gothic,2659_warum,lima,lima,l ɪ m a,,Kobler1989,,,^ lima $,default,CVCV
 Gothic-2660_lindmild-1,f2660,Gothic,2660_lindmild,lind,lind,l ɪ n d,,Kobler1989,,,^ lind $,default,CVCC
 Gothic-2661_lindelindenschild-1,f2661,Gothic,2661_lindelindenschild,linda,linda,l ɪ n d a,,Kobler1989,,,^ linda $,default,CVCCV
@@ -2743,7 +2743,7 @@ Gothic-2740_hochstens-1,f2740,Gothic,2740_hochstens,maist,maist,m ɛ s t,,Kobler
 Gothic-2741_meistegrotehochste-1,f2741,Gothic,2741_meistegrotehochste,maists,maists,m ɛ s t s,,Kobler1989,,,^ maists $,default,CVCCC
 Gothic-2742_schneiden-1,f2742,Gothic,2742_schneiden,mait,mait,m ɛ t,,Kobler1989,,,^ mait $,default,CVC
 Gothic-2743_schneidenhauen-1,f2743,Gothic,2743_schneidenhauen,maitan,mait,m ɛ t,,Kobler1989,,,^ mait $,default,CVC
-Gothic-2744_gabegeschenk-1,f2744,Gothic,2744_gabegeschenk,maiþms,maiþms,m ɛ θ m̥ s,,Kobler1989,,,^ maiþms $,default,CVCVC
+Gothic-2744_gabegeschenk-1,f2744,Gothic,2744_gabegeschenk,maiþms,maiþms,m ɛ θ m̥ s,,Kobler1989,,,^ maiþms $,default,CVCCC
 Gothic-2745_verkruppeltverwundet-2,f2745,Gothic,2745_verkruppeltverwundet,maiþs,maiþs,m ɛ θ s,,Kobler1989,,,^ maiþs $,default,CVCC
 Gothic-2746_groere-1,f2746,Gothic,2746_groere,maiza,maiza,m ɛ z a,,Kobler1989,,,^ maiza $,default,CVCV
 Gothic-2747_mehr-1,f2747,Gothic,2747_mehr,maizō,maizō,m ɛ z o,,Kobler1989,,,^ maizō $,default,CVCV
@@ -2765,7 +2765,7 @@ Gothic-2762_mehrenvermehren-1,f2762,Gothic,2762_mehrenvermehren,managjan,managj,
 Gothic-2763_reichlichvorhandenseinuberflusshaben-1,f2763,Gothic,2763_reichlichvorhandenseinuberflusshaben,managnan,managn,m a n a ɣ n̥,,Kobler1989,,,^ managn $,default,CVCVCC
 Gothic-2764_manchvieluber-1,f2764,Gothic,2764_manchvieluber,manags,manags,m a n a ɣ s,,Kobler1989,,,^ manags $,default,CVCVCC
 Gothic-2765_menschenmorder-1,f2765,Gothic,2765_menschenmorder,manamaúrþrja,manamaúrþrja,m a n a m ɔ r θ r j a,,Kobler1989,,,^ manamaúrþrja $,default,CVCVCVCCCCV
-Gothic-2766_gezahmt-1,f2766,Gothic,2766_gezahmt,manariggws,manariggws,m a n a r ɪ ɡ ɡ w s,,Kobler1989,,,^ manariggws $,default,CVCVCVCCVC
+Gothic-2766_gezahmt-1,f2766,Gothic,2766_gezahmt,manariggws,manariggws,m a n a r ɪ ɡ ɡ w s,,Kobler1989,,,^ manariggws $,default,CVCVCVCCCC
 Gothic-2767_menschensaatweltmenschheit-1,f2767,Gothic,2767_menschensaatweltmenschheit,manasēþs,manasēþs,m a n a s e θ s,,Kobler1989,,,^ manasēþs $,default,CVCVCVCC
 Gothic-3427_gestalt-2,f2768,Gothic,3427_gestalt,manauli,manauli,m a n ɔ l ɪ,,Kobler1989,,,^ manauli $,default,CVCVCV
 Gothic-2769_bild-1,f2769,Gothic,2769_bild,manleika,manleika,m a n l i k a,,Kobler1989,,,^ manleika $,default,CVCCVCV
@@ -2788,7 +2788,7 @@ Gothic-2785_meerseesee-1,f2785,Gothic,2785_meerseesee,marisaiws,marisaiws,m a r 
 Gothic-2786_markgrenze-1,f2786,Gothic,2786_markgrenze,marka,marka,m a r k a,,Kobler1989,,,^ marka $,default,CVCCV
 Gothic-2787_zeichen-2,f2787,Gothic,2787_zeichen,marka,marka,m a r k a,,Kobler1989,,,^ marka $,default,CVCCV
 Gothic-2788_bezeichnen-1,f2788,Gothic,2788_bezeichnen,markōn,markōn,m a r k o n,,Kobler1989,,,^ markōn $,default,CVCCVC
-Gothic-2789_martyrer-1,f2789,Gothic,2789_martyrer,martwr,martwr,m a r t w r̥,,Kobler1989,,,^ martwr $,default,CVCCVC
+Gothic-2789_martyrer-1,f2789,Gothic,2789_martyrer,martwr,martwr,m a r t w r̥,,Kobler1989,,,^ martwr $,default,CVCCCC
 Gothic-2790_marder-1,f2790,Gothic,2790_marder,marþus,marþus,m a r θ u s,,Kobler1989,,,^ marþus $,default,CVCCVC
 Gothic-2791_hochzeit-1,f2791,Gothic,2791_hochzeit,marþus,marþus,m a r θ u s,,Kobler1989,,,^ marþus $,default,CVCCVC
 Gothic-2792_argernis-2,f2792,Gothic,2792_argernis,marzeins,marzeins,m a r z i n s,,Kobler1989,,,^ marzeins $,default,CVCCVCC
@@ -2946,7 +2946,7 @@ Gothic-2943_zutungedenkenwollen-1,f2943,Gothic,2943_zutungedenkenwollen,munan,mu
 Gothic-2948_schutz-1,f2944,Gothic,2948_schutz,munda,munda,m u n d a,,Kobler1989,,,^ munda $,default,CVCCV
 Gothic-2945_sicheinenbesehensehenauf-1,f2945,Gothic,2945_sicheinenbesehensehenauf,mundōn,mundōn,m u n d o n,,Kobler1989,,,^ mundōn $,default,CVCCVC
 Gothic-2946_ziel-1,f2946,Gothic,2946_ziel,mundrei,mundrei,m u n d r i,,Kobler1989,,,^ mundrei $,default,CVCCCV
-Gothic-2947_eifrigzielstrebig-1,f2947,Gothic,2947_eifrigzielstrebig,mundrs,mundrs,m u n d r̥ s,,Kobler1989,,,^ mundrs $,default,CVCCVC
+Gothic-2947_eifrigzielstrebig-1,f2947,Gothic,2947_eifrigzielstrebig,mundrs,mundrs,m u n d r̥ s,,Kobler1989,,,^ mundrs $,default,CVCCCC
 Gothic-2948_schutz-2,f2948,Gothic,2948_schutz,munds,munds,m u n d s,,Kobler1989,,,^ munds $,default,CVCCC
 Gothic-2949_andenkengedachtnis-2,f2949,Gothic,2949_andenkengedachtnis,munds,munds,m u n d s,,Kobler1989,,,^ munds $,default,CVCCC
 Gothic-2950_denkengedenken-1,f2950,Gothic,2950_denkengedenken,munnōn,munnōn,m u nː o n,,Kobler1989,,,^ munnōn $,default,CVCVC
@@ -2954,9 +2954,9 @@ Gothic-2951_gedankemeinungvorsatzratschlussbereitwilligkeitguterwillebeschlussen
 Gothic-2952_mund-1,f2952,Gothic,2952_mund,munþs,munþs,m u n θ s,,Kobler1989,,,^ munþs $,default,CVCCC
 Gothic-2953_maus-1,f2953,Gothic,2953_maus,mūs,mūs,m u s,,Kobler1989,,,^ mūs $,default,CVC
 Gothic-2954_fledermaus-1,f2954,Gothic,2954_fledermaus,mūstriggs,mūstriggs,m u s t r ɪ ŋ ɡ s,,Kobler1989,,,^ mūstriggs $,default,CVCCCVCCC
-Gothic-2955_natter-1,f2955,Gothic,2955_natter,nadrs,nadrs,n a ð r̥ s,,Kobler1989,,,^ nadrs $,default,CVCVC
+Gothic-2955_natter-1,f2955,Gothic,2955_natter,nadrs,nadrs,n a ð r̥ s,,Kobler1989,,,^ nadrs $,default,CVCCC
 Gothic-2956_nageln-1,f2956,Gothic,2956_nageln,nagljan,naglj,n a ɣ l j,,Kobler1989,,,^ naglj $,default,CVCCC
-Gothic-2957_nagel-1,f2957,Gothic,2957_nagel,nagls,nagls,n a ɣ l̥ s,,Kobler1989,,,^ nagls $,default,CVCVC
+Gothic-2957_nagel-1,f2957,Gothic,2957_nagel,nagls,nagls,n a ɣ l̥ s,,Kobler1989,,,^ nagls $,default,CVCCC
 Gothic-2958_esisterlaubt-1,f2958,Gothic,2958_esisterlaubt,nah,nah,n a h,,Kobler1989,,,^ nah $,default,CVC
 Gothic-2959_abendessenabendmahlgastmahlnachtmahl-1,f2959,Gothic,2959_abendessenabendmahlgastmahlnachtmahl,nahtamats,nahtamats,n a h t a m a t s,,Kobler1989,,,^ nahtamats $,default,CVCCVCVCC
 Gothic-2960_nacht-1,f2960,Gothic,2960_nacht,nahts,nahts,n a h t s,,Kobler1989,,,^ nahts $,default,CVCCC
@@ -2998,12 +2998,12 @@ Gothic-4310_begraben-2,f2995,Gothic,4310_begraben,nawistrōn,nawistrōn,n a w ɪ
 Gothic-2996_totschworen-1,f2996,Gothic,2996_totschworen,nawiswaran,nawiswar,n a w ɪ s w a r,,Kobler1989,,,^ nawiswar $,default,CVCVCCVC
 Gothic-2997_neinnicht-1,f2997,Gothic,2997_neinnicht,ne,ne,n e,,Kobler1989,,,^ ne $,default,CV
 Gothic-2998_natterschlange-1,f2998,Gothic,2998_natterschlange,nēdrō,nēdrō,n e ð r o,,Kobler1989,,,^ nēdrō $,default,CVCCV
-Gothic-3000_nahe-1,f2999,Gothic,3000_nahe,nēƕ,nēƕ,n e ʍ,,Kobler1989,,,^ nēƕ $,default,CVC
-Gothic-3000_nahe-2,f3000,Gothic,3000_nahe,nēƕa,nēƕa,n e ʍ a,,Kobler1989,,,^ nēƕa $,default,CVCV
-Gothic-3001_naher-1,f3001,Gothic,3001_naher,nēƕis,nēƕis,n e ʍ ɪ s,,Kobler1989,,,^ nēƕis $,default,CVCVC
-Gothic-3002_sichjemandemnahern-1,f3002,Gothic,3002_sichjemandemnahern,nēƕjansik,nēƕjansik,n e ʍ j a n s ɪ k,,Kobler1989,,,^ nēƕjansik $,default,CVCCVCCVC
-Gothic-3003_nahe-1,f3003,Gothic,3003_nahe,nēƕundi,nēƕundi,n e ʍ u n d ɪ,,Kobler1989,,,^ nēƕundi $,default,CVCVCCV
-Gothic-3004_nachster-1,f3004,Gothic,3004_nachster,nēƕundja,nēƕundja,n e ʍ u n d j a,,Kobler1989,,,^ nēƕundja $,default,CVCVCCCV
+Gothic-3000_nahe-1,f2999,Gothic,3000_nahe,nēƕ,nēƕ,n e ʍ,,Kobler1989,,,^ nēƕ $,default,CVV
+Gothic-3000_nahe-2,f3000,Gothic,3000_nahe,nēƕa,nēƕa,n e ʍ a,,Kobler1989,,,^ nēƕa $,default,CVVV
+Gothic-3001_naher-1,f3001,Gothic,3001_naher,nēƕis,nēƕis,n e ʍ ɪ s,,Kobler1989,,,^ nēƕis $,default,CVVVC
+Gothic-3002_sichjemandemnahern-1,f3002,Gothic,3002_sichjemandemnahern,nēƕjansik,nēƕjansik,n e ʍ j a n s ɪ k,,Kobler1989,,,^ nēƕjansik $,default,CVVCVCCVC
+Gothic-3003_nahe-1,f3003,Gothic,3003_nahe,nēƕundi,nēƕundi,n e ʍ u n d ɪ,,Kobler1989,,,^ nēƕundi $,default,CVVVCCV
+Gothic-3004_nachster-1,f3004,Gothic,3004_nachster,nēƕundja,nēƕundja,n e ʍ u n d j a,,Kobler1989,,,^ nēƕundja $,default,CVVVCCCV
 Gothic-3012_nicht-1,f3005,Gothic,3012_nicht,nei,nei,n i,,Kobler1989,,,^ nei $,default,CV
 Gothic-3006_neid-1,f3006,Gothic,3006_neid,neiþ,neiþ,n i θ,,Kobler1989,,,^ neiþ $,default,CVC
 Gothic-3007_esaufjemandabgesehenhabengrollen-1,f3007,Gothic,3007_esaufjemandabgesehenhabengrollen,neiwan,neiw,n i w,,Kobler1989,,,^ neiw $,default,CVC
@@ -3073,7 +3073,7 @@ Gothic-3070_mitpurpurfarben-1,f3070,Gothic,3070_mitpurpurfarben,paúrpurōn,paú
 Gothic-3071_purpurn-1,f3071,Gothic,3071_purpurn,paúrpurōþs,paúrpurōþs,p ɔ r p u r o θ s,,Kobler1989,,,^ paúrpurōþs $,default,CVCCVCVCC
 Gothic-3072_pfote-1,f3072,Gothic,3072_pfote,pauta,pauta,p ɔ t a,,Kobler1989,,,^ pauta $,default,CVCV
 Gothic-4431_spitze-1,f3073,Gothic,4431_spitze,peika,peika,p i k a,,Kobler1989,,,^ peika $,default,CVCV
-Gothic-3074_palmbaum-1,f3074,Gothic,3074_palmbaum,peikabagms,peikabagms,p i k a β a ɣ m̥ s,,Kobler1989,,,^ peikabagms $,default,CVCVCVCVC
+Gothic-3074_palmbaum-1,f3074,Gothic,3074_palmbaum,peikabagms,peikabagms,p i k a β a ɣ m̥ s,,Kobler1989,,,^ peikabagms $,default,CVCVCVCCC
 Gothic-3075_unverfalschtecht-1,f3075,Gothic,3075_unverfalschtecht,pistikeins,pistikeins,p ɪ s t ɪ k i n s,,Kobler1989,,,^ pistikeins $,default,CVCCVCVCC
 Gothic-3076_strae-1,f3076,Gothic,3076_strae,plapja,plapja,p l a p j a,,Kobler1989,,,^ plapja $,default,CCVCCV
 Gothic-3077_flickenlappen-1,f3077,Gothic,3077_flickenlappen,plat,plat,p l a t,,Kobler1989,,,^ plat $,default,CCVC
@@ -3082,7 +3082,7 @@ Gothic-3079_pflug-2,f3079,Gothic,3079_pflug,plōgs,plōgs,p l o ɣ s,,Kobler1989
 Gothic-3080_beengung-1,f3080,Gothic,3080_beengung,pragga,pragga,p r a ŋ ɡ a,,Kobler1989,,,^ pragga $,default,CCVCCV
 Gothic-3990_drangen-1,f3081,Gothic,3990_drangen,praggan,pragg,p r a ŋ ɡ,,Kobler1989,,,^ pragg $,default,CCVCC
 Gothic-3082_pratoriumgerichtshaus-1,f3082,Gothic,3082_pratoriumgerichtshaus,praitōriaún,praitōriaún,p r ɛ t o r ɪ ɔ n,,Kobler1989,,,^ praitōriaún $,default,CCVCVCVVC
-Gothic-3083_altestenratchristlichegemeindebehorde-1,f3083,Gothic,3083_altestenratchristlichegemeindebehorde,praízbwtaírei,praízbwtaírei,p r ɛ z b w t ɛ r i,,Kobler1989,,,^ praízbwtaírei $,default,CCVCCVCVCV
+Gothic-3083_altestenratchristlichegemeindebehorde-1,f3083,Gothic,3083_altestenratchristlichegemeindebehorde,praízbwtaírei,praízbwtaírei,p r ɛ z b w t ɛ r i,,Kobler1989,,,^ praízbwtaírei $,default,CCVCCCCVCV
 Gothic-3084_prophetin-1,f3084,Gothic,3084_prophetin,praúfēteis,praúfēteis,p r ɔ ɸ e t i s,,Kobler1989,,,^ praúfēteis $,default,CCVCVCVC
 Gothic-3085_prophet-1,f3085,Gothic,3085_prophet,praúfētes,praúfētes,p r ɔ ɸ e t e s,,Kobler1989,,,^ praúfētes $,default,CCVCVCVC
 Gothic-3086_weissagungprophezeiung-1,f3086,Gothic,3086_weissagungprophezeiung,praúfētja,praúfētja,p r ɔ ɸ e t j a,,Kobler1989,,,^ praúfētja $,default,CCVCVCCV
@@ -3183,7 +3183,7 @@ Gothic-3180_sprachesprechweisezunge-1,f3180,Gothic,3180_sprachesprechweisezunge,
 Gothic-3181_haus-2,f3181,Gothic,3181_haus,razn,razn,r a z n̥,,Kobler1989,,,^ razn $,default,CVCC
 Gothic-3182_kratzenschaben-1,f3182,Gothic,3182_kratzenschaben,razzjan,razzj,r a zː j,,Kobler1989,,,^ razzj $,default,CVCC
 Gothic-3183_raten-1,f3183,Gothic,3183_raten,rēdan,rēd,r e ð,,Kobler1989,,,^ rēd $,default,CVC
-Gothic-3184_bestimmungplan-1,f3184,Gothic,3184_bestimmungplan,rēhsns,rēhsns,r e h s n̥ s,,Kobler1989,,,^ rēhsns $,default,CVCCVC
+Gothic-3184_bestimmungplan-1,f3184,Gothic,3184_bestimmungplan,rēhsns,rēhsns,r e h s n̥ s,,Kobler1989,,,^ rēhsns $,default,CVCCCC
 Gothic-3185_reiteninbewegungsein-1,f3185,Gothic,3185_reiteninbewegungsein,reidan,reid,r i ð,,Kobler1989,,,^ reid $,default,CVC
 Gothic-3186_machtig-1,f3186,Gothic,3186_machtig,reikeis,reikeis,r i k i s,,Kobler1989,,,^ reikeis $,default,CVCVC
 Gothic-3187_reichherrschaftobrigkeit-1,f3187,Gothic,3187_reichherrschaftobrigkeit,reiki,reiki,r i k ɪ,,Kobler1989,,,^ reiki $,default,CVCV
@@ -3202,7 +3202,7 @@ Gothic-3199_haufenanhaufen-1,f3199,Gothic,3199_haufenanhaufen,rikan,rik,r ɪ k,,
 Gothic-3200_ruhe-2,f3200,Gothic,3200_ruhe,rimis,rimis,r ɪ m ɪ s,,Kobler1989,,,^ rimis $,default,CVCVC
 Gothic-3201_rennenlaufen-1,f3201,Gothic,3201_rennenlaufen,rinnan,rinn,r ɪ nː,,Kobler1989,,,^ rinn $,default,CVC
 Gothic-3202_giebach-1,f3202,Gothic,3202_giebach,rinnō,rinnō,r ɪ nː o,,Kobler1989,,,^ rinnō $,default,CVCV
-Gothic-3203_berg-2,f3203,Gothic,3203_berg,rintsch,rintsch,r ɪ n t s c h,,Kobler1989,,,^ rintsch $,default,CVCCVCC
+Gothic-3203_berg-2,f3203,Gothic,3203_berg,rintsch,rintsch,r ɪ n t s c h,,Kobler1989,,,^ rintsch $,default,CVCCCCC
 Gothic-3204_finsternis-1,f3204,Gothic,3204_finsternis,riqis,riqis,r ɪ kʷ ɪ s,,Kobler1989,,,^ riqis $,default,CVCVC
 Gothic-3205_finster-1,f3205,Gothic,3205_finster,riqizeins,riqizeins,r ɪ kʷ ɪ z i n s,,Kobler1989,,,^ riqizeins $,default,CVCVCVCC
 Gothic-3206_finsterwerdendunkelwerden-1,f3206,Gothic,3206_finsterwerdendunkelwerden,riqizjan,riqizj,r ɪ kʷ ɪ z j,,Kobler1989,,,^ riqizj $,default,CVCVCC
@@ -3216,7 +3216,7 @@ Gothic-3213_verganglichsterblich-1,f3213,Gothic,3213_verganglichsterblich,riurei
 Gothic-3214_verderben-2,f3214,Gothic,3214_verderben,riurjan,riurj,r ɪ u r j,,Kobler1989,,,^ riurj $,default,CVVCC
 Gothic-3215_reden-1,f3215,Gothic,3215_reden,rōdeins,rōdeins,r o ð i n s,,Kobler1989,,,^ rōdeins $,default,CVCVCC
 Gothic-3216_sprechenreden-1,f3216,Gothic,3216_sprechenreden,rōdjan,rōdj,r o ð j,,Kobler1989,,,^ rōdj $,default,CVCC
-Gothic-3217_hofvorhof-1,f3217,Gothic,3217_hofvorhof,rōhsns,rōhsns,r o h s n̥ s,,Kobler1989,,,^ rōhsns $,default,CVCCVC
+Gothic-3217_hofvorhof-1,f3217,Gothic,3217_hofvorhof,rōhsns,rōhsns,r o h s n̥ s,,Kobler1989,,,^ rōhsns $,default,CVCCCC
 Gothic-3218_rugier-2,f3218,Gothic,3218_rugier,Rugeis,Rugeis,r u ɣ i s,,Kobler1989,,,^ Rugeis $,default,CVCVC
 Gothic-3219_roggen-1,f3219,Gothic,3219_roggen,rugi,rugi,r u ɣ ɪ,,Kobler1989,,,^ rugi $,default,CVCV
 Gothic-3220_rockenspinnrocken-1,f3220,Gothic,3220_rockenspinnrocken,rukka,rukka,r u kː a,,Kobler1989,,,^ rukka $,default,CVCV
@@ -3244,7 +3244,7 @@ Gothic-3241_derwelcher-2,f3241,Gothic,3241_derwelcher,saei,saei,s a i,,Kobler198
 Gothic-3242_manngenosse-1,f3242,Gothic,3242_manngenosse,sag,sag,s a ɣ,,Kobler1989,,,^ sag $,default,CVC
 Gothic-3243_senken-1,f3243,Gothic,3243_senken,saggqjan,saggqj,s a ŋ ɡ kʷ j,,Kobler1989,,,^ saggqj $,default,CVCCCC
 Gothic-3244_untergangwesten-1,f3244,Gothic,3244_untergangwesten,saggqs,saggqs,s a ŋ ɡ kʷ s,,Kobler1989,,,^ saggqs $,default,CVCCCC
-Gothic-3245_gesangmusik-1,f3245,Gothic,3245_gesangmusik,saggws,saggws,s a ɡ ɡ w s,,Kobler1989,,,^ saggws $,default,CVCCVC
+Gothic-3245_gesangmusik-1,f3245,Gothic,3245_gesangmusik,saggws,saggws,s a ɡ ɡ w s,,Kobler1989,,,^ saggws $,default,CVCCCC
 Gothic-3264_gefolgsmannbegleiterbuttelansagergerichtsboteverkunder-1,f3246,Gothic,3264_gefolgsmannbegleiterbuttelansagergerichtsboteverkunder,sagja,sagja,s a ɣ j a,,Kobler1989,,,^ sagja $,default,CVCCV
 Gothic-3264_gefolgsmannbegleiterbuttelansagergerichtsboteverkunder-2,f3247,Gothic,3264_gefolgsmannbegleiterbuttelansagergerichtsboteverkunder,sagjis,sagjis,s a ɣ j ɪ s,,Kobler1989,,,^ sagjis $,default,CVCCVC
 Gothic-3248_derundkeinandererebenderunddieser-1,f3248,Gothic,3248_derundkeinandererebenderunddieser,sah,sah,s a h,,Kobler1989,,,^ sah $,default,CVC
@@ -3253,12 +3253,12 @@ Gothic-3451_schwertmesser-1,f3250,Gothic,3451_schwertmesser,sahs,sahs,s a h s,,K
 Gothic-3251_bestreitbar-1,f3251,Gothic,3251_bestreitbar,sahtaba,sahtaba,s a h t a β a,,Kobler1989,,,^ sahtaba $,default,CVCCVCV
 Gothic-3252_vorwurf-1,f3252,Gothic,3252_vorwurf,sahts,sahts,s a h t s,,Kobler1989,,,^ sahts $,default,CVCCC
 Gothic-3253_bestritten-2,f3253,Gothic,3253_bestritten,sahts,sahts,s a h t s,,Kobler1989,,,^ sahts $,default,CVCCC
-Gothic-3254_werauchimmer-1,f3254,Gothic,3254_werauchimmer,saƕazuh,saƕazuh,s a ʍ a z u h,,Kobler1989,,,^ saƕazuh $,default,CVCVCVC
+Gothic-3254_werauchimmer-1,f3254,Gothic,3254_werauchimmer,saƕazuh,saƕazuh,s a ʍ a z u h,,Kobler1989,,,^ saƕazuh $,default,CVVVCVC
 Gothic-3255_siehe-1,f3255,Gothic,3255_siehe,sai,sai,s ɛ,,Kobler1989,,,^ sai $,default,CV
 Gothic-3256_saen-1,f3256,Gothic,3256_saen,sáian,sái,s ɛ,,Kobler1989,,,^ sái $,default,CV
 Gothic-3257_sechs-1,f3257,Gothic,3257_sechs,saíhs,saíhs,s ɛ h s,,Kobler1989,,,^ saíhs $,default,CVCC
 Gothic-3258_sechste-1,f3258,Gothic,3258_sechste,saíhsta,saíhsta,s ɛ h s t a,,Kobler1989,,,^ saíhsta $,default,CVCCCV
-Gothic-4716_sehen-1,f3259,Gothic,4716_sehen,saíƕan,saíƕ,s ɛ ʍ,,Kobler1989,,,^ saíƕ $,default,CVC
+Gothic-4716_sehen-1,f3259,Gothic,4716_sehen,saíƕan,saíƕ,s ɛ ʍ,,Kobler1989,,,^ saíƕ $,default,CVV
 Gothic-3260_seil-1,f3260,Gothic,3260_seil,sail,sail,s ɛ l,,Kobler1989,,,^ sail $,default,CVC
 Gothic-3261_seilen-1,f3261,Gothic,3261_seilen,sailjan,sailj,s ɛ l j,,Kobler1989,,,^ sailj $,default,CVCC
 Gothic-3262_zogernsaumen-1,f3262,Gothic,3262_zogernsaumen,sainjan,sainj,s ɛ n j,,Kobler1989,,,^ sainj $,default,CVCC
@@ -3351,7 +3351,7 @@ Gothic-3348_siegel-1,f3348,Gothic,3348_siegel,sigljō,sigljō,s ɪ ɣ l j o,,Kob
 Gothic-3349_sinken-1,f3349,Gothic,3349_sinken,sigqan,sigq,s ɪ ŋ kʷ,,Kobler1989,,,^ sigq $,default,CVCC
 Gothic-3350_sieg-2,f3350,Gothic,3350_sieg,sigus,sigus,s ɪ ɣ u s,,Kobler1989,,,^ sigus $,default,CVCVC
 Gothic-3351_sich-1,f3351,Gothic,3351_sich,sik,sik,s ɪ k,,Kobler1989,,,^ sik $,default,CVC
-Gothic-3352_sekel-1,f3352,Gothic,3352_sekel,sikls,sikls,s ɪ k l̥ s,,Kobler1989,,,^ sikls $,default,CVCVC
+Gothic-3352_sekel-1,f3352,Gothic,3352_sekel,sikls,sikls,s ɪ k l̥ s,,Kobler1989,,,^ sikls $,default,CVCCC
 Gothic-3353_stillsein-1,f3353,Gothic,3353_stillsein,silan,sil,s ɪ l,,Kobler1989,,,^ sil $,default,CVC
 Gothic-3354_selbst-1,f3354,Gothic,3354_selbst,silba,silba,s ɪ l b a,,Kobler1989,,,^ silba $,default,CVCCV
 Gothic-3355_augenzeuge-1,f3355,Gothic,3355_augenzeuge,silbasiuneis,silbasiuneis,s ɪ l b a s ɪ u n i s,,Kobler1989,,,^ silbasiuneis $,default,CVCCVCVVCVC
@@ -3377,7 +3377,7 @@ Gothic-3374_schulersein-1,f3374,Gothic,3374_schulersein,sipōnjan,sipōnj,s ɪ p
 Gothic-3375_klagen-1,f3375,Gothic,3375_klagen,sis,sis,s ɪ s,,Kobler1989,,,^ sis $,default,CVC
 Gothic-3376_totenklage-1,f3376,Gothic,3376_totenklage,sisi,sisi,s ɪ s ɪ,,Kobler1989,,,^ sisi $,default,CVCV
 Gothic-3377_sitzen-1,f3377,Gothic,3377_sitzen,sitan,sit,s ɪ t,,Kobler1989,,,^ sit $,default,CVC
-Gothic-3378_sitzstuhlwohnstattenest-1,f3378,Gothic,3378_sitzstuhlwohnstattenest,sitls,sitls,s ɪ t l̥ s,,Kobler1989,,,^ sitls $,default,CVCVC
+Gothic-3378_sitzstuhlwohnstattenest-1,f3378,Gothic,3378_sitzstuhlwohnstattenest,sitls,sitls,s ɪ t l̥ s,,Kobler1989,,,^ sitls $,default,CVCCC
 Gothic-3379_sieden-1,f3379,Gothic,3379_sieden,siudan,siud,s ɪ u ð,,Kobler1989,,,^ siud $,default,CVVC
 Gothic-3380_nahenannahen-1,f3380,Gothic,3380_nahenannahen,siujan,siuj,s ɪ u j,,Kobler1989,,,^ siuj $,default,CVVC
 Gothic-3381_siechensiechsein-1,f3381,Gothic,3381_siechensiechsein,siukan,siuk,s ɪ u k,,Kobler1989,,,^ siuk $,default,CVVC
@@ -3463,7 +3463,7 @@ Gothic-3532_spaher-1,f3460,Gothic,3532_spaher,skulka,skulka,s k u l k a,,Kobler1
 Gothic-3461_schaum-2,f3461,Gothic,3461_schaum,skūms,skūms,s k u m s,,Kobler1989,,,^ skūms $,default,CCVCC
 Gothic-3462_schopf-1,f3462,Gothic,3462_schopf,skuppa,skuppa,s k u pː a,,Kobler1989,,,^ skuppa $,default,CCVCV
 Gothic-3463_schauer-1,f3463,Gothic,3463_schauer,skūra,skūra,s k u r a,,Kobler1989,,,^ skūra $,default,CCVCV
-Gothic-3464_skythe-1,f3464,Gothic,3464_skythe,Skwþus,Skwþus,s k w θ u s,,Kobler1989,,,^ Skwþus $,default,CCVCVC
+Gothic-3464_skythe-1,f3464,Gothic,3464_skythe,Skwþus,Skwþus,s k w θ u s,,Kobler1989,,,^ Skwþus $,default,CCCCVC
 Gothic-3465_raufbold-1,f3465,Gothic,3465_raufbold,slahals,slahals,s l a h a l s,,Kobler1989,,,^ slahals $,default,CCVCVCC
 Gothic-3466_schlagenhauenohrfeigen-1,f3466,Gothic,3466_schlagenhauenohrfeigen,slahan,slah,s l a h,,Kobler1989,,,^ slah $,default,CCVC
 Gothic-3467_schlagplageohrfeige-1,f3467,Gothic,3467_schlagplageohrfeige,slahs,slahs,s l a h s,,Kobler1989,,,^ slahs $,default,CCVCC
@@ -3489,7 +3489,7 @@ Gothic-3486_zerreien-6,f3486,Gothic,3486_zerreien,slitjan,slitj,s l ɪ t j,,Kobl
 Gothic-3487_schleichenschlupfen-1,f3487,Gothic,3487_schleichenschlupfen,sliupan,sliup,s l ɪ u p,,Kobler1989,,,^ sliup $,default,CCVVC
 Gothic-3488_fettschmer-1,f3488,Gothic,3488_fettschmer,smaírþr,smaírþr,s m ɛ r θ r̥,,Kobler1989,,,^ smaírþr $,default,CCVCCC
 Gothic-3489_feige-1,f3489,Gothic,3489_feige,smakka,smakka,s m a kː a,,Kobler1989,,,^ smakka $,default,CCVCV
-Gothic-3490_feigenbaum-1,f3490,Gothic,3490_feigenbaum,smakkabagms,smakkabagms,s m a kː a β a ɣ m̥ s,,Kobler1989,,,^ smakkabagms $,default,CCVCVCVCVC
+Gothic-3490_feigenbaum-1,f3490,Gothic,3490_feigenbaum,smakkabagms,smakkabagms,s m a kː a β a ɣ m̥ s,,Kobler1989,,,^ smakkabagms $,default,CCVCVCVCCC
 Gothic-3491_kleingering-1,f3491,Gothic,3491_kleingering,smals,smals,s m a l s,,Kobler1989,,,^ smals $,default,CCVCC
 Gothic-3492_verdauenzerflieenmachen-1,f3492,Gothic,3492_verdauenzerflieenmachen,smaltjan,smaltj,s m a l t j,,Kobler1989,,,^ smaltj $,default,CCVCCC
 Gothic-3493_schmelz-1,f3493,Gothic,3493_schmelz,smalts,smalts,s m a l t s,,Kobler1989,,,^ smalts $,default,CCVCCC
@@ -3500,7 +3500,7 @@ Gothic-3499_schmied-1,f3497,Gothic,3499_schmied,smiþa,smiþa,s m ɪ θ a,,Koble
 Gothic-3498_bewirken-1,f3498,Gothic,3498_bewirken,smiþōn,smiþōn,s m ɪ θ o n,,Kobler1989,,,^ smiþōn $,default,CCVCVC
 Gothic-3499_schmied-2,f3499,Gothic,3499_schmied,smiþs,smiþs,s m ɪ θ s,,Kobler1989,,,^ smiþs $,default,CCVCC
 Gothic-3500_schmiegen-1,f3500,Gothic,3500_schmiegen,smiugan,smiug,s m ɪ u ɣ,,Kobler1989,,,^ smiug $,default,CCVVC
-Gothic-3501_myrrhe-1,f3501,Gothic,3501_myrrhe,smwrn,smwrn,s m w r n̥,,Kobler1989,,,^ smwrn $,default,CCVCC
+Gothic-3501_myrrhe-1,f3501,Gothic,3501_myrrhe,smwrn,smwrn,s m w r n̥,,Kobler1989,,,^ smwrn $,default,CCCCC
 Gothic-3502_gewandmanteloberkleid-1,f3502,Gothic,3502_gewandmanteloberkleid,snaga,snaga,s n a ɣ a,,Kobler1989,,,^ snaga $,default,CCVCV
 Gothic-3503_zusammenziehensichbiegenkrummen-1,f3503,Gothic,3503_zusammenziehensichbiegenkrummen,snaírpan,snaírp,s n ɛ r p,,Kobler1989,,,^ snaírp $,default,CCVCC
 Gothic-3504_schnee-1,f3504,Gothic,3504_schnee,snaiws,snaiws,s n ɛ w s,,Kobler1989,,,^ snaiws $,default,CCVCC
@@ -3517,13 +3517,13 @@ Gothic-3514_bundband-1,f3514,Gothic,3514_bundband,snōbō,snōbō,s n o β o,,Ko
 Gothic-3515_korbnetz-1,f3515,Gothic,3515_korbnetz,snōrjō,snōrjō,s n o r j o,,Kobler1989,,,^ snōrjō $,default,CCVCCV
 Gothic-3516_schnur-1,f3516,Gothic,3516_schnur,snōrs,snōrs,s n o r s,,Kobler1989,,,^ snōrs $,default,CCVCC
 Gothic-4608_weisheit-1,f3517,Gothic,4608_weisheit,snutrei,snutrei,s n u t r i,,Kobler1989,,,^ snutrei $,default,CCVCCV
-Gothic-3518_weise-2,f3518,Gothic,3518_weise,snutrs,snutrs,s n u t r̥ s,,Kobler1989,,,^ snutrs $,default,CCVCVC
+Gothic-3518_weise-2,f3518,Gothic,3518_weise,snutrs,snutrs,s n u t r̥ s,,Kobler1989,,,^ snutrs $,default,CCVCCC
 Gothic-3519_schwiegertochterverlobte-1,f3519,Gothic,3519_schwiegertochterverlobte,snuzō,snuzō,s n u z o,,Kobler1989,,,^ snuzō $,default,CCVCV
 Gothic-3520_forschersucher-1,f3520,Gothic,3520_forschersucher,sōkāreis,sōkāreis,s o k a r i s,,Kobler1989,,,^ sōkāreis $,default,CVCVCVC
 Gothic-3521_untersuchung-1,f3521,Gothic,3521_untersuchung,sōkeins,sōkeins,s o k i n s,,Kobler1989,,,^ sōkeins $,default,CVCVCC
 Gothic-3522_sucher-1,f3522,Gothic,3522_sucher,sōkja,sōkja,s o k j a,,Kobler1989,,,^ sōkja $,default,CVCCV
 Gothic-3523_suchendisputierenstreiten-1,f3523,Gothic,3523_suchendisputierenstreiten,sōkjan,sōkj,s o k j,,Kobler1989,,,^ sōkj $,default,CVCC
-Gothic-3524_untersuchungdisputationstreitfragegrubelei-1,f3524,Gothic,3524_untersuchungdisputationstreitfragegrubelei,sōkns,sōkns,s o k n̥ s,,Kobler1989,,,^ sōkns $,default,CVCVC
+Gothic-3524_untersuchungdisputationstreitfragegrubelei-1,f3524,Gothic,3524_untersuchungdisputationstreitfragegrubelei,sōkns,sōkns,s o k n̥ s,,Kobler1989,,,^ sōkns $,default,CVCCC
 Gothic-3525_streitig-1,f3525,Gothic,3525_streitig,sōks,sōks,s o k s,,Kobler1989,,,^ sōks $,default,CVCC
 Gothic-3526_suhne-1,f3526,Gothic,3526_suhne,sōna,sōna,s o n a,,Kobler1989,,,^ sōna $,default,CVCV
 Gothic-3527_sattigung-1,f3527,Gothic,3527_sattigung,sōþ,sōþ,s o θ,,Kobler1989,,,^ sōþ $,default,CVC
@@ -3553,7 +3553,7 @@ Gothic-3550_spie-2,f3550,Gothic,3550_spie,spiuts,spiuts,s p ɪ u t s,,Kobler1989
 Gothic-3551_spule-1,f3551,Gothic,3551_spule,spōla,spōla,s p o l a,,Kobler1989,,,^ spōla $,default,CCVCV
 Gothic-3552_schnellbaldohnezogern-1,f3552,Gothic,3552_schnellbaldohnezogern,sprautō,sprautō,s p r ɔ t o,,Kobler1989,,,^ sprautō $,default,CCCVCV
 Gothic-3553_sprieenhervorschieen-1,f3553,Gothic,3553_sprieenhervorschieen,spriutan,spriut,s p r ɪ u t,,Kobler1989,,,^ spriut $,default,CCCVVC
-Gothic-3554_korb-2,f3554,Gothic,3554_korb,spwreida,spwreida,s p w r i ð a,,Kobler1989,,,^ spwreida $,default,CCVCVCV
+Gothic-3554_korb-2,f3554,Gothic,3554_korb,spwreida,spwreida,s p w r i ð a,,Kobler1989,,,^ spwreida $,default,CCCCVCV
 Gothic-3555_zumstehenbringen-1,f3555,Gothic,3555_zumstehenbringen,stadjan,stadj,s t a ð j,,Kobler1989,,,^ stadj $,default,CCVCC
 Gothic-3556_elementstabbuchstabe-1,f3556,Gothic,3556_elementstabbuchstabe,stafs,stafs,s t a ɸ s,,Kobler1989,,,^ stafs $,default,CCVCC
 Gothic-3557_stange-1,f3557,Gothic,3557_stange,stagga,stagga,s t a ŋ ɡ a,,Kobler1989,,,^ stagga $,default,CCVCCV
@@ -3604,7 +3604,7 @@ Gothic-3601_stoenzusammenstoen-1,f3601,Gothic,3601_stoenzusammenstoen,stigqan,st
 Gothic-3602_stecken-1,f3602,Gothic,3602_stecken,stika,stika,s t ɪ k a,,Kobler1989,,,^ stika $,default,CCVCV
 Gothic-3603_stechen-2,f3603,Gothic,3603_stechen,stikan,stik,s t ɪ k,,Kobler1989,,,^ stik $,default,CCVC
 Gothic-3604_stachel-1,f3604,Gothic,3604_stachel,stikils,stikils,s t ɪ k ɪ l s,,Kobler1989,,,^ stikils $,default,CCVCVCC
-Gothic-3605_becherkelch-1,f3605,Gothic,3605_becherkelch,stikls,stikls,s t ɪ k l̥ s,,Kobler1989,,,^ stikls $,default,CCVCVC
+Gothic-3605_becherkelch-1,f3605,Gothic,3605_becherkelch,stikls,stikls,s t ɪ k l̥ s,,Kobler1989,,,^ stikls $,default,CCVCCC
 Gothic-3606_stichpunkt-1,f3606,Gothic,3606_stichpunkt,stiks,stiks,s t ɪ k s,,Kobler1989,,,^ stiks $,default,CCVCC
 Gothic-3607_stehlen-2,f3607,Gothic,3607_stehlen,stilan,stil,s t ɪ l,,Kobler1989,,,^ stil $,default,CCVC
 Gothic-3608_stierkalb-1,f3608,Gothic,3608_stierkalb,stiur,stiur,s t ɪ u r,,Kobler1989,,,^ stiur $,default,CCVVC
@@ -3697,7 +3697,7 @@ Gothic-3694_wiegegenalsda-1,f3694,Gothic,3694_wiegegenalsda,swē,swē,s w e,,Kob
 Gothic-3695_schwabensweben-1,f3695,Gothic,3695_schwabensweben,Swēbōs,Swēbōs,s w e β o s,,Kobler1989,,,^ Swēbōs $,default,CCVCVC
 Gothic-3696_jubelfrohlockenfreude-1,f3696,Gothic,3696_jubelfrohlockenfreude,swēgniþa,swēgniþa,s w e ɣ n ɪ θ a,,Kobler1989,,,^ swēgniþa $,default,CCVCCVCV
 Gothic-3697_jubelntriumphierenfrohlocken-1,f3697,Gothic,3697_jubelntriumphierenfrohlocken,swēgnjan,swēgnj,s w e ɣ n j,,Kobler1989,,,^ swēgnj $,default,CCVCCC
-Gothic-3698_frohfrohlich-2,f3698,Gothic,3698_frohfrohlich,swēgns,swēgns,s w e ɣ n̥ s,,Kobler1989,,,^ swēgns $,default,CCVCVC
+Gothic-3698_frohfrohlich-2,f3698,Gothic,3698_frohfrohlich,swēgns,swēgns,s w e ɣ n̥ s,,Kobler1989,,,^ swēgns $,default,CCVCCC
 Gothic-3699_ablassenaufhoren-1,f3699,Gothic,3699_ablassenaufhoren,sweiban,sweib,s w i β,,Kobler1989,,,^ sweib $,default,CCVC
 Gothic-3700_aufhorlich-1,f3700,Gothic,3700_aufhorlich,sweibands,sweibands,s w i β a n d s,,Kobler1989,,,^ sweibands $,default,CCVCVCCC
 Gothic-3701_schwein-1,f3701,Gothic,3701_schwein,swein,swein,s w i n,,Kobler1989,,,^ swein $,default,CCVC
@@ -3712,7 +3712,7 @@ Gothic-3709_geehrtgeachtetgewichtig-1,f3709,Gothic,3709_geehrtgeachtetgewichtig,
 Gothic-3710_eigenangehorig-1,f3710,Gothic,3710_eigenangehorig,swēs,swēs,s w e s,,Kobler1989,,,^ swēs $,default,CCVC
 Gothic-3711_eigentumvermogen-2,f3711,Gothic,3711_eigentumvermogen,swēs,swēs,s w e s,,Kobler1989,,,^ swēs $,default,CCVC
 Gothic-3712_dochzwarwenigstens-1,f3712,Gothic,3712_dochzwarwenigstens,swēþauh,swēþauh,s w e θ ɔ h,,Kobler1989,,,^ swēþauh $,default,CCVCVC
-Gothic-3713_schwefel-1,f3713,Gothic,3713_schwefel,swibls,swibls,s w ɪ β l̥ s,,Kobler1989,,,^ swibls $,default,CCVCVC
+Gothic-3713_schwefel-1,f3713,Gothic,3713_schwefel,swibls,swibls,s w ɪ β l̥ s,,Kobler1989,,,^ swibls $,default,CCVCCC
 Gothic-3714_sichschwingen-1,f3714,Gothic,3714_sichschwingen,swiggwan,swiggw,s w ɪ ɡ ɡ w,,Kobler1989,,,^ swiggw $,default,CCVCCC
 Gothic-3715_flote-1,f3715,Gothic,3715_flote,swigl,swigl,s w ɪ ɣ l̥,,Kobler1989,,,^ swigl $,default,CCVCC
 Gothic-3716_flotenspielerflotenblaser-1,f3716,Gothic,3716_flotenspielerflotenblaser,swiglja,swiglja,s w ɪ ɣ l j a,,Kobler1989,,,^ swiglja $,default,CCVCCCV
@@ -3722,7 +3722,7 @@ Gothic-3719_reinheitkeuschheitunschuld-1,f3719,Gothic,3719_reinheitkeuschheituns
 Gothic-3720_reinigung-3,f3720,Gothic,3720_reinigung,swikneins,swikneins,s w ɪ k n i n s,,Kobler1989,,,^ swikneins $,default,CCVCCVCC
 Gothic-3721_reinigungreinheitkeuschheit-1,f3721,Gothic,3721_reinigungreinheitkeuschheit,swikniþa,swikniþa,s w ɪ k n ɪ θ a,,Kobler1989,,,^ swikniþa $,default,CCVCCVCV
 Gothic-3722_reinigen-3,f3722,Gothic,3722_reinigen,swiknjan,swiknj,s w ɪ k n j,,Kobler1989,,,^ swiknj $,default,CCVCCC
-Gothic-3723_reinunschuldigunstraflichkeusch-1,f3723,Gothic,3723_reinunschuldigunstraflichkeusch,swikns,swikns,s w ɪ k n̥ s,,Kobler1989,,,^ swikns $,default,CCVCVC
+Gothic-3723_reinunschuldigunstraflichkeusch-1,f3723,Gothic,3723_reinunschuldigunstraflichkeusch,swikns,swikns,s w ɪ k n̥ s,,Kobler1989,,,^ swikns $,default,CCVCCC
 Gothic-3724_offenbaroffenherausdeutlichausdrucklich-1,f3724,Gothic,3724_offenbaroffenherausdeutlichausdrucklich,swikunþaba,swikunþaba,s w ɪ k u n θ a β a,,Kobler1989,,,^ swikunþaba $,default,CCVCVCCVCV
 Gothic-3725_bekanntgebenoffenbaren-1,f3725,Gothic,3725_bekanntgebenoffenbaren,swikunþjan,swikunþj,s w ɪ k u n θ j,,Kobler1989,,,^ swikunþj $,default,CCVCVCCC
 Gothic-3726_offenkundigoffenbarbekannt-1,f3726,Gothic,3726_offenkundigoffenbarbekannt,swikunþs,swikunþs,s w ɪ k u n θ s,,Kobler1989,,,^ swikunþs $,default,CCVCVCCC
@@ -3734,8 +3734,8 @@ Gothic-3731_starken-3,f3731,Gothic,3731_starken,swinþjan,swinþj,s w ɪ n θ j,
 Gothic-3732_starkwerden-2,f3732,Gothic,3732_starkwerden,swinþnan,swinþn,s w ɪ n θ n̥,,Kobler1989,,,^ swinþn $,default,CCVCCC
 Gothic-3733_starkkraftiggesund-1,f3733,Gothic,3733_starkkraftiggesund,swinþs,swinþs,s w ɪ n θ s,,Kobler1989,,,^ swinþs $,default,CCVCCC
 Gothic-3734_schwester-1,f3734,Gothic,3734_schwester,swistar,swistar,s w ɪ s t a r,,Kobler1989,,,^ swistar $,default,CCVCCVC
-Gothic-3735_synagogenvorsteher-1,f3735,Gothic,3735_synagogenvorsteher,swnagōgafaþs,swnagōgafaþs,s w n a ɣ o ɣ a ɸ a θ s,,Kobler1989,,,^ swnagōgafaþs $,default,CVCVCVCVCVCC
-Gothic-3736_synagoge-1,f3736,Gothic,3736_synagoge,swnagōgē,swnagōgē,s w n a ɣ o ɣ e,,Kobler1989,,,^ swnagōgē $,default,CVCVCVCV
+Gothic-3735_synagogenvorsteher-1,f3735,Gothic,3735_synagogenvorsteher,swnagōgafaþs,swnagōgafaþs,s w n a ɣ o ɣ a ɸ a θ s,,Kobler1989,,,^ swnagōgafaþs $,default,CCCVCVCVCVCC
+Gothic-3736_synagoge-1,f3736,Gothic,3736_synagoge,swnagōgē,swnagōgē,s w n a ɣ o ɣ e,,Kobler1989,,,^ swnagōgē $,default,CCCVCVCV
 Gothic-3737_rauschentonen-1,f3737,Gothic,3737_rauschentonen,swōgan,swōg,s w o ɣ,,Kobler1989,,,^ swōg $,default,CCVC
 Gothic-3739_seufzen-1,f3738,Gothic,3739_seufzen,swōgatjan,swōgatj,s w o ɣ a t j,,Kobler1989,,,^ swōgatj $,default,CCVCVCC
 Gothic-3739_seufzen-2,f3739,Gothic,3739_seufzen,swōgjan,swōgj,s w o ɣ j,,Kobler1989,,,^ swōgj $,default,CCVCC
@@ -3763,7 +3763,7 @@ Gothic-3760_zehnreihig-1,f3760,Gothic,3760_zehnreihig,taíhuntēweis,taíhuntēw
 Gothic-3761_anzeichen-1,f3761,Gothic,3761_anzeichen,taikn,taikn,t ɛ k n̥,,Kobler1989,,,^ taikn $,default,CVCC
 Gothic-3762_zeichnungdarstellung-1,f3762,Gothic,3762_zeichnungdarstellung,taikneins,taikneins,t ɛ k n i n s,,Kobler1989,,,^ taikneins $,default,CVCCVCC
 Gothic-3763_einemetwaszeigen-1,f3763,Gothic,3763_einemetwaszeigen,taiknjan,taiknj,t ɛ k n j,,Kobler1989,,,^ taiknj $,default,CVCCC
-Gothic-3764_zeichenwunder-1,f3764,Gothic,3764_zeichenwunder,taikns,taikns,t ɛ k n̥ s,,Kobler1989,,,^ taikns $,default,CVCVC
+Gothic-3764_zeichenwunder-1,f3764,Gothic,3764_zeichenwunder,taikns,taikns,t ɛ k n̥ s,,Kobler1989,,,^ taikns $,default,CVCCC
 Gothic-3765_korbweidenkorb-1,f3765,Gothic,3765_korbweidenkorb,tainjō,tainjō,t ɛ n j o,,Kobler1989,,,^ tainjō $,default,CVCCV
 Gothic-3766_zweigrebe-1,f3766,Gothic,3766_zweigrebe,tains,tains,t ɛ n s,,Kobler1989,,,^ tains $,default,CVCC
 Gothic-3767_zerstorenzerreienauflosen-1,f3767,Gothic,3767_zerstorenzerreienauflosen,taíran,taír,t ɛ r,,Kobler1989,,,^ taír $,default,CVC
@@ -3830,7 +3830,7 @@ Gothic-3827_starkfest-1,f3827,Gothic,3827_starkfest,trausts,trausts,t r ɔ s t s
 Gothic-3828_trauernbetruben-1,f3828,Gothic,3828_trauernbetruben,trigan,trig,t r ɪ ɣ,,Kobler1989,,,^ trig $,default,CCVC
 Gothic-3829_bundnisbund-1,f3829,Gothic,3829_bundnisbund,triggwa,triggwa,t r ɪ ɡ ɡ w a,,Kobler1989,,,^ triggwa $,default,CCVCCCV
 Gothic-3830_treulichzuverlassig-1,f3830,Gothic,3830_treulichzuverlassig,triggwaba,triggwaba,t r ɪ ɡ ɡ w a β a,,Kobler1989,,,^ triggwaba $,default,CCVCCCVCV
-Gothic-3831_treuzuverlassig-1,f3831,Gothic,3831_treuzuverlassig,triggws,triggws,t r ɪ ɡ ɡ w s,,Kobler1989,,,^ triggws $,default,CCVCCVC
+Gothic-3831_treuzuverlassig-1,f3831,Gothic,3831_treuzuverlassig,triggws,triggws,t r ɪ ɡ ɡ w s,,Kobler1989,,,^ triggws $,default,CCVCCCC
 Gothic-3832_trauerunlust-1,f3832,Gothic,3832_trauerunlust,trigō,trigō,t r ɪ ɣ o,,Kobler1989,,,^ trigō $,default,CCVCV
 Gothic-3833_treten-1,f3833,Gothic,3833_treten,trimpan,trimp,t r ɪ m p,,Kobler1989,,,^ trimp $,default,CCVCC
 Gothic-3834_dreineungeldsiebenundzwanzigfachentgelt-1,f3834,Gothic,3834_dreineungeldsiebenundzwanzigfachentgelt,triniungeldo,triniungeldo,t r ɪ n ɪ u n ɡ e l d o,,Kobler1989,,,^ triniungeldo $,default,CCVCVVCCVCCV
@@ -3860,13 +3860,13 @@ Gothic-3857_zwolfjahrig-1,f3857,Gothic,3857_zwolfjahrig,twalibwintrus,twalibwint
 Gothic-3858_zwolf-2,f3858,Gothic,3858_zwolf,twalif,twalif,t w a l ɪ ɸ,,Kobler1989,,,^ twalif $,default,CCVCVC
 Gothic-3859_zweifelnbezweiflung-1,f3859,Gothic,3859_zweifelnbezweiflung,tweifleins,tweifleins,t w i ɸ l i n s,,Kobler1989,,,^ tweifleins $,default,CCVCCVCC
 Gothic-3860_zweifelninzweifelversetzen-1,f3860,Gothic,3860_zweifelninzweifelversetzen,tweifljan,tweiflj,t w i ɸ l j,,Kobler1989,,,^ tweiflj $,default,CCVCCC
-Gothic-3861_zweifel-1,f3861,Gothic,3861_zweifel,tweifls,tweifls,t w i ɸ l̥ s,,Kobler1989,,,^ tweifls $,default,CCVCVC
-Gothic-3862_zweifelhaft-1,f3862,Gothic,3862_zweifelhaft,tweifls,tweifls,t w i ɸ l̥ s,,Kobler1989,,,^ tweifls $,default,CCVCVC
+Gothic-3861_zweifel-1,f3861,Gothic,3861_zweifel,tweifls,tweifls,t w i ɸ l̥ s,,Kobler1989,,,^ tweifls $,default,CCVCCC
+Gothic-3862_zweifelhaft-1,f3862,Gothic,3862_zweifelhaft,tweifls,tweifls,t w i ɸ l̥ s,,Kobler1989,,,^ tweifls $,default,CCVCCC
 Gothic-3863_jezwei-1,f3863,Gothic,3863_jezwei,tweihnai,tweihnai,t w i h n ɛ,,Kobler1989,,,^ tweihnai $,default,CCVCCV
 Gothic-3864_entzwei-1,f3864,Gothic,3864_entzwei,twis,twis,t w ɪ s,,Kobler1989,,,^ twis $,default,CCVC
 Gothic-3865_sichtrennenabschiednehmenvon-1,f3865,Gothic,3865_sichtrennenabschiednehmenvon,twisstandan,twisstand,t w ɪ sː t a n d,,Kobler1989,,,^ twisstand $,default,CCVCCVCC
 Gothic-3866_zwistigkeitzwiespalt-1,f3866,Gothic,3866_zwistigkeitzwiespalt,twisstass,twisstass,t w ɪ sː t a sː,,Kobler1989,,,^ twisstass $,default,CCVCCVC
-Gothic-3867_ziukriegsgottsiegesgotttrune-1,f3867,Gothic,3867_ziukriegsgottsiegesgotttrune,tyz,tyz,t j z,,Kobler1989,,,^ tyz $,default,CVC
+Gothic-3867_ziukriegsgottsiegesgotttrune-1,f3867,Gothic,3867_ziukriegsgottsiegesgotttrune,tyz,tyz,t j z,,Kobler1989,,,^ tyz $,default,CCC
 Gothic-3868_wohindorthinwo-1,f3868,Gothic,3868_wohindorthinwo,þadei,þadei,θ a ð i,,Kobler1989,,,^ þadei $,default,CVCV
 Gothic-3869_denkenuberlegen-2,f3869,Gothic,3869_denkenuberlegen,þagkjan,þagkj,θ a ŋ k j,,Kobler1989,,,^ þagkj $,default,CVCCC
 Gothic-3870_dank-1,f3870,Gothic,3870_dank,þagks,þagks,θ a ŋ k s,,Kobler1989,,,^ þagks $,default,CVCCC
@@ -3880,7 +3880,7 @@ Gothic-3877_hindurchtragen-1,f3877,Gothic,3877_hindurchtragen,þaírhbaíran,þa
 Gothic-3878_hindurchgehenvorubergehenherumgehendurchstreifen-1,f3878,Gothic,3878_hindurchgehenvorubergehenherumgehendurchstreifen,þaírhgaggan,þaírhgagg,θ ɛ r h ɡ a ŋ ɡ,,Kobler1989,,,^ þaírhgagg $,default,CVCCCVCC
 Gothic-3879_deutenaufjemandenubertragenbeziehenauf-1,f3879,Gothic,3879_deutenaufjemandenubertragenbeziehenauf,þaírhgaleikōn,þaírhgaleikōn,θ ɛ r h ɡ a l i k o n,,Kobler1989,,,^ þaírhgaleikōn $,default,CVCCCVCVCVC
 Gothic-3880_hindurchgehenvorbeigehenweitergehen-1,f3880,Gothic,3880_hindurchgehenvorbeigehenweitergehen,þaírhleiþan,þaírhleiþ,θ ɛ r h l i θ,,Kobler1989,,,^ þaírhleiþ $,default,CVCCCVC
-Gothic-3881_durchschauenimspiegelerblicken-1,f3881,Gothic,3881_durchschauenimspiegelerblicken,þaírhsaíƕan,þaírhsaíƕ,θ ɛ r h s ɛ ʍ,,Kobler1989,,,^ þaírhsaíƕ $,default,CVCCCVC
+Gothic-3881_durchschauenimspiegelerblicken-1,f3881,Gothic,3881_durchschauenimspiegelerblicken,þaírhsaíƕan,þaírhsaíƕ,θ ɛ r h s ɛ ʍ,,Kobler1989,,,^ þaírhsaíƕ $,default,CVCCCVV
 Gothic-3882_durchwachenunterfreiemhimmelubernachtenbiwakieren-1,f3882,Gothic,3882_durchwachenunterfreiemhimmelubernachtenbiwakieren,þaírhwakan,þaírhwak,θ ɛ r h w a k,,Kobler1989,,,^ þaírhwak $,default,CVCCCVC
 Gothic-3883_verbleibenverharren-1,f3883,Gothic,3883_verbleibenverharren,þaírhwisan,þaírhwis,θ ɛ r h w ɪ s,,Kobler1989,,,^ þaírhwis $,default,CVCCCVC
 Gothic-3884_lochnadelohr-1,f3884,Gothic,3884_lochnadelohr,þaírkō,þaírkō,θ ɛ r k o,,Kobler1989,,,^ þaírkō $,default,CVCCV
@@ -3940,9 +3940,9 @@ Gothic-3937_dieleplankebrett-1,f3937,Gothic,3937_dieleplankebrett,þiljō,þilj�
 Gothic-4396_ziehen-1,f3938,Gothic,4396_ziehen,þinsan,þins,θ ɪ n s,,Kobler1989,,,^ þins $,default,CVCC
 Gothic-3939_dickwerden-1,f3939,Gothic,3939_dickwerden,þiqjan,þiqj,θ ɪ kʷ j,,Kobler1989,,,^ þiqj $,default,CVCC
 Gothic-3940_meistvorzuglichbesonders-1,f3940,Gothic,3940_meistvorzuglichbesonders,þishun,þishun,θ ɪ s h u n,,Kobler1989,,,^ þishun $,default,CVCCVC
-Gothic-3941_wohinauchimmerwohinnurimmer-1,f3941,Gothic,3941_wohinauchimmerwohinnurimmer,þisƕaduh,þisƕaduh,θ ɪ s ʍ a ð u h,,Kobler1989,,,^ þisƕaduh $,default,CVCCVCVC
-Gothic-3942_woauchimmerwonurimmer-1,f3942,Gothic,3942_woauchimmerwonurimmer,þisƕaruh,þisƕaruh,θ ɪ s ʍ a r u h,,Kobler1989,,,^ þisƕaruh $,default,CVCCVCVC
-Gothic-3943_werauchimmerwernurimmer-1,f3943,Gothic,3943_werauchimmerwernurimmer,þisƕazuh,þisƕazuh,θ ɪ s ʍ a z u h,,Kobler1989,,,^ þisƕazuh $,default,CVCCVCVC
+Gothic-3941_wohinauchimmerwohinnurimmer-1,f3941,Gothic,3941_wohinauchimmerwohinnurimmer,þisƕaduh,þisƕaduh,θ ɪ s ʍ a ð u h,,Kobler1989,,,^ þisƕaduh $,default,CVCVVCVC
+Gothic-3942_woauchimmerwonurimmer-1,f3942,Gothic,3942_woauchimmerwonurimmer,þisƕaruh,þisƕaruh,θ ɪ s ʍ a r u h,,Kobler1989,,,^ þisƕaruh $,default,CVCVVCVC
+Gothic-3943_werauchimmerwernurimmer-1,f3943,Gothic,3943_werauchimmerwernurimmer,þisƕazuh,þisƕazuh,θ ɪ s ʍ a z u h,,Kobler1989,,,^ þisƕazuh $,default,CVCVVCVC
 Gothic-3944_diebstahl-1,f3944,Gothic,3944_diebstahl,þiubi,þiubi,θ ɪ u β ɪ,,Kobler1989,,,^ þiubi $,default,CVVCV
 Gothic-3945_diebischheimlich-1,f3945,Gothic,3945_diebischheimlich,þiubjis,þiubjis,θ ɪ u β j ɪ s,,Kobler1989,,,^ þiubjis $,default,CVVCCVC
 Gothic-3946_verstohlenheimlich-1,f3946,Gothic,3946_verstohlenheimlich,þiubjō,þiubjō,θ ɪ u β j o,,Kobler1989,,,^ þiubjō $,default,CVVCCV
@@ -4029,7 +4029,7 @@ Gothic-4026_querzornig-1,f4026,Gothic,4026_querzornig,þwaírhs,þwaírhs,θ w �
 Gothic-4027_sicherheit-1,f4027,Gothic,4027_sicherheit,þwastiþa,þwastiþa,θ w a s t ɪ θ a,,Kobler1989,,,^ þwastiþa $,default,CCVCCVCV
 Gothic-4028_befestigen-1,f4028,Gothic,4028_befestigen,þwastjan,þwastj,θ w a s t j,,Kobler1989,,,^ þwastj $,default,CCVCCC
 Gothic-4029_fest-3,f4029,Gothic,4029_fest,þwasts,þwasts,θ w a s t s,,Kobler1989,,,^ þwasts $,default,CCVCCC
-Gothic-4030_rauchopferraucherwerk-1,f4030,Gothic,4030_rauchopferraucherwerk,þwmiama,þwmiama,θ w m ɪ a m a,,Kobler1989,,,^ þwmiama $,default,CVCVVCV
+Gothic-4030_rauchopferraucherwerk-1,f4030,Gothic,4030_rauchopferraucherwerk,þwmiama,þwmiama,θ w m ɪ a m a,,Kobler1989,,,^ þwmiama $,default,CCCVVCV
 Gothic-4031_oboder-1,f4031,Gothic,4031_oboder,u,u,u,,Kobler1989,,,^ u $,default,V
 Gothic-4032_ubel-1,f4032,Gothic,4032_ubel,ubil,ubil,u β ɪ l,,Kobler1989,,,^ ubil $,default,VCVC
 Gothic-4227_ubelbose-1,f4033,Gothic,4227_ubelbose,ubilaba,ubilaba,u β ɪ l a β a,,Kobler1989,,,^ ubilaba $,default,VCVCVCV
@@ -4128,7 +4128,7 @@ Gothic-4125_un-1,f4125,Gothic,4125_un,un,un,u n,,Kobler1989,,,^ un $,default,VC
 Gothic-4126_unfurchtsamfurchtlos-1,f4126,Gothic,4126_unfurchtsamfurchtlos,unagands,unagands,u n a ɣ a n d s,,Kobler1989,,,^ unagands $,default,VCVCVCCC
 Gothic-4127_furchtlosigkeit-1,f4127,Gothic,4127_furchtlosigkeit,unagei,unagei,u n a ɣ i,,Kobler1989,,,^ unagei $,default,VCVCV
 Gothic-4128_furchtlos-1,f4128,Gothic,4128_furchtlos,unags,unags,u n a ɣ s,,Kobler1989,,,^ unags $,default,VCVCC
-Gothic-4129_unheiliggottlos-1,f4129,Gothic,4129_unheiliggottlos,unaírkns,unaírkns,u n ɛ r k n̥ s,,Kobler1989,,,^ unaírkns $,default,VCVCCVC
+Gothic-4129_unheiliggottlos-1,f4129,Gothic,4129_unheiliggottlos,unaírkns,unaírkns,u n ɛ r k n̥ s,,Kobler1989,,,^ unaírkns $,default,VCVCCCC
 Gothic-4130_ohneschande-1,f4130,Gothic,4130_ohneschande,unaiwisks,unaiwisks,u n ɛ w ɪ s k s,,Kobler1989,,,^ unaiwisks $,default,VCVCVCCC
 Gothic-4132_unsichtbar-1,f4131,Gothic,4132_unsichtbar,unanasiuniba,unanasiuniba,u n a n a s ɪ u n ɪ β a,,Kobler1989,,,^ unanasiuniba $,default,VCVCVCVVCVCV
 Gothic-4132_unsichtbar-2,f4132,Gothic,4132_unsichtbar,unanasiuns,unanasiuns,u n a n a s ɪ u n s,,Kobler1989,,,^ unanasiuns $,default,VCVCVCVVCC
@@ -4158,7 +4158,7 @@ Gothic-4155_unsterblichkeit-1,f4155,Gothic,4155_unsterblichkeit,undiwanei,undiwa
 Gothic-4156_unsterblich-1,f4156,Gothic,4156_unsterblich,undiwans,undiwans,u n d ɪ w a n s,,Kobler1989,,,^ undiwans $,default,VCCVCVCC
 Gothic-4157_besorgengewahren-1,f4157,Gothic,4157_besorgengewahren,undrēdan,undrēd,u n d r e ð,,Kobler1989,,,^ undrēd $,default,VCCCVC
 Gothic-4158_zufallenzuteilwerdenuntereinanderdisputieren-1,f4158,Gothic,4158_zufallenzuteilwerdenuntereinanderdisputieren,undrinnan,undrinn,u n d r ɪ nː,,Kobler1989,,,^ undrinn $,default,VCCCVC
-Gothic-4159_unpassend-1,f4159,Gothic,4159_unpassend,unfagrs,unfagrs,u n ɸ a ɣ r̥ s,,Kobler1989,,,^ unfagrs $,default,VCCVCVC
+Gothic-4159_unpassend-1,f4159,Gothic,4159_unpassend,unfagrs,unfagrs,u n ɸ a ɣ r̥ s,,Kobler1989,,,^ unfagrs $,default,VCCVCCC
 Gothic-4160_tadellosauerschuldohnetadel-1,f4160,Gothic,4160_tadellosauerschuldohnetadel,unfaírina,unfaírina,u n ɸ ɛ r ɪ n a,,Kobler1989,,,^ unfaírina $,default,VCCVCVCV
 Gothic-4161_untadeligtadellos-1,f4161,Gothic,4161_untadeligtadellos,unfaírinōdaba,unfaírinōdaba,u n ɸ ɛ r ɪ n o ð a β a,,Kobler1989,,,^ unfaírinōdaba $,default,VCCVCVCVCVCV
 Gothic-4162_unaufspurbarunerforschlich-1,f4162,Gothic,4162_unaufspurbarunerforschlich,unfaírlaistiþs,unfaírlaistiþs,u n ɸ ɛ r l ɛ s t ɪ θ s,,Kobler1989,,,^ unfaírlaistiþs $,default,VCCVCCVCCVCC
@@ -4172,13 +4172,13 @@ Gothic-4169_tadellosunbescholten-1,f4169,Gothic,4169_tadellosunbescholten,ungafa
 Gothic-4170_tadellosunbescholtenschuldlos-1,f4170,Gothic,4170_tadellosunbescholtenschuldlos,ungafaírinōþs,ungafaírinōþs,u n ɡ a ɸ ɛ r ɪ n o θ s,,Kobler1989,,,^ ungafaírinōþs $,default,VCCVCVCVCVCC
 Gothic-4171_zugellosunbeherrschtunenthaltsam-1,f4171,Gothic,4171_zugellosunbeherrschtunenthaltsam,ungahabandssik,ungahabandssik,u n ɡ a h a β a n d sː ɪ k,,Kobler1989,,,^ ungahabandssik $,default,VCCVCVCVCCCVC
 Gothic-4172_unmaigkeitunenthaltsamkeit-1,f4172,Gothic,4172_unmaigkeitunenthaltsamkeit,ungahōbains,ungahōbains,u n ɡ a h o β ɛ n s,,Kobler1989,,,^ ungahōbains $,default,VCCVCVCVCC
-Gothic-4173_unfugsamungehorsam-1,f4173,Gothic,4173_unfugsamungehorsam,ungaƕaírbs,ungaƕaírbs,u n ɡ a ʍ ɛ r b s,,Kobler1989,,,^ ungaƕaírbs $,default,VCCVCVCCC
+Gothic-4173_unfugsamungehorsam-1,f4173,Gothic,4173_unfugsamungehorsam,ungaƕaírbs,ungaƕaírbs,u n ɡ a ʍ ɛ r b s,,Kobler1989,,,^ ungaƕaírbs $,default,VCCVVVCCC
 Gothic-4174_verwerflichnichtprobehaltig-1,f4174,Gothic,4174_verwerflichnichtprobehaltig,ungakusans,ungakusans,u n ɡ a k u s a n s,,Kobler1989,,,^ ungakusans $,default,VCCVCVCVCC
 Gothic-4175_unglaubeungehorsam-1,f4175,Gothic,4175_unglaubeungehorsam,ungalaubeins,ungalaubeins,u n ɡ a l ɔ β i n s,,Kobler1989,,,^ ungalaubeins $,default,VCCVCVCVCC
 Gothic-4176_unglaubigungehorsam-1,f4176,Gothic,4176_unglaubigungehorsam,ungalaubjands,ungalaubjands,u n ɡ a l ɔ β j a n d s,,Kobler1989,,,^ ungalaubjands $,default,VCCVCVCCVCCC
 Gothic-4177_wertlos-1,f4177,Gothic,4177_wertlos,ungalaufs,ungalaufs,u n ɡ a l ɔ ɸ s,,Kobler1989,,,^ ungalaufs $,default,VCCVCVCC
 Gothic-4178_gesetzlosigkeitungerechtigkeit-1,f4178,Gothic,4178_gesetzlosigkeitungerechtigkeit,ungaraíhtei,ungaraíhtei,u n ɡ a r ɛ h t i,,Kobler1989,,,^ ungaraíhtei $,default,VCCVCVCCV
-Gothic-4179_ungesehenunsichtbar-1,f4179,Gothic,4179_ungesehenunsichtbar,ungasaíƕans,ungasaíƕans,u n ɡ a s ɛ ʍ a n s,,Kobler1989,,,^ ungasaíƕans $,default,VCCVCVCVCC
+Gothic-4179_ungesehenunsichtbar-1,f4179,Gothic,4179_ungesehenunsichtbar,ungasaíƕans,ungasaíƕans,u n ɡ a s ɛ ʍ a n s,,Kobler1989,,,^ ungasaíƕans $,default,VCCVCVVVCC
 Gothic-4180_ohnefestenstandohnebleibendestatte-1,f4180,Gothic,4180_ohnefestenstandohnebleibendestatte,ungastōþs,ungastōþs,u n ɡ a s t o θ s,,Kobler1989,,,^ ungastōþs $,default,VCCVCCVCC
 Gothic-4181_ungeordnetzugellos-1,f4181,Gothic,4181_ungeordnetzugellos,ungatass,ungatass,u n ɡ a t a sː,,Kobler1989,,,^ ungatass $,default,VCCVCVC
 Gothic-4182_unordentlichungeregelt-1,f4182,Gothic,4182_unordentlichungeregelt,ungatassaba,ungatassaba,u n ɡ a t a sː a β a,,Kobler1989,,,^ ungatassaba $,default,VCCVCVCVCV
@@ -4195,8 +4195,8 @@ Gothic-4192_unreinungebildet-1,f4192,Gothic,4192_unreinungebildet,unhrains,unhra
 Gothic-4193_unholdteufel-1,f4193,Gothic,4193_unholdteufel,unhulþa,unhulþa,u n h u l θ a,,Kobler1989,,,^ unhulþa $,default,VCCVCCV
 Gothic-4194_unholdindamon-1,f4194,Gothic,4194_unholdindamon,unhulþō,unhulþō,u n h u l θ o,,Kobler1989,,,^ unhulþō $,default,VCCVCCV
 Gothic-4195_ohneopferunversohnlich-1,f4195,Gothic,4195_ohneopferunversohnlich,unhunslags,unhunslags,u n h u n s l a ɣ s,,Kobler1989,,,^ unhunslags $,default,VCCVCCCVCC
-Gothic-4196_unausloschlich-1,f4196,Gothic,4196_unausloschlich,unƕapnands,unƕapnands,u n ʍ a p n a n d s,,Kobler1989,,,^ unƕapnands $,default,VCCVCCVCCC
-Gothic-4197_unablassigbestandig-1,f4197,Gothic,4197_unablassigbestandig,unƕeila,unƕeila,u n ʍ i l a,,Kobler1989,,,^ unƕeila $,default,VCCVCV
+Gothic-4196_unausloschlich-1,f4196,Gothic,4196_unausloschlich,unƕapnands,unƕapnands,u n ʍ a p n a n d s,,Kobler1989,,,^ unƕapnands $,default,VCVVCCVCCC
+Gothic-4197_unablassigbestandig-1,f4197,Gothic,4197_unablassigbestandig,unƕeila,unƕeila,u n ʍ i l a,,Kobler1989,,,^ unƕeila $,default,VCVVCV
 Gothic-4198_sorglosunbesorgt-1,f4198,Gothic,4198_sorglosunbesorgt,unkarja,unkarja,u n k a r j a,,Kobler1989,,,^ unkarja $,default,VCCVCCV
 Gothic-4199_unbeschwerdeunbeschwerlichkeit-1,f4199,Gothic,4199_unbeschwerdeunbeschwerlichkeit,unkaúreins,unkaúreins,u n k ɔ r i n s,,Kobler1989,,,^ unkaúreins $,default,VCCVCVCC
 Gothic-4200_nichtkennendunwissend-1,f4200,Gothic,4200_nichtkennendunwissend,unkunnands,unkunnands,u n k u nː a n d s,,Kobler1989,,,^ unkunnands $,default,VCCVCVCCC
@@ -4212,7 +4212,7 @@ Gothic-4209_ungeheucheltohnefalsch-1,f4209,Gothic,4209_ungeheucheltohnefalsch,un
 Gothic-4210_unlust-1,f4210,Gothic,4210_unlust,unlustus,unlustus,u n l u s t u s,,Kobler1989,,,^ unlustus $,default,VCCVCCVC
 Gothic-4211_ohnmachtigschwachunmoglich-1,f4211,Gothic,4211_ohnmachtigschwachunmoglich,unmahteigs,unmahteigs,u n m a h t i ɣ s,,Kobler1989,,,^ unmahteigs $,default,VCCVCCVCC
 Gothic-4212_ohnmachtschwachekrankheit-1,f4212,Gothic,4212_ohnmachtschwachekrankheit,unmahts,unmahts,u n m a h t s,,Kobler1989,,,^ unmahts $,default,VCCVCCC
-Gothic-4213_ungezahmtwildgrausam-1,f4213,Gothic,4213_ungezahmtwildgrausam,unmanariggws,unmanariggws,u n m a n a r ɪ ɡ ɡ w s,,Kobler1989,,,^ unmanariggws $,default,VCCVCVCVCCVC
+Gothic-4213_ungezahmtwildgrausam-1,f4213,Gothic,4213_ungezahmtwildgrausam,unmanariggws,unmanariggws,u n m a n a r ɪ ɡ ɡ w s,,Kobler1989,,,^ unmanariggws $,default,VCCVCVCVCCCC
 Gothic-4214_unvorbereitet-1,f4214,Gothic,4214_unvorbereitet,unmanwus,unmanwus,u n m a n w u s,,Kobler1989,,,^ unmanwus $,default,VCCVCCVC
 Gothic-4215_lieblos-1,f4215,Gothic,4215_lieblos,unmilds,unmilds,u n m ɪ l d s,,Kobler1989,,,^ unmilds $,default,VCCVCCC
 Gothic-4216_unnutztoricht-1,f4216,Gothic,4216_unnutztoricht,unnuts,unnuts,u nː u t s,,Kobler1989,,,^ unnuts $,default,VCVCC
@@ -4222,7 +4222,7 @@ Gothic-4219_unverganglichkeit-1,f4219,Gothic,4219_unverganglichkeit,unriurei,unr
 Gothic-4220_unverganglich-1,f4220,Gothic,4220_unverganglich,unriureis,unriureis,u n r ɪ u r i s,,Kobler1989,,,^ unriureis $,default,VCCVVCVC
 Gothic-4221_nichtredendstumm-1,f4221,Gothic,4221_nichtredendstumm,unrōdjands,unrōdjands,u n r o ð j a n d s,,Kobler1989,,,^ unrōdjands $,default,VCCVCCVCCC
 Gothic-4222_unbestrittenunbestreitbar-1,f4222,Gothic,4222_unbestrittenunbestreitbar,unsahtaba,unsahtaba,u n s a h t a β a,,Kobler1989,,,^ unsahtaba $,default,VCCVCCVCV
-Gothic-4223_nichtsehend-1,f4223,Gothic,4223_nichtsehend,unsaíƕands,unsaíƕands,u n s ɛ ʍ a n d s,,Kobler1989,,,^ unsaíƕands $,default,VCCVCVCCC
+Gothic-4223_nichtsehend-1,f4223,Gothic,4223_nichtsehend,unsaíƕands,unsaíƕands,u n s ɛ ʍ a n d s,,Kobler1989,,,^ unsaíƕands $,default,VCCVVVCCC
 Gothic-4224_ungesalzenkraftlos-1,f4224,Gothic,4224_ungesalzenkraftlos,unsaltans,unsaltans,u n s a l t a n s,,Kobler1989,,,^ unsaltans $,default,VCCVCCVCC
 Gothic-4225_unser-1,f4225,Gothic,4225_unser,unsar,unsar,u n s a r,,Kobler1989,,,^ unsar $,default,VCCVC
 Gothic-4226_bosheitschlechtigkeit-1,f4226,Gothic,4226_bosheitschlechtigkeit,unsēlei,unsēlei,u n s e l i,,Kobler1989,,,^ unsēlei $,default,VCCVCV
@@ -4239,7 +4239,7 @@ Gothic-4236_unbekannt-2,f4236,Gothic,4236_unbekannt,unswikunþs,unswikunþs,u n 
 Gothic-4237_unfugsamunbotmaigungehorsamungebildettoricht-1,f4237,Gothic,4237_unfugsamunbotmaigungehorsamungebildettoricht,untals,untals,u n t a l s,,Kobler1989,,,^ untals $,default,VCCVCC
 Gothic-4238_bissolangealsdennweilda-1,f4238,Gothic,4238_bissolangealsdennweilda,untē,untē,u n t e,,Kobler1989,,,^ untē $,default,VCCV
 Gothic-4239_voreiligunbesonnen-1,f4239,Gothic,4239_voreiligunbesonnen,untilamalsks,untilamalsks,u n t ɪ l a m a l s k s,,Kobler1989,,,^ untilamalsks $,default,VCCVCVCVCCCC
-Gothic-4240_untreuungerecht-1,f4240,Gothic,4240_untreuungerecht,untriggws,untriggws,u n t r ɪ ɡ ɡ w s,,Kobler1989,,,^ untriggws $,default,VCCCVCCVC
+Gothic-4240_untreuungerecht-1,f4240,Gothic,4240_untreuungerecht,untriggws,untriggws,u n t r ɪ ɡ ɡ w s,,Kobler1989,,,^ untriggws $,default,VCCCVCCCC
 Gothic-4241_entflieheneinementrinnen-1,f4241,Gothic,4241_entflieheneinementrinnen,unþaþlíuhan,unþaþlíuh,u n θ a θ l i u h,,Kobler1989,,,^ unþaþlíuh $,default,VCCVCCVVC
 Gothic-4242_unvolknichtvolk-1,f4242,Gothic,4242_unvolknichtvolk,unþiuda,unþiuda,u n θ ɪ u ð a,,Kobler1989,,,^ unþiuda $,default,VCCVVCV
 Gothic-4243_dasbose-1,f4243,Gothic,4243_dasbose,unþiuþ,unþiuþ,u n θ ɪ u θ,,Kobler1989,,,^ unþiuþ $,default,VCCVVC
@@ -4290,7 +4290,7 @@ Gothic-4336_ausfegen-1,f4287,Gothic,4336_ausfegen,usbaugjan,usbaugj,u s b ɔ ɣ 
 Gothic-4288_erwartengeduldhaben-1,f4288,Gothic,4288_erwartengeduldhaben,usbeidan,usbeid,u s b i ð,,Kobler1989,,,^ usbeid $,default,VCCVC
 Gothic-4289_geduldlangmut-1,f4289,Gothic,4289_geduldlangmut,usbeisnei,usbeisnei,u s b i s n i,,Kobler1989,,,^ usbeisnei $,default,VCCVCCV
 Gothic-4290_geduldiglangmutig-1,f4290,Gothic,4290_geduldiglangmutig,usbeisneigs,usbeisneigs,u s b i s n i ɣ s,,Kobler1989,,,^ usbeisneigs $,default,VCCVCCVCC
-Gothic-4291_erwartunggeduldlangmut-1,f4291,Gothic,4291_erwartunggeduldlangmut,usbeisns,usbeisns,u s b i s n̥ s,,Kobler1989,,,^ usbeisns $,default,VCCVCVC
+Gothic-4291_erwartunggeduldlangmut-1,f4291,Gothic,4291_erwartunggeduldlangmut,usbeisns,usbeisns,u s b i s n̥ s,,Kobler1989,,,^ usbeisns $,default,VCCVCCC
 Gothic-4292_erbitten-1,f4292,Gothic,4292_erbitten,usbidan,usbid,u s b ɪ ð,,Kobler1989,,,^ usbid $,default,VCCVC
 Gothic-4293_durchbleuen-1,f4293,Gothic,4293_durchbleuen,usbliggwan,usbliggw,u s b l ɪ ɡ ɡ w,,Kobler1989,,,^ usbliggw $,default,VCCCVCCC
 Gothic-4294_bitten-2,f4294,Gothic,4294_bitten,usblōtan,usblōt,u s b l o t,,Kobler1989,,,^ usblōt $,default,VCCCVC
@@ -4370,7 +4370,7 @@ Gothic-4367_beschuldigunganklagenachrede-1,f4367,Gothic,4367_beschuldigunganklag
 Gothic-4368_verderbenumbringentotenzugrunderichten-1,f4368,Gothic,4368_verderbenumbringentotenzugrunderichten,usqistjan,usqistj,u s kʷ ɪ s t j,,Kobler1989,,,^ usqistj $,default,VCCVCCC
 Gothic-4369_eingeredeverbreiten-1,f4369,Gothic,4369_eingeredeverbreiten,usqiþan,usqiþ,u s kʷ ɪ θ,,Kobler1989,,,^ usqiþ $,default,VCCVC
 Gothic-4370_sicherweitern-1,f4370,Gothic,4370_sicherweitern,usrūmnan,usrūmn,u s r u m n̥,,Kobler1989,,,^ usrūmn $,default,VCCVCC
-Gothic-4371_aufblickenansehendasgesichtwiedererhaltenaussehenumsehen-1,f4371,Gothic,4371_aufblickenansehendasgesichtwiedererhaltenaussehenumsehen,ussaíƕan,ussaíƕ,u sː ɛ ʍ,,Kobler1989,,,^ ussaíƕ $,default,VCVC
+Gothic-4371_aufblickenansehendasgesichtwiedererhaltenaussehenumsehen-1,f4371,Gothic,4371_aufblickenansehendasgesichtwiedererhaltenaussehenumsehen,ussaíƕan,ussaíƕ,u sː ɛ ʍ,,Kobler1989,,,^ ussaíƕ $,default,VCVV
 Gothic-4372_erorternvorlegenausfuhrlichvortragen-1,f4372,Gothic,4372_erorternvorlegenausfuhrlichvortragen,ussakan,ussak,u sː a k,,Kobler1989,,,^ ussak $,default,VCVC
 Gothic-4373_herbergenehmeneinkehren-1,f4373,Gothic,4373_herbergenehmeneinkehren,ussaljan,ussalj,u sː a l j,,Kobler1989,,,^ ussalj $,default,VCVCC
 Gothic-4374_aussenden-1,f4374,Gothic,4374_aussenden,ussandjan,ussandj,u sː a n d j,,Kobler1989,,,^ ussandj $,default,VCVCCC
@@ -4454,7 +4454,7 @@ Gothic-4451_webenwinden-1,f4451,Gothic,4451_webenwinden,waibjan,waibj,w ɛ β j,
 Gothic-4658_weide-1,f4452,Gothic,4658_weide,waida,waida,w ɛ ð a,,Kobler1989,,,^ waida $,default,CVCV
 Gothic-4453_ubeltaterrauber-1,f4453,Gothic,4453_ubeltaterrauber,waidēdja,waidēdja,w ɛ ð e ð j a,,Kobler1989,,,^ waidēdja $,default,CVCVCCV
 Gothic-4454_ubeltat-1,f4454,Gothic,4454_ubeltat,waidēþs,waidēþs,w ɛ ð e θ s,,Kobler1989,,,^ waidēþs $,default,CVCVCC
-Gothic-4455_wehklagen-1,f4455,Gothic,4455_wehklagen,waifaírƕjan,waifaírƕj,w ɛ ɸ ɛ r ʍ j,,Kobler1989,,,^ waifaírƕj $,default,CVCVCCC
+Gothic-4455_wehklagen-1,f4455,Gothic,4455_wehklagen,waifaírƕjan,waifaírƕj,w ɛ ɸ ɛ r ʍ j,,Kobler1989,,,^ waifaírƕj $,default,CVCVCVC
 Gothic-4640_kampf-7,f4456,Gothic,4640_kampf,waihjō,waihjō,w ɛ h j o,,Kobler1989,,,^ waihjō $,default,CVCCV
 Gothic-4457_winkelecke-1,f4457,Gothic,4457_winkelecke,waíhsta,waíhsta,w ɛ h s t a,,Kobler1989,,,^ waíhsta $,default,CVCCCV
 Gothic-4458_winkelsteineckstein-1,f4458,Gothic,4458_winkelsteineckstein,waíhstastains,waíhstastains,w ɛ h s t a s t ɛ n s,,Kobler1989,,,^ waíhstastains $,default,CVCCCVCCVCC
@@ -4468,7 +4468,7 @@ Gothic-4465_wohllautendloblich-1,f4465,Gothic,4465_wohllautendloblich,waílamēr
 Gothic-4466_einemeinefrohebotschaftkundenpredigenfrohebotschaftbringen-1,f4466,Gothic,4466_einemeinefrohebotschaftkundenpredigenfrohebotschaftbringen,waílamērjan,waílamērj,w ɛ l a m e r j,,Kobler1989,,,^ waílamērj $,default,CVCVCVCC
 Gothic-4467_segen-1,f4467,Gothic,4467_segen,waílaqiss,waílaqiss,w ɛ l a kʷ ɪ sː,,Kobler1989,,,^ waílaqiss $,default,CVCVCVC
 Gothic-4468_verkundenerzahlenfrohebotschaftverkunden-1,f4468,Gothic,4468_verkundenerzahlenfrohebotschaftverkunden,waílaspillōn,waílaspillōn,w ɛ l a s p ɪ lː o n,,Kobler1989,,,^ waílaspillōn $,default,CVCVCCVCVC
-Gothic-4469_gutenahrunggutekost-1,f4469,Gothic,4469_gutenahrunggutekost,waílawizns,waílawizns,w ɛ l a w ɪ z n̥ s,,Kobler1989,,,^ waílawizns $,default,CVCVCVCVC
+Gothic-4469_gutenahrunggutekost-1,f4469,Gothic,4469_gutenahrunggutekost,waílawizns,waílawizns,w ɛ l a w ɪ z n̥ s,,Kobler1989,,,^ waílawizns $,default,CVCVCVCCC
 Gothic-4470_elendgeplagt-1,f4470,Gothic,4470_elendgeplagt,wainahs,wainahs,w ɛ n a h s,,Kobler1989,,,^ wainahs $,default,CVCVCC
 Gothic-4471_wenndochdassdoch-1,f4471,Gothic,4471_wenndochdassdoch,wainei,wainei,w ɛ n i,,Kobler1989,,,^ wainei $,default,CVCV
 Gothic-4473_weinen-3,f4472,Gothic,4473_weinen,wainjan,wainj,w ɛ n j,,Kobler1989,,,^ wainj $,default,CVCC
@@ -4506,7 +4506,7 @@ Gothic-4503_lastern-2,f4503,Gothic,4503_lastern,wajamērjan,wajamērj,w a j a m 
 Gothic-4504_wachenwachsamsein-1,f4504,Gothic,4504_wachenwachsamsein,wakan,wak,w a k,,Kobler1989,,,^ wak $,default,CVC
 Gothic-4505_wecken-1,f4505,Gothic,4505_wecken,wakjan,wakj,w a k j,,Kobler1989,,,^ wakj $,default,CVCC
 Gothic-4506_wachwerden-1,f4506,Gothic,4506_wachwerden,waknan,wakn,w a k n̥,,Kobler1989,,,^ wakn $,default,CVCC
-Gothic-4507_wachwacker-1,f4507,Gothic,4507_wachwacker,wakrs,wakrs,w a k r̥ s,,Kobler1989,,,^ wakrs $,default,CVCVC
+Gothic-4507_wachwacker-1,f4507,Gothic,4507_wachwacker,wakrs,wakrs,w a k r̥ s,,Kobler1989,,,^ wakrs $,default,CVCCC
 Gothic-4508_welsch-1,f4508,Gothic,4508_welsch,wala,wala,w a l a,,Kobler1989,,,^ wala $,default,CVCV
 Gothic-4509_todschlachtfeld-1,f4509,Gothic,4509_todschlachtfeld,wala,wala,w a l a,,Kobler1989,,,^ wala $,default,CVCV
 Gothic-4510_waufarberwau-1,f4510,Gothic,4510_waufarberwau,walda,walda,w a l d a,,Kobler1989,,,^ walda $,default,CVCCV
@@ -4579,7 +4579,7 @@ Gothic-4576_arbeiter-1,f4576,Gothic,4576_arbeiter,waúrstwa,waúrstwa,w ɔ r s t
 Gothic-4577_tunverrichtungbetrieb-1,f4577,Gothic,4577_tunverrichtungbetrieb,waúrstwei,waúrstwei,w ɔ r s t w i,,Kobler1989,,,^ waúrstwei $,default,CVCCCCV
 Gothic-4578_wirksam-1,f4578,Gothic,4578_wirksam,waúrstweigs,waúrstweigs,w ɔ r s t w i ɣ s,,Kobler1989,,,^ waúrstweigs $,default,CVCCCCVCC
 Gothic-4579_arbeiterbauerwinzer-1,f4579,Gothic,4579_arbeiterbauerwinzer,waúrstwja,waúrstwja,w ɔ r s t w j a,,Kobler1989,,,^ waúrstwja $,default,CVCCCCCV
-Gothic-4580_tatig-1,f4580,Gothic,4580_tatig,waúrstws,waúrstws,w ɔ r s t w s,,Kobler1989,,,^ waúrstws $,default,CVCCCVC
+Gothic-4580_tatig-1,f4580,Gothic,4580_tatig,waúrstws,waúrstws,w ɔ r s t w s,,Kobler1989,,,^ waúrstws $,default,CVCCCCC
 Gothic-4581_wurzel-1,f4581,Gothic,4581_wurzel,waúrts,waúrts,w ɔ r t s,,Kobler1989,,,^ waúrts $,default,CVCCC
 Gothic-4582_erschutterungsturmwellenschlagbrandungwoge-1,f4582,Gothic,4582_erschutterungsturmwellenschlagbrandungwoge,wēgs,wēgs,w e ɣ s,,Kobler1989,,,^ wēgs $,default,CVCC
 Gothic-4583_fuhrer-1,f4583,Gothic,4583_fuhrer,weida,weida,w i ð a,,Kobler1989,,,^ weida $,default,CVCV
@@ -4712,7 +4712,7 @@ Gothic-4709_widderlamm-1,f4709,Gothic,4709_widderlamm,wiþrus,wiþrus,w ɪ θ r 
 Gothic-4711_waidwaidkraut-1,f4710,Gothic,4711_waidwaidkraut,wizdila,wizdila,w ɪ z d ɪ l a,,Kobler1989,,,^ wizdila $,default,CVCCVCV
 Gothic-4711_waidwaidkraut-2,f4711,Gothic,4711_waidwaidkraut,wizdils,wizdils,w ɪ z d ɪ l s,,Kobler1989,,,^ wizdils $,default,CVCCVCC
 Gothic-4712_froh-3,f4712,Gothic,4712_froh,wizneigs,wizneigs,w ɪ z n i ɣ s,,Kobler1989,,,^ wizneigs $,default,CVCCVCC
-Gothic-4713_nahrung-2,f4713,Gothic,4713_nahrung,wizns,wizns,w ɪ z n̥ s,,Kobler1989,,,^ wizns $,default,CVCVC
+Gothic-4713_nahrung-2,f4713,Gothic,4713_nahrung,wizns,wizns,w ɪ z n̥ s,,Kobler1989,,,^ wizns $,default,CVCCC
 Gothic-4714_schwelgen-1,f4714,Gothic,4714_schwelgen,wizōn,wizōn,w ɪ z o n,,Kobler1989,,,^ wizōn $,default,CVCVC
 Gothic-4715_sichumsehenumherblickenspahen-1,f4715,Gothic,4715_sichumsehenumherblickenspahen,wlaitōn,wlaitōn,w l ɛ t o n,,Kobler1989,,,^ wlaitōn $,default,CCVCVC
 Gothic-4716_sehen-4,f4716,Gothic,4716_sehen,wleitan,wleit,w l i t,,Kobler1989,,,^ wleit $,default,CCVC
@@ -4722,7 +4722,7 @@ Gothic-4719_angesichtansehengestaltaussehen-1,f4719,Gothic,4719_angesichtansehen
 Gothic-4720_insgesichtschlagenkasteien-1,f4720,Gothic,4720_insgesichtschlagenkasteien,wlizjan,wlizj,w l ɪ z j,,Kobler1989,,,^ wlizj $,default,CCVCC
 Gothic-4721_wachen-1,f4721,Gothic,4721_wachen,wōkains,wōkains,w o k ɛ n s,,Kobler1989,,,^ wōkains $,default,CVCVCC
 Gothic-4722_wachen-1,f4722,Gothic,4722_wachen,wōkan,wōk,w o k,,Kobler1989,,,^ wōk $,default,CVC
-Gothic-4723_ertragfruchtzins-1,f4723,Gothic,4723_ertragfruchtzins,wōkrs,wōkrs,w o k r̥ s,,Kobler1989,,,^ wōkrs $,default,CVCVC
+Gothic-4723_ertragfruchtzins-1,f4723,Gothic,4723_ertragfruchtzins,wōkrs,wōkrs,w o k r̥ s,,Kobler1989,,,^ wōkrs $,default,CVCCC
 Gothic-4724_rufenkrahenzurufenschreienausrufenlautrufen-1,f4724,Gothic,4724_rufenkrahenzurufenschreienausrufenlautrufen,wōpjan,wōpj,w o p j,,Kobler1989,,,^ wōpj $,default,CVCC
 Gothic-4725_angenehmsulieblich-1,f4725,Gothic,4725_angenehmsulieblich,wōþeis,wōþeis,w o θ i s,,Kobler1989,,,^ wōþeis $,default,CVCVC
 Gothic-4726_wutendbesessen-1,f4726,Gothic,4726_wutendbesessen,wōþs,wōþs,w o θ s,,Kobler1989,,,^ wōþs $,default,CVCC
@@ -4751,8 +4751,8 @@ Gothic-4748_wolf-1,f4748,Gothic,4748_wolf,wulfs,wulfs,w u l ɸ s,,Kobler1989,,,^
 Gothic-4749_wolle-1,f4749,Gothic,4749_wolle,wulla,wulla,w u lː a,,Kobler1989,,,^ wulla $,default,CVCV
 Gothic-4750_tuchwalker-1,f4750,Gothic,4750_tuchwalker,wullāreis,wullāreis,w u lː a r i s,,Kobler1989,,,^ wullāreis $,default,CVCVCVC
 Gothic-4751_herrlichwunderbarangesehen-1,f4751,Gothic,4751_herrlichwunderbarangesehen,wulþags,wulþags,w u l θ a ɣ s,,Kobler1989,,,^ wulþags $,default,CVCCVCC
-Gothic-4752_wertvoll-2,f4752,Gothic,4752_wertvoll,wulþrs,wulþrs,w u l θ r̥ s,,Kobler1989,,,^ wulþrs $,default,CVCCVC
-Gothic-4753_wert-2,f4753,Gothic,4753_wert,wulþrs,wulþrs,w u l θ r̥ s,,Kobler1989,,,^ wulþrs $,default,CVCCVC
+Gothic-4752_wertvoll-2,f4752,Gothic,4752_wertvoll,wulþrs,wulþrs,w u l θ r̥ s,,Kobler1989,,,^ wulþrs $,default,CVCCCC
+Gothic-4753_wert-2,f4753,Gothic,4753_wert,wulþrs,wulþrs,w u l θ r̥ s,,Kobler1989,,,^ wulþrs $,default,CVCCCC
 Gothic-4754_herrlichkeit-1,f4754,Gothic,4754_herrlichkeit,wulþus,wulþus,w u l θ u s,,Kobler1989,,,^ wulþus $,default,CVCCVC
 Gothic-4755_raub-2,f4755,Gothic,4755_raub,wulwa,wulwa,w u l w a,,Kobler1989,,,^ wulwa $,default,CVCCV
 Gothic-4756_zufriedensein-1,f4756,Gothic,4756_zufriedensein,wunan,wun,w u n,,Kobler1989,,,^ wun $,default,CVC

@@ -1,14 +1,16 @@
 import csv
 import json
-from functools import lru_cache
 import pathlib
+import re
+from functools import lru_cache
 
 import attr
 from clldutils.misc import slug
 from loanpy.scapplier import Adrc
-from lingpy import prosodic_string
+from loanpy.utils import IPA
 from pylexibank import Dataset as BaseDataset, Lexeme, FormSpec
-import re
+from tqdm import tqdm
+
 import spacy
 
 # install first with $ python -m spacy download de_core_news_lg
@@ -16,6 +18,7 @@ nlp = spacy.load('de_core_news_lg')
 ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
 #ad = Adrc("../ronataswestoldturkic/loanpy/WOT2EAHsc.json",
 #          "../ronataswestoldturkic/loanpy/invsEAH.json")
+ipa = IPA()
 
 def trim(word):
     if word == "an":
@@ -56,7 +59,7 @@ class Dataset(BaseDataset):
 
         # add concept
         concepts = {}
-        for i, concept in enumerate(self.concepts):
+        for i, concept in enumerate(tqdm(self.concepts, "Check vectors")):
             idx = str(i)+"_"+slug(concept["Sense"])
             concepts[concept["Sense"]] = idx
             args.writer.add_concept(
@@ -74,7 +77,6 @@ class Dataset(BaseDataset):
                     "Spacy": vector,
                     "Parameter_ID": idx
                     })
-                print(f"{i+1}/{len(self.concepts)} meanings checked for word vectors", end="\r")
 
         args.log.info("added concepts and senses")
 
@@ -103,7 +105,7 @@ class Dataset(BaseDataset):
                         )
 
                 lex = args.writer.objects["FormTable"][i]
-                pros = prosodic_string(lex["Segments"], _output='cv')
+                pros = ipa.get_prosody((" ".join(lex["Segments"])))
                 lex["ProsodicStructure"] = pros
 
                 for pred in ad.adapt(lex["Segments"], 100, pros):

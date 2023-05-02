@@ -15,4 +15,4 @@ html_theme = 'sphinx_rtd_theme'
 # TODO replace mock with docs/requirements.txt after loanpy-release
 autodoc_mock_imports = ["epitran", "loanpy", "lingpy", "clldutils", "tabulate",
                         "attr", "pylexibank", "cldfbench", "spacy",
-                        "pycldf", "pysem"]
+                        "pycldf", "pysem", "tqdm"]

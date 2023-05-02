@@ -67,17 +67,16 @@ Install 500MB word-vector model:
    python3 -m spacy download de_core_news_lg
 
 
- See See `Part1, Step 3 in gerstnerhungarian
- <https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-3-install-commands-download-wordvectors-create-orthographic-profile>`_
- for more details.
+See `Part1, Step 3 in gerstnerhungarian
+<https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-3-install-commands-download-wordvectors-create-orthographic-profile>`_
+for more details.
 
 Step 4: Some preparations
 -------------------------
 
-The `Gothic Dictionary
-<https://www.koeblergerhard.de/got/got.html>`_ (Köbler 2014) is a text file
-that has to be parsed and turned into tabular data first. This is done
-by following script:
+``raw/gothic.txt`` is a raw text file that was directly copied from the
+original online-dictionary. It has to be parsed and turned into tabular data.
+This is done by running following command:
 
 .. code-block:: sh
 
@@ -146,26 +145,11 @@ in the earlier tutorials yet:
 .. code-block:: python
 
    import csv
-   from functools import lru_cache
-   import pathlib
 
-   import attr
-   from clldutils.misc import slug
-   from loanpy.scapplier import Adrc
-   from lingpy import prosodic_string
-   from pylexibank import Dataset as BaseDataset, Lexeme
-   import spacy
+- This inbuilt library will be used to write the table ``cldf/adapt.csv``
+  containing predicted loanword adaptations with short primary and foreign
+  keys to save disc space.
 
-First, we import three inbuilt Python-libraries.
-
-- The `lru_cache <https://docs.python.org/3/library/functools.html#functools.lru_cache>`_
-  will help to speed up looking up word-vectors, since the same words are being
-  looked up often.
-- The `pathlib <https://docs.python.org/3/library/pathlib.html>`_ library
-  will be used to define the parent directory of the dataset, relative to
-  which all other files will be read and written.
-- The `csv <https://docs.python.org/3/library/csv.html>`_
-  package will be used to read and write csv-files.
 
 Then, we import functionalities from six third-party libraries.
 These were installed when running ``pip install -e koeblergothic``
