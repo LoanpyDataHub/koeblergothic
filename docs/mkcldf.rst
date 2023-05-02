@@ -311,7 +311,9 @@ it in the static variable ``HOWMANY`` earlier.
                Value=data[i][0],
                Source="Kobler1989",
                ):
-           lex["ProsodicStructure"] = prosodic_string(lex["Segments"], _output='cv')
+            ipa.get_prosody(
+                 " ".join(lex["Segments"])
+                 )
 
 Here we are creating the file ``cldf/forms.csv`` by looping
 through the rows of ``raw/gothic.tsv``. The columns ``Language_ID`` and
@@ -322,8 +324,8 @@ same as the column ``Gothic`` in ``raw/gothic.tsv``. The column
 ``ProsodicStructure`` has to be inserted through a loop, after the table
 ``cldf/forms.csv`` has already been created, since it is taking contents
 from one of its columns, namely ``Segments`` as input. Its output are
-phonotactic profiles such as "CVCV". These are created with lingpy's
-`prosodic_string
+phonotactic profiles such as "CVCV". These are created with loanpy's
+`get_prosody
 <https://lingpyxrotwang.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.prosodic_string>`_
 function.
 
