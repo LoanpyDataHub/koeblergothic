@@ -19,6 +19,7 @@ ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
 #ad = Adrc("../ronataswestoldturkic/loanpy/WOT2EAHsc.json",
 #          "../ronataswestoldturkic/loanpy/invsEAH.json")
 ipa = IPA()
+HOWMANY = 100
 
 def trim(word):
     if word == "an":
@@ -87,9 +88,9 @@ class Dataset(BaseDataset):
         cognates = {}
         cogidx = 1
         adidx = 1
-        with open("cldf/adapt.csv", "w+") as f:
+        with open(f"cldf/adapt{HOWMANY}.csv", "w+") as f:
             writer = csv.writer(f)
-            writer.writerow(["ID", "Form_ID", "ad100"])
+            writer.writerow(["ID", "Form_ID", f"ad{HOWMANY}"])
 
             for i, row in enumerate(self.raw_dir.read_csv(
                 "gothic.tsv", delimiter="\t", dicts=True
@@ -108,6 +109,6 @@ class Dataset(BaseDataset):
                 pros = ipa.get_prosody((" ".join(lex["Segments"])))
                 lex["ProsodicStructure"] = pros
 
-                for pred in ad.adapt(lex["Segments"], 100, pros):
+                for pred in ad.adapt(lex["Segments"], HOWMANY, pros):
                     writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
                     adidx += 1

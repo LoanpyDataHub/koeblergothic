@@ -153,6 +153,7 @@ keys to save disc space.
 .. code-block:: python
 
    ad = Adrc("etc/WOT2EAHsc.json", "etc/invsEAH.json")
+   HOWMANY = 100
 
 The file ``etc/WOT2EAHsc.json`` is the sound correspondence file for
 predicting loanword adaptations into Early Ancient Hungarian, and
@@ -164,6 +165,9 @@ and create an instance of the Adrc-object now based on that
 information.
 The files itself have been directly copied from the
 ``ronataswestoldturkic/loanpy`` folder.
+
+With ``HOWMANY=100`` we specify that we want 100 loanword adaptation
+predictions per input word.
 
 .. code-block:: python
 
@@ -280,7 +284,7 @@ script.
 
    with open("cldf/adapt.csv", "w+") as f:
        writer = csv.writer(f)
-       writer.writerow(["ID", "Form_ID", "ad100"])
+       writer.writerow(["ID", "Form_ID", f"ad{HOWMANY}"])
 
 Since the CLDF architecture doesn't allow for custom-tables, we have to
 open one without the cldf-writer. This means that the file that we are
@@ -291,9 +295,10 @@ Early Ancient Hungarian. Since we have multiple predictions that are
 outputted as an array and since arrays should not be used as data-structures
 in relational databases, we are creating this new table ``adapt.py``. We
 are also writing the names of its three columns to the file. ``ID`` is the
-primary key, ``Form_ID`` points to the corresponding row in
-``cldf/forms.csv`` and ``ad100`` contains the top 100 most likely predictions
-for loanword adaptation of each Gothic word.
+primary key, ``Form_ID`` points to the rows in column ``Local_ID`` in
+``cldf/forms.csv`` and ``ad{HOWMANY}`` contains as many of the most likely
+predictions for loanword adaptation of each Gothic word, as we have defined
+it in the static variable ``HOWMANY`` earlier.
 
 .. code-block:: python
 
@@ -322,16 +327,17 @@ function.
 
 .. code-block:: python
 
-   for pred in ad.adapt(lex["Segments"], 100).split(", "):
+   for pred in ad.adapt(lex["Segments"], HOWMANY).split(", "):
        writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
        adidx += 1
 
 Here we are predicting loanword adaptation with loanpy, based on heuristics
 and data extracted from the etymological dictionary `"West Old Turkic"
 <https://ronataswestoldturkic.readthedocs.io/en/latest/?badge=latest>`_. We
-are making 100 predictions per word, write the references to
+are making HOWMANY predictions per word, this number was set to 100 earlier.
+We write the references to
 ``cldf/adapt.csv`` and add a primary key and a foreign key to reference
-rows in ``cldf/forms.csv``
+rows in ``cldf/forms.csv``.
 
 This is how your console should approximately look like after the conversion:
 
