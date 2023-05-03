@@ -35,7 +35,7 @@ Available online at https://www.koeblergerhard.de/got/got.html
 ![Vector Coverage 92%](https://img.shields.io/badge/Vector_Coverage-92%25-brightgreen)
 [![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
 ![Vector Coverage 92%](https://img.shields.io/badge/Vector_Coverage-92%25-brightgreen)
-[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
+[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.5.1-blue)](https://pypi.org/project/spacy/)
 
 - **Varieties:** 1
 - **Concepts:** 4,211
