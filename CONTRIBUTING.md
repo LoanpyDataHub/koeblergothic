@@ -6,7 +6,7 @@ Thank you for considering to contribute to our Gothic dictionary data project! T
 
 We have only converted a fraction of the data from the online dictionary to the CLDF format. If you are passionate about data-wrangling and Gothic, and want to help expand this dataset, follow the steps below:
 
-1. Familiarise yourself with the project by reading the [README.md](https://github.com/martino-vic/koeblergothic/blob/main/README.md).
+1. Familiarise yourself with the project by reading the [docs](https://koeblergothic.readthedocs.io/en/latest/home.html).
 2. Make sure to know the basics of [Cross Linguistic Data Formats](https://cldf.clld.org/).
 3. Explore the original Gothic dictionary [Gotisches Wörterbuch](https://www.koeblergerhard.de/got/got.html).
 4. Review the contribution guidelines detailed in this document.
