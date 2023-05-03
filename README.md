@@ -33,8 +33,6 @@ Available online at https://www.koeblergerhard.de/got/got.html
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 ![Vector Coverage 92%](https://img.shields.io/badge/Vector_Coverage-92%25-brightgreen)
-[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
-![Vector Coverage 92%](https://img.shields.io/badge/Vector_Coverage-92%25-brightgreen)
 [![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.5.1-blue)](https://pypi.org/project/spacy/)
 
 - **Varieties:** 1
@@ -46,7 +44,6 @@ Available online at https://www.koeblergerhard.de/got/got.html
 - **Tokens:** 28,261
 - **Segments:** 52 (0 BIPA errors, 0 CLTS sound class errors, 52 CLTS modified)
 - **Inventory size (avg):** 52.00
-- **Senses:** 8,509
 - **Senses:** 8,509
 
 # Contributors
