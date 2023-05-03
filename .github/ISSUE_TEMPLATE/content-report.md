@@ -1,5 +1,5 @@
 ---
-name: 'Issue: Content Report'
+name: Content Report
 about: 'Use this template to report content that violates our community guidelines,
   is inappropriate, or needs attention from the repository maintainers. '
 title: 'Content Report: Inappropriate or Violating Material'
