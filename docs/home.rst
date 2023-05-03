@@ -63,7 +63,8 @@ The following CLDF datasets are available in `cldf
 -  CLDF
    `Wordlist <https://github.com/cldf/cldf/tree/master/modules/Wordlist>`__
    at
-   `https://github.com/LoanpyDataHub/koeblergothic/blob/main/cldf/cldf-metadata.json>`__
+   `cldf/cldf-metadata.json
+   <https://github.com/LoanpyDataHub/koeblergothic/blob/main/cldf/cldf-metadata.json>`__
 
 .. |License: CC BY 4.0| image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
    :target: https://creativecommons.org/licenses/by/4.0/
