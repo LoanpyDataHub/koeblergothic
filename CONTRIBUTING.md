@@ -4,11 +4,11 @@ Thank you for considering to contribute to our Gothic dictionary data project! T
 
 ## How to Contribute
 
-We have only converted a fraction of the data from the PDF dictionary to the CLDF format. If you are passionate about PDF-wrangling, Mongolic, Turkic, or Finno-Ugric languages, and want to help expand this dataset, follow the steps below:
+We have only converted a fraction of the data from the online dictionary to the CLDF format. If you are passionate about data-wrangling and Gothic, and want to help expand this dataset, follow the steps below:
 
-1. Familiarise yourself with the project by reading the [README.md](https://github.com/martino-vic/ronataswestoldturkic/blob/main/README.md).
+1. Familiarise yourself with the project by reading the [README.md](https://github.com/martino-vic/koeblergothic/blob/main/README.md).
 2. Make sure to know the basics of [Cross Linguistic Data Formats](https://cldf.clld.org/).
-3. Explore the original etymological dictionary [West Old Turkic](https://www.goodreads.com/book/show/13577601-west-old-turkic) by checking your library.
+3. Explore the original Gothic dictionary [Gotisches Wörterbuch](https://www.koeblergerhard.de/got/got.html).
 4. Review the contribution guidelines detailed in this document.
 5. Contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik) expressing your interest in contributing.
 
@@ -29,7 +29,11 @@ By following these guidelines, you help maintain a high-quality dataset and make
 
 If you have any questions or need assistance, please don't hesitate to contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik). I appreciate your interest and look forward to collaborating with you!
 
-## To submit a content report, please follow these steps:
+## Submitting Content Reports
+
+If you encounter content in our repository that violates our community guidelines, is inappropriate, or needs attention from the repository maintainers, we encourage you to submit a content report. Your collaboration helps us maintain a positive and inclusive community, ensuring our repository remains a safe and welcoming space for everyone.
+
+To submit a content report, please follow these steps:
 
 1. Go to the "Issues" tab in our repository.
 2. Click on "New Issue" to create a new issue.
@@ -42,3 +46,4 @@ If you have any questions or need assistance, please don't hesitate to contact m
 6. Submit the issue by clicking on "Submit new issue".
 
 We will review your report and take appropriate action as necessary. We appreciate your help in keeping our community respectful and inclusive.
+
