@@ -80,5 +80,5 @@ The following CLDF datasets are available in `cldf
 .. |BIPA: 100%| image:: https://img.shields.io/badge/BIPA-100%25-brightgreen.svg
 .. |CLTS SoundClass: 100%| image:: https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg
 .. |Vector Coverage 92%| image:: https://img.shields.io/badge/Vector_Coverage-92%25-brightgreen
-.. |SpaCy v3.5.1| image:: https://img.shields.io/badge/SpaCy-v3.2.0-blue
+.. |SpaCy v3.5.1| image:: https://img.shields.io/badge/SpaCy-v3.5.1-blue
    :target: https://pypi.org/project/spacy/
