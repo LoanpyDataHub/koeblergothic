@@ -46,7 +46,7 @@ for more details.
 Step 2: Clone reference catalogues and loanpy
 ---------------------------------------------
 
-See `Part1, Step 2 in gerstnerhungarian
+See `Part1, Step 2-3 in gerstnerhungarian
 <https://gerstnerhungarian.readthedocs.io/en/latest/mkcldf.html#step-2-clone-reference-catalogues-and-loanpy>`_.
 
 
