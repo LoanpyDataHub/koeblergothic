@@ -20,6 +20,7 @@ autodoc_mock_imports = [
     "attr",
     "cldfbench",
     "clldutils",
+    "epitran",
     "lexibank_gerstnerhungarian",
     "loanpy",
     "lingpy",
