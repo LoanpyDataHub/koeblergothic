@@ -5,7 +5,7 @@ bs4==0.0.1
 catalogue==2.0.8
 certifi==2022.12.7
 cldfbench==1.13.0
--e git+https://github.com/martino-vic/koeblergothic.git@b506b706ad632cd66764ea7c29e6554a38339860#egg=cldfbench_koeblergothic
+-e git+https://github.com/martino-vic/koeblergothic.git@b5f2eb28465bb51d921079ae235d1d6ffadbc260#egg=cldfbench_koeblergothic
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 click==8.1.3
@@ -27,7 +27,7 @@ Jinja2==3.1.2
 jsonschema==4.17.3
 langcodes==3.3.0
 lingpy==2.6.9
--e git+https://github.com/LoanpyDataHub/loanpy.git@9a3ae35265b3bfc4d4455f3f5ee4a18926b20eb6#egg=loanpy
+-e git+https://github.com/LoanpyDataHub/loanpy.git@63957e2443100be37966754fc4dbbf9bcad190a5#egg=loanpy
 lxml==4.9.2
 Markdown==3.4.3
 MarkupSafe==2.1.2

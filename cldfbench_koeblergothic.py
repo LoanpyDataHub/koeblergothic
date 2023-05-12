@@ -9,6 +9,7 @@ import spacy
 from clldutils.misc import slug
 from loanpy.scapplier import Adrc
 from loanpy.utils import IPA
+from lingpy.sequence.sound_classes import ipa2tokens, tokens2class
 from pylexibank import Dataset as BaseDataset, Lexeme, FormSpec
 from tqdm import tqdm
 
@@ -35,6 +36,7 @@ def filter_vectors(meaning):
 @attr.s
 class CustomLexeme(Lexeme):
     ProsodicStructure = attr.ib(default=None)
+    SCA = attr.ib(default=None)
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
@@ -87,7 +89,7 @@ class Dataset(BaseDataset):
         cognates = {}
         cogidx = 1
         adidx = 1
-        
+
         with open(f"cldf/adapt{HOWMANY}.csv", "w+") as f:
             writer = csv.writer(f)
             writer.writerow(["ID", "Form_ID", f"ad{HOWMANY}"])
@@ -103,11 +105,13 @@ class Dataset(BaseDataset):
                         Value=row["Gothic"],
                         Source="Kobler1989",
                         Local_ID=f"f{i}"
-                        )
+                )
 
                 lex = args.writer.objects["FormTable"][i]
                 pros = ipa.get_prosody((" ".join(lex["Segments"])))
                 lex["ProsodicStructure"] = pros
+                soundclass = tokens2class(ipa2tokens(lex["Segments"]), "sca")
+                lex["SCA"] = "".join(soundclass)
 
                 for pred in ad.adapt(lex["Segments"], HOWMANY, pros):
                     writer.writerow([f"a{adidx}", f"f{str(i)}", pred])
