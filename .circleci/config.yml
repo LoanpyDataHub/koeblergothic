@@ -26,6 +26,7 @@ jobs:
           command: |
             pip install -e koeblergothic
             pip install loanpy
+            pip install typing-extensions==4.5.0
             python3 -m spacy download de_core_news_lg
       - run:
           name: Preprocess - create raw/gothic.tsv, etc/concepts.tsv and etc/orthography.tsv
