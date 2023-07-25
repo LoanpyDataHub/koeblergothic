@@ -3,7 +3,7 @@ Babel==2.12.1
 blis==0.7.9
 bs4==0.0.1
 catalogue==2.0.8
-certifi==2022.12.7
+certifi==2023.7.22
 cldfbench==1.13.0
 -e git+https://github.com/martino-vic/koeblergothic.git@b5f2eb28465bb51d921079ae235d1d6ffadbc260#egg=cldfbench_koeblergothic
 cldfcatalog==1.5.1
